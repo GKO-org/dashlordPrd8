@@ -69,7 +69,7 @@
 "intermediate_cert_badOCSP","savoie.gouv.fr/77.159.252.140","443","OK","intermediate certificate(s) is/are ok","",""
 "HTTP_status_code","savoie.gouv.fr/77.159.252.140","443","INFO","301 Moved Permanently ('/')","",""
 "HTTP_clock_skew","savoie.gouv.fr/77.159.252.140","443","INFO","0 seconds from localtime","",""
-"HTTP_headerTime","savoie.gouv.fr/77.159.252.140","443","INFO","1710000037","",""
+"HTTP_headerTime","savoie.gouv.fr/77.159.252.140","443","INFO","1710006459","",""
 "HTTP_headerAge","savoie.gouv.fr/77.159.252.140","443","INFO","0 seconds","",""
 "HSTS","savoie.gouv.fr/77.159.252.140","443","LOW","not offered","",""
 "HPKP","savoie.gouv.fr/77.159.252.140","443","INFO","No support for HTTP Public Key Pinning","",""
