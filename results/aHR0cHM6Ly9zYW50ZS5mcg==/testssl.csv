@@ -26,7 +26,7 @@
 "TLS_session_ticket","sante.fr/51.68.85.251","443","INFO","no -- no lifetime advertised","",""
 "SSL_sessionID_support","sante.fr/51.68.85.251","443","INFO","yes","",""
 "sessionresumption_ticket","sante.fr/51.68.85.251","443","INFO","not supported","",""
-"sessionresumption_ID","sante.fr/51.68.85.251","443","INFO","not supported","",""
+"sessionresumption_ID","sante.fr/51.68.85.251","443","INFO","supported","",""
 "TLS_timestamp","sante.fr/51.68.85.251","443","INFO","random","",""
 "certificate_compression","sante.fr/51.68.85.251","443","INFO","none","",""
 "clientAuth","sante.fr/51.68.85.251","443","INFO","optional","",""
