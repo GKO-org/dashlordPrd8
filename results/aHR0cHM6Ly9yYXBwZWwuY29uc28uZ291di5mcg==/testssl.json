@@ -535,14 +535,14 @@
               "ip"           : "rappel.conso.gouv.fr/185.24.187.242",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "rappel.conso.gouv.fr/185.24.187.242",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1709998620"
+              "finding"      : "1710004436"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -626,7 +626,7 @@
               "ip"           : "rappel.conso.gouv.fr/185.24.187.242",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "default-src 'none';script-src * 'self' 'nonce-OrKA1I/mT88/2uassU/478xZRMzkrVGW1w3Y6TU5iCE=';style-src 'self' 'unsafe-inline';connect-src 'self';form-action 'self';img-src * 'self';frame-ancestors 'none';frame-src 'none';base-uri 'self'"
+              "finding"      : "default-src 'none';script-src * 'self' 'nonce-ylUMSE5db6zANooa+jCSf5nNlzsK6WwSfylpT00VeKo=';style-src 'self' 'unsafe-inline';connect-src 'self';form-action 'self';img-src * 'self';frame-ancestors 'none';frame-src 'none';base-uri 'self'"
           }
 ,         {
               "id"           : "X-XSS-Protection",
@@ -1161,6 +1161,6 @@
               "ip"           : "rappel.conso.gouv.fr/185.24.187.242",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "66"
+              "finding"      : "57"
           }
 ]
