@@ -500,7 +500,7 @@
               "ip"           : "semaine-industrie.gouv.fr/80.87.236.17",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710000704"
+              "finding"      : "1710006938"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1077,6 +1077,6 @@
               "ip"           : "semaine-industrie.gouv.fr/80.87.236.17",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "106"
+              "finding"      : "95"
           }
 ]
