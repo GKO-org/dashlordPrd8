@@ -535,14 +535,14 @@
               "ip"           : "prix-controle-technique.gouv.fr/94.23.6.91",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "prix-controle-technique.gouv.fr/94.23.6.91",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1709997359"
+              "finding"      : "1710003360"
           }
 ,         {
               "id"           : "HSTS_time",
