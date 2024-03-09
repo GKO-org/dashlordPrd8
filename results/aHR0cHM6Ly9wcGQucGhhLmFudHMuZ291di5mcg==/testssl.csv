@@ -70,7 +70,7 @@
 "intermediate_cert_badOCSP","ppd.pha.ants.gouv.fr/141.226.253.91","443","OK","intermediate certificate(s) is/are ok","",""
 "HTTP_status_code","ppd.pha.ants.gouv.fr/141.226.253.91","443","WARN","Unexpected 303 See Other @ '/'","",""
 "HTTP_clock_skew","ppd.pha.ants.gouv.fr/141.226.253.91","443","INFO","0 seconds from localtime","",""
-"HTTP_headerTime","ppd.pha.ants.gouv.fr/141.226.253.91","443","INFO","1709996111","",""
+"HTTP_headerTime","ppd.pha.ants.gouv.fr/141.226.253.91","443","INFO","1710002180","",""
 "HSTS","ppd.pha.ants.gouv.fr/141.226.253.91","443","LOW","not offered","",""
 "HPKP","ppd.pha.ants.gouv.fr/141.226.253.91","443","INFO","No support for HTTP Public Key Pinning","",""
 "banner_server","ppd.pha.ants.gouv.fr/141.226.253.91","443","INFO","rdwr","",""
