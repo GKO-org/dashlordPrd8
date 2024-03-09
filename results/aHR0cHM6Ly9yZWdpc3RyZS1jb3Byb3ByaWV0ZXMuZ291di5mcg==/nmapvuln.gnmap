@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sat Mar  9 15:41:30 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln registre-coproprietes.gouv.fr
+# Nmap 7.92 scan initiated Sat Mar  9 17:18:45 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln registre-coproprietes.gouv.fr
 Host: 178.237.111.255 ()	Status: Up
-Host: 178.237.111.255 ()	Ports: 80/open/tcp//http///, 443/open/tcp//ssl|https///	Ignored State: filtered (998)
-# Nmap done at Sat Mar  9 15:42:36 2024 -- 1 IP address (1 host up) scanned in 65.37 seconds
+Host: 178.237.111.255 ()	Ports: 80/open/tcp//http///	Ignored State: filtered (999)
+# Nmap done at Sat Mar  9 17:19:17 2024 -- 1 IP address (1 host up) scanned in 32.41 seconds
