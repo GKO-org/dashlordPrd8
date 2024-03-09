@@ -570,7 +570,7 @@
               "ip"           : "encheres-domaine.gouv.fr/145.242.11.29",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1709997956"
+              "finding"      : "1710003853"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1156,6 +1156,6 @@
               "ip"           : "encheres-domaine.gouv.fr/145.242.11.29",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "93"
+              "finding"      : "85"
           }
 ]
