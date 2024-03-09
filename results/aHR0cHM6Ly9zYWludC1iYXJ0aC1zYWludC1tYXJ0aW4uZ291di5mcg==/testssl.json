@@ -500,7 +500,7 @@
               "ip"           : "saint-barth-saint-martin.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710000968"
+              "finding"      : "1710005366"
           }
 ,         {
               "id"           : "HTTP_headerAge",
@@ -1063,6 +1063,6 @@
               "ip"           : "saint-barth-saint-martin.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "54"
+              "finding"      : "56"
           }
 ]
