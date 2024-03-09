@@ -69,7 +69,7 @@
 "intermediate_cert_badOCSP","qualite-tourisme.gouv.fr/80.87.236.17","443","OK","intermediate certificate(s) is/are ok","",""
 "HTTP_status_code","qualite-tourisme.gouv.fr/80.87.236.17","443","INFO","301 Moved Permanently ('/')","",""
 "HTTP_clock_skew","qualite-tourisme.gouv.fr/80.87.236.17","443","INFO","0 seconds from localtime","",""
-"HTTP_headerTime","qualite-tourisme.gouv.fr/80.87.236.17","443","INFO","1709998532","",""
+"HTTP_headerTime","qualite-tourisme.gouv.fr/80.87.236.17","443","INFO","1710004434","",""
 "HSTS","qualite-tourisme.gouv.fr/80.87.236.17","443","LOW","not offered","",""
 "HPKP","qualite-tourisme.gouv.fr/80.87.236.17","443","INFO","No support for HTTP Public Key Pinning","",""
 "banner_server","qualite-tourisme.gouv.fr/80.87.236.17","443","INFO","nginx","",""
