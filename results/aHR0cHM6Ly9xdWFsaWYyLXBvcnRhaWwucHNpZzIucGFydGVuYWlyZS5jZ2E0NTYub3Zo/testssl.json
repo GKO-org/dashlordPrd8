@@ -1,0 +1,16 @@
+[
+         {
+              "id"           : "scanProblem",
+              "ip"           : "qualif2-portail.psig2.partenaire.cga456.ovh/",
+              "port"         : "443",
+              "severity"     : "FATAL",
+              "finding"      : "No IPv4/IPv6 address(es) for 'qualif2-portail.psig2.partenaire.cga456.ovh' available"
+          }
+,         {
+              "id"           : "scanTime",
+              "ip"           : "qualif2-portail.psig2.partenaire.cga456.ovh/",
+              "port"         : "443",
+              "severity"     : "WARN",
+              "finding"      : "Scan interrupted"
+          }
+]

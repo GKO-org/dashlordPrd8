@@ -1,0 +1,2 @@
+"id","fqdn/ip","port","severity","finding","cve","cwe"
+"scanProblem","qualif2-portail.psig2.partenaire.cga456.ovh/","443","FATAL","No IPv4/IPv6 address(es) for 'qualif2-portail.psig2.partenaire.cga456.ovh' available","",""

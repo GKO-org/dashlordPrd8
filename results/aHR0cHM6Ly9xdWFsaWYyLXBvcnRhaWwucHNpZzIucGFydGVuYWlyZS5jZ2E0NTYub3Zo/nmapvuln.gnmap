@@ -1,0 +1,2 @@
+# Nmap 7.92 scan initiated Sat Mar  9 15:33:47 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln qualif2-portail.psig2.partenaire.cga456.ovh
+# Nmap done at Sat Mar  9 15:33:48 2024 -- 0 IP addresses (0 hosts up) scanned in 0.35 seconds
