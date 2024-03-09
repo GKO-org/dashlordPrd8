@@ -500,7 +500,7 @@
               "ip"           : "saint-pierre-et-miquelon.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1709999573"
+              "finding"      : "1710005411"
           }
 ,         {
               "id"           : "HTTP_headerAge",
@@ -1084,6 +1084,6 @@
               "ip"           : "saint-pierre-et-miquelon.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "67"
+              "finding"      : "64"
           }
 ]

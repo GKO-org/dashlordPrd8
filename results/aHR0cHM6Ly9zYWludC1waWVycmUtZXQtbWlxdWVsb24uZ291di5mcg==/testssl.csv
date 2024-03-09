@@ -69,7 +69,7 @@
 "intermediate_cert_badOCSP","saint-pierre-et-miquelon.gouv.fr/77.159.252.140","443","OK","intermediate certificate(s) is/are ok","",""
 "HTTP_status_code","saint-pierre-et-miquelon.gouv.fr/77.159.252.140","443","INFO","200 OK ('/')","",""
 "HTTP_clock_skew","saint-pierre-et-miquelon.gouv.fr/77.159.252.140","443","INFO","0 seconds from localtime","",""
-"HTTP_headerTime","saint-pierre-et-miquelon.gouv.fr/77.159.252.140","443","INFO","1709999573","",""
+"HTTP_headerTime","saint-pierre-et-miquelon.gouv.fr/77.159.252.140","443","INFO","1710005411","",""
 "HTTP_headerAge","saint-pierre-et-miquelon.gouv.fr/77.159.252.140","443","INFO","0 seconds","",""
 "HSTS","saint-pierre-et-miquelon.gouv.fr/77.159.252.140","443","LOW","not offered","",""
 "HPKP","saint-pierre-et-miquelon.gouv.fr/77.159.252.140","443","INFO","No support for HTTP Public Key Pinning","",""
