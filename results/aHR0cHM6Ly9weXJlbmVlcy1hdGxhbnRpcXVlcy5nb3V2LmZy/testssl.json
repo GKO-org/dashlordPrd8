@@ -500,7 +500,7 @@
               "ip"           : "pyrenees-atlantiques.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1709998240"
+              "finding"      : "1710004121"
           }
 ,         {
               "id"           : "HTTP_headerAge",
@@ -1063,6 +1063,6 @@
               "ip"           : "pyrenees-atlantiques.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "89"
+              "finding"      : "83"
           }
 ]
