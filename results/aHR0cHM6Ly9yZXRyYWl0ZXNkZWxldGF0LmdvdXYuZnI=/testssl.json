@@ -535,14 +535,14 @@
               "ip"           : "retraitesdeletat.gouv.fr/145.242.11.25",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "retraitesdeletat.gouv.fr/145.242.11.25",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1709999098"
+              "finding"      : "1710004916"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1119,6 +1119,6 @@
               "ip"           : "retraitesdeletat.gouv.fr/145.242.11.25",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "70"
+              "finding"      : "71"
           }
 ]
