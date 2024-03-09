@@ -69,7 +69,7 @@
 "intermediate_cert_badOCSP","seine-et-marne.gouv.fr/77.159.252.140","443","OK","intermediate certificate(s) is/are ok","",""
 "HTTP_status_code","seine-et-marne.gouv.fr/77.159.252.140","443","INFO","301 Moved Permanently ('/')","",""
 "HTTP_clock_skew","seine-et-marne.gouv.fr/77.159.252.140","443","INFO","0 seconds from localtime","",""
-"HTTP_headerTime","seine-et-marne.gouv.fr/77.159.252.140","443","INFO","1710000260","",""
+"HTTP_headerTime","seine-et-marne.gouv.fr/77.159.252.140","443","INFO","1710006678","",""
 "HTTP_headerAge","seine-et-marne.gouv.fr/77.159.252.140","443","INFO","0 seconds","",""
 "HSTS","seine-et-marne.gouv.fr/77.159.252.140","443","LOW","not offered","",""
 "HPKP","seine-et-marne.gouv.fr/77.159.252.140","443","INFO","No support for HTTP Public Key Pinning","",""
