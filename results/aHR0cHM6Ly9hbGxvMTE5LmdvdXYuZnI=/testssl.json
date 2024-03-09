@@ -535,14 +535,14 @@
               "ip"           : "allo119.gouv.fr/46.18.135.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "allo119.gouv.fr/46.18.135.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1709996796"
+              "finding"      : "1710002641"
           }
 ,         {
               "id"           : "HSTS",
@@ -1105,6 +1105,6 @@
               "ip"           : "allo119.gouv.fr/46.18.135.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "57"
+              "finding"      : "56"
           }
 ]
