@@ -570,7 +570,7 @@
               "ip"           : "ofpra.gouv.fr/46.18.192.68",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1059 seconds from localtime"
+              "finding"      : "-7353 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
@@ -1154,6 +1154,6 @@
               "ip"           : "ofpra.gouv.fr/46.18.192.68",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "59"
+              "finding"      : "63"
           }
 ]
