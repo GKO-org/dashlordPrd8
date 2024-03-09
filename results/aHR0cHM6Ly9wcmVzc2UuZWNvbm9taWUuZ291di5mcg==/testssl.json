@@ -507,14 +507,14 @@
               "ip"           : "presse.economie.gouv.fr/147.135.193.14",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "-2 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "presse.economie.gouv.fr/147.135.193.14",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1709997046"
+              "finding"      : "1710002983"
           }
 ,         {
               "id"           : "HSTS_time",
