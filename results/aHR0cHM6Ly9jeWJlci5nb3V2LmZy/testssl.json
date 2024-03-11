@@ -339,7 +339,7 @@
               "ip"           : "cyber.gouv.fr/193.70.123.152",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "177 >= 60 days"
+              "finding"      : "175 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -493,14 +493,14 @@
               "ip"           : "cyber.gouv.fr/193.70.123.152",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-3196 seconds from localtime"
+              "finding"      : "-607 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "cyber.gouv.fr/193.70.123.152",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710000412"
+              "finding"      : "1710183965"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -599,7 +599,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "X-Cacheable: YESX-Cache-TTL: 86400.000X-Cache: HITX-Cache-TTL-Remaining: 83402.033X-Cache-Age: 2997X-Cache-Hits: 707"
+              "finding"      : "X-Cacheable: YESX-Cache-TTL: 86400.000X-Cache: HITX-Cache-TTL-Remaining: 86036.845X-Cache-Age: 363X-Cache-Hits: 96"
           }
 ,         {
               "id"           : "heartbleed",
@@ -1098,6 +1098,6 @@
               "ip"           : "cyber.gouv.fr/193.70.123.152",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "107"
+              "finding"      : "56"
           }
 ]
