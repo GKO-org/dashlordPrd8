@@ -339,7 +339,7 @@
               "ip"           : "prix-carburants.gouv.fr/45.223.60.83",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "159 >= 60 days"
+              "finding"      : "157 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -507,7 +507,7 @@
               "ip"           : "prix-carburants.gouv.fr/45.223.60.83",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710003224"
+              "finding"      : "1710184238"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1419,7 +1419,7 @@
               "ip"           : "prix-carburants.gouv.fr/45.223.153.83",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "159 >= 60 days"
+              "finding"      : "157 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -1587,7 +1587,7 @@
               "ip"           : "prix-carburants.gouv.fr/45.223.153.83",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710003289"
+              "finding"      : "1710184362"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -2164,6 +2164,6 @@
               "ip"           : "prix-carburants.gouv.fr/45.223.153.83",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "133"
+              "finding"      : "254"
           }
 ]
