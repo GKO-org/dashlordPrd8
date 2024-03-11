@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln pyrenees-orientales.gouv.fr</pre>
-<p class="lead">Sat Mar  9 17:14:01 2024 – Sat Mar  9 17:14:49 2024<br>1 hosts scanned.
+<p class="lead">Mon Mar 11 19:26:37 2024 – Mon Mar 11 19:27:19 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -124,21 +124,9 @@
 <pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
 <h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
-  FourOhFourRequest: 
+  FourOhFourRequest, GetRequest, HTTPOptions: 
     HTTP/1.1 403 Forbidden
-    date: Sat, 09 Mar 2024 17:14:19 GMT
-    server: Apache
-    cache-control: no-cache
-    content-type: text/html
-    age: 0
-    x-cache: Miss
-    connection: close
-    &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
-    Request forbidden by administrative rules.
-    &lt;/body&gt;&lt;/html&gt;
-  GetRequest, HTTPOptions: 
-    HTTP/1.1 403 Forbidden
-    date: Sat, 09 Mar 2024 17:14:18 GMT
+    date: Mon, 11 Mar 2024 19:26:53 GMT
     server: Apache
     cache-control: no-cache
     content-type: text/html
@@ -157,7 +145,7 @@
     &lt;/body&gt;&lt;/html&gt;
   RTSPRequest: 
     HTTP/1.1 400 Bad Request
-    date: Sat, 09 Mar 2024 17:14:18 GMT
+    date: Mon, 11 Mar 2024 19:26:53 GMT
     server: Apache
     content-length: 226
     content-type: text/html; charset=iso-8859-1
@@ -187,31 +175,7 @@
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   FourOhFourRequest: 
     HTTP/1.1 403 Forbidden
-    date: Sat, 09 Mar 2024 17:14:25 GMT
-    server: Apache
-    cache-control: no-cache
-    content-type: text/html
-    age: 0
-    x-cache: Miss
-    connection: close
-    &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
-    Request forbidden by administrative rules.
-    &lt;/body&gt;&lt;/html&gt;
-  GetRequest: 
-    HTTP/1.1 403 Forbidden
-    date: Sat, 09 Mar 2024 17:14:24 GMT
-    server: Apache
-    cache-control: no-cache
-    content-type: text/html
-    age: 0
-    x-cache: Miss
-    connection: close
-    &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
-    Request forbidden by administrative rules.
-    &lt;/body&gt;&lt;/html&gt;
-  HTTPOptions: 
-    HTTP/1.1 403 Forbidden
-    date: Sat, 09 Mar 2024 17:14:25 GMT
+    date: Mon, 11 Mar 2024 19:27:00 GMT
     server: Apache
     cache-control: no-cache
     content-type: text/html
@@ -219,6 +183,18 @@
     x-cache: Miss
     content-length: 94
     keep-alive: timeout=5, max=100
+    connection: close
+    &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
+    Request forbidden by administrative rules.
+    &lt;/body&gt;&lt;/html&gt;
+  GetRequest, HTTPOptions: 
+    HTTP/1.1 403 Forbidden
+    date: Mon, 11 Mar 2024 19:26:59 GMT
+    server: Apache
+    cache-control: no-cache
+    content-type: text/html
+    age: 0
+    x-cache: Miss
     connection: close
     &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
     Request forbidden by administrative rules.
@@ -232,7 +208,7 @@
     &lt;/body&gt;&lt;/html&gt;
   RTSPRequest: 
     HTTP/1.1 400 Bad Request
-    date: Sat, 09 Mar 2024 17:14:32 GMT
+    date: Mon, 11 Mar 2024 19:27:06 GMT
     server: Apache
     content-length: 226
     content-type: text/html; charset=iso-8859-1
