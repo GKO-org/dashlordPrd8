@@ -24,43 +24,33 @@ tools:
   budget_page: true
   betagouv: true
 urls:
-  - url: https://ppd.pha.ants.gouv.fr
-  - url: https://pprod-derog-zones-interdites-admin.cnmosis.dirisi.defense.gouv.fr
-  - url: https://tousanticovid.gouv.fr
-  - url: https://travail-emploi-sante.gouv.fr
-  - url: https://armee-air-espace-collection.gouv.fr
+  - url: https://notre-environnement.gouv.fr
+  - url: https://nouvelle-caledonie.gouv.fr
+  - url: https://nouvelles-chances.gouv.fr
+  - url: https://numerique.gouv.fr
+  - url: https://observatoire-des-territoires.gouv.fr
+  - url: https://ofb.gouv.fr
+  - url: https://oise.gouv.fr
+  - url: https://oned.gouv.fr
+  - url: https://onpe.gouv.fr
+  - url: https://orne.gouv.fr
+  - url: https://parcoursup.gouv.fr
+  - url: https://participation-citoyenne.gouv.fr
+  - url: https://pas-de-calais.gouv.fr
+  - url: https://peren.gouv.fr
+  - url: https://permisdeconduire.gouv.fr
+  - url: https://permis-de-conduire.gouv.fr
+  - url: https://piste.gouv.fr
+  - url: https://portailpro.gouv.fr
   - url: https://allo119.gouv.fr
   - url: https://antai.gouv.fr
-  - url: https://presse.economie.gouv.fr
-  - url: https://preview.propagande.interieur.rie.gouv.fr
   - url: https://primealaconversion.gouv.fr
   - url: https://prix-carburants.gouv.fr
   - url: https://prix-controle-technique.gouv.fr
   - url: https://cyber.gouv.fr
   - url: https://programme-nitrate.gouv.fr
-  - url: https://projets-achats.marches-publics.gouv.fr
   - url: https://encheres-domaine.gouv.fr
   - url: https://puy-de-dome.gouv.fr
   - url: https://pyrenees-atlantiques.gouv.fr
   - url: https://pyrenees-orientales.gouv.fr
-  - url: https://qualif2-portail.psig2.partenaire.cga456.ovh
   - url: https://qualite-tourisme.gouv.fr/fr
-  - url: https://rappel.conso.gouv.fr
-  - url: https://france-visas.gouv.fr
-  - url: https://registre-coproprietes.gouv.fr
-  - url: https://rejoindrelesfinancespubliques.economie.gouv.fr
-  - url: https://retraitesdeletat.gouv.fr
-  - url: https://reunion.gouv.fr
-  - url: https://rhone.gouv.fr
-  - url: https://saint-barth-saint-martin.gouv.fr
-  - url: https://saint-pierre-et-miquelon.gouv.fr
-  - url: https://sante.fr
-  - url: https://sante.gouv.fr
-  - url: https://saone-et-loire.gouv.fr
-  - url: https://sarthe.gouv.fr
-  - url: https://savoie.gouv.fr
-  - url: https://securite-routiere.gouv.fr
-  - url: https://seine-et-marne.gouv.fr
-  - url: https://ofpra.gouv.fr
-  - url: https://www.seine-saint-denis.gouv.fr
-  - url: https://semaine-industrie.gouv.fr
