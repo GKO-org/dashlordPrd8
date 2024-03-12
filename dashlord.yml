@@ -26,7 +26,7 @@ tools:
 urls:
   - url: https://notre-environnement.gouv.fr
   - url: https://nouvelle-caledonie.gouv.fr
-  - url: https://nouvelles-chances.gouv.fr
+  - url: https://www.nouvelles-chances.gouv.fr
   - url: https://numerique.gouv.fr
   - url: https://observatoire-des-territoires.gouv.fr
   - url: https://ofb.gouv.fr
@@ -38,14 +38,12 @@ urls:
   - url: https://participation-citoyenne.gouv.fr
   - url: https://pas-de-calais.gouv.fr
   - url: https://peren.gouv.fr
-  - url: https://permisdeconduire.gouv.fr
-  - url: https://permis-de-conduire.gouv.fr
   - url: https://piste.gouv.fr
   - url: https://portailpro.gouv.fr
   - url: https://allo119.gouv.fr
   - url: https://antai.gouv.fr
   - url: https://primealaconversion.gouv.fr
-  - url: https://prix-carburants.gouv.fr
+  - url: https://www.prix-carburants.gouv.fr
   - url: https://prix-controle-technique.gouv.fr
   - url: https://cyber.gouv.fr
   - url: https://programme-nitrate.gouv.fr
@@ -53,4 +51,4 @@ urls:
   - url: https://puy-de-dome.gouv.fr
   - url: https://pyrenees-atlantiques.gouv.fr
   - url: https://pyrenees-orientales.gouv.fr
-  - url: https://qualite-tourisme.gouv.fr/fr
+  - url: https://www.qualite-tourisme.gouv.fr
