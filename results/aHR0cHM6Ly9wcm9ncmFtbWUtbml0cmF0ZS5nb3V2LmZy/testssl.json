@@ -542,7 +542,7 @@
               "ip"           : "programme-nitrate.gouv.fr/79.137.76.37",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710184632"
+              "finding"      : "1710242131"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1112,6 +1112,6 @@
               "ip"           : "programme-nitrate.gouv.fr/79.137.76.37",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "66"
+              "finding"      : "58"
           }
 ]
