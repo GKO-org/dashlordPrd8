@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln orne.gouv.fr</pre>
-<p class="lead">Mon Mar 11 18:43:27 2024 – Mon Mar 11 18:44:09 2024<br>1 hosts scanned.
+<p class="lead">Tue Mar 12 10:45:52 2024 – Tue Mar 12 10:46:30 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -126,7 +126,7 @@
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   FourOhFourRequest: 
     HTTP/1.1 403 Forbidden
-    date: Mon, 11 Mar 2024 18:43:43 GMT
+    date: Tue, 12 Mar 2024 10:46:07 GMT
     server: Apache
     cache-control: no-cache
     content-type: text/html
@@ -140,7 +140,7 @@
     &lt;/body&gt;&lt;/html&gt;
   GetRequest, HTTPOptions: 
     HTTP/1.1 403 Forbidden
-    date: Mon, 11 Mar 2024 18:43:42 GMT
+    date: Tue, 12 Mar 2024 10:46:06 GMT
     server: Apache
     cache-control: no-cache
     content-type: text/html
@@ -159,7 +159,7 @@
     &lt;/body&gt;&lt;/html&gt;
   RTSPRequest: 
     HTTP/1.1 400 Bad Request
-    date: Mon, 11 Mar 2024 18:43:42 GMT
+    date: Tue, 12 Mar 2024 10:46:07 GMT
     server: Apache
     content-length: 226
     content-type: text/html; charset=iso-8859-1
@@ -187,49 +187,28 @@
 <pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
 <h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
-  FourOhFourRequest: 
+  FourOhFourRequest, GetRequest, HTTPOptions: 
     HTTP/1.1 403 Forbidden
-    date: Mon, 11 Mar 2024 18:43:49 GMT
+    date: Tue, 12 Mar 2024 10:46:13 GMT
     server: Apache
     cache-control: no-cache
     content-type: text/html
     age: 0
     x-cache: Miss
-    content-length: 94
-    keep-alive: timeout=5, max=100
     connection: close
     &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
     Request forbidden by administrative rules.
     &lt;/body&gt;&lt;/html&gt;
-  GetRequest: 
-    HTTP/1.1 403 Forbidden
-    date: Mon, 11 Mar 2024 18:43:48 GMT
-    server: Apache
+  RPCCheck, tor-versions: 
+    HTTP/1.0 400 Bad request
     cache-control: no-cache
     content-type: text/html
-    age: 0
-    x-cache: Miss
-    content-length: 94
-    keep-alive: timeout=5, max=100
-    connection: close
-    &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
-    Request forbidden by administrative rules.
-    &lt;/body&gt;&lt;/html&gt;
-  HTTPOptions: 
-    HTTP/1.1 403 Forbidden
-    date: Mon, 11 Mar 2024 18:43:49 GMT
-    server: Apache
-    cache-control: no-cache
-    content-type: text/html
-    age: 0
-    x-cache: Miss
-    connection: close
-    &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
-    Request forbidden by administrative rules.
+    &lt;html&gt;&lt;body&gt;&lt;h1&gt;400 Bad request&lt;/h1&gt;
+    Your browser sent an invalid request.
     &lt;/body&gt;&lt;/html&gt;
   RTSPRequest: 
     HTTP/1.1 400 Bad Request
-    date: Mon, 11 Mar 2024 18:43:56 GMT
+    date: Tue, 12 Mar 2024 10:46:19 GMT
     server: Apache
     content-length: 226
     content-type: text/html; charset=iso-8859-1
@@ -241,13 +220,6 @@
     &lt;h1&gt;Bad Request&lt;/h1&gt;
     &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
     &lt;/p&gt;
-    &lt;/body&gt;&lt;/html&gt;
-  tor-versions: 
-    HTTP/1.0 400 Bad request
-    cache-control: no-cache
-    content-type: text/html
-    &lt;html&gt;&lt;body&gt;&lt;h1&gt;400 Bad request&lt;/h1&gt;
-    Your browser sent an invalid request.
     &lt;/body&gt;&lt;/html&gt;</pre>
 </td></tr>
 </tbody>
