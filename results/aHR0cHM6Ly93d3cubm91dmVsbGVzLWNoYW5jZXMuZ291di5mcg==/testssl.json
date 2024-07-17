@@ -346,7 +346,7 @@
               "ip"           : "www.nouvelles-chances.gouv.fr/213.91.3.170",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "260 >= 60 days"
+              "finding"      : "133 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -549,14 +549,14 @@
               "ip"           : "www.nouvelles-chances.gouv.fr/213.91.3.170",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710236034"
+              "finding"      : "1721227375"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "www.nouvelles-chances.gouv.fr/213.91.3.170",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "3503 seconds"
+              "finding"      : "2300 seconds"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -612,7 +612,7 @@
               "ip"           : "www.nouvelles-chances.gouv.fr/213.91.3.170",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "frame-ancestors 'self' *.onisep.fr *.onisep-preprod.fr *.onisep-services.fr *.cordeesdelareussite.fr *.gouv.fr www.meformerenregion.fr;block-all-mixed-content;script-src 'self' 'report-sample' 'unsafe-inline' 'unsafe-eval' *.onisep.fr *.onisep-preprod.fr *.onisep-services.fr *.cordeesdelareussite.fr tag.aticdn.net https://*.googletagservices.com https://*.googlesyndication.com https://*.google.com https://*.googleadservices.com https://*.doubleclick.net https://m.youtube.com https://maps.googleapis.com https://maps.google.com https://securepubads.g.doubleclick.net https://www.youtube.com;style-src 'self' 'report-sample' 'unsafe-inline' *.onisep.fr *.onisep-preprod.fr *.onisep-services.fr *.cordeesdelareussite.fr *.google.com fonts.googleapis.com;object-src *.googlesyndication.com;child-src 'self' blob: *.onisep.fr *.onisep-preprod.fr *.onisep-services.fr *.cordeesdelareussite.fr *.gouv.fr *.google.com www.dailymotion.com v.calameo.com view.genial.ly *.doubleclick.net *.googlesyndication.com *.googleadservices.com www.youtube.com www.youtube-nocookie.com player.vimeo.com livee.com;base-uri 'self';form-action 'self' *.google.com;worker-src 'self' blob: www.google.com"
+              "finding"      : "frame-ancestors 'self' *.onisep.fr *.onisep-preprod.fr *.onisep-services.fr *.cordeesdelareussite.fr *.gouv.fr www.meformerenregion.fr;block-all-mixed-content;script-src 'self' 'report-sample' 'unsafe-inline' 'unsafe-eval' *.onisep.fr *.onisep-preprod.fr *.onisep-services.fr *.cordeesdelareussite.fr tag.aticdn.net https://*.googletagservices.com https://*.googlesyndication.com https://*.google.com https://*.googleadservices.com https://*.doubleclick.net https://m.youtube.com https://maps.googleapis.com https://maps.google.com https://securepubads.g.doubleclick.net https://www.youtube.com https://cdnjs.cloudflare.com https://unpkg.com;style-src 'self' 'report-sample' 'unsafe-inline' *.onisep.fr *.onisep-preprod.fr *.onisep-services.fr *.cordeesdelareussite.fr *.google.com fonts.googleapis.com cdnjs.cloudflare.com unpkg.com;object-src *.googlesyndication.com;child-src 'self' blob: *.onisep.fr *.onisep-preprod.fr *.onisep-services.fr *.cordeesdelareussite.fr *.gouv.fr *.google.com www.dailymotion.com v.calameo.com view.genial.ly *.doubleclick.net *.googlesyndication.com *.googleadservices.com www.youtube.com www.youtube-nocookie.com player.vimeo.com livee.com;base-uri 'self';form-action 'self' *.onisep.fr *.onisep-preprod.fr *.google.com;worker-src 'self' blob: www.google.com"
           }
 ,         {
               "id"           : "Cache-Control",
@@ -627,7 +627,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "x-varnish: 28242420 29224377via: 1.1 varnish (Varnish/6.2)"
+              "finding"      : "x-varnish: 494832300 492291928via: 1.1 varnish (Varnish/6.2)"
           }
 ,         {
               "id"           : "heartbleed",
@@ -1133,6 +1133,6 @@
               "ip"           : "www.nouvelles-chances.gouv.fr/213.91.3.170",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "117"
+              "finding"      : "85"
           }
 ]
