@@ -21,11 +21,11 @@
 ###########################################################</span>
 
  Using &quot;OpenSSL 1.0.2-bad (1.0.2k-dev)&quot; [~183 ciphers]
- on fv-az659-297:/home/testssl/bin/openssl.Linux.x86_64
+ on fv-az1424-207:/home/testssl/bin/openssl.Linux.x86_64
  (built: &quot;Sep  1 14:03:44 2022&quot;, platform: &quot;linux-x86_64&quot;)
 
 
-<span style="color:white;background-color:black;"> Start 2024-03-12 11:20:19                --&gt;&gt; 77.159.252.140:443 (pyrenees-orientales.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2024-07-17 16:13:15                --&gt;&gt; 77.159.252.140:443 (pyrenees-orientales.gouv.fr) &lt;&lt;--</span>
 
  rDNS (77.159.252.140):  140.252.159.77.rev.sfr.net.
  Service detected:       HTTP
@@ -90,7 +90,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
                               &quot;extended master secret/#23&quot;
 <span style="font-weight:bold;"> Session Ticket RFC 5077 hint </span>no -- no lifetime advertised
 <span style="font-weight:bold;"> SSL Session ID support       </span>yes
-<span style="font-weight:bold;"> Session Resumption           </span>Tickets no, ID: yes
+<span style="font-weight:bold;"> Session Resumption           </span>Tickets no, ID: no
 <span style="font-weight:bold;"> TLS clock skew</span>               Random values, no fingerprinting possible 
 <span style="font-weight:bold;"> Certificate Compression      </span>none
 <span style="font-weight:bold;"> Client Authentication        </span>none
@@ -98,21 +98,21 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Server key size              </span>RSA 2048 bits (exponent is 65537)
 <span style="font-weight:bold;"> Server key usage             </span>Digital Signature, Key Encipherment
 <span style="font-weight:bold;"> Server extended key usage    </span>TLS Web Server Authentication
-<span style="font-weight:bold;"> Serial                       </span>99AF98CF4DD0D561AD7761B565614B6C (OK: length 16)
-<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 A65C048635244F2E45EC7DCA781F62D021EC4003
-                              SHA256 9E9675D555A90514A21DF72CF64B9F0A7BA921A6CA1F2513EF979B8ED3B33055
+<span style="font-weight:bold;"> Serial                       </span>41DA90C73DD6116EE4C5DDB8C855C622 (OK: length 16)
+<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 799ED9AE74438A22AFB50C1FF55CEF52B498427D
+                              SHA256 9FEAD5D258EC13032B0C34B516FD9CDC67E5F627A4B3392D797FFD3EBD8A71A1
 <span style="font-weight:bold;"> Common Name (CN)             </span><i>www.pyrenees-orientales.gouv.fr </i> (CN in response to request w/o SNI: <i>default.phi67.zd-est.pref.gouv.fr </i>)
-<span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>www.pyrenees-orientales.gouv.fr
-                              pyrenees-orientales.gouv.fr </i>
+<span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>pyrenees-orientales.gouv.fr
+                              www.pyrenees-orientales.gouv.fr </i>
 <span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN</span> (SNI mandatory)
 <span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#008817;">Ok   </span><span style="color:#cd00cd;"></span>
 <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">233 &gt;= 60 days</span> (2023-10-02 22:00 --&gt; 2024-10-31 22:59)
+<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">105 &gt;= 60 days</span> (2024-03-22 23:00 --&gt; 2024-10-30 22:59)
 <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
-<span style="font-weight:bold;"> Certificate Revocation List  </span>http://crl.dhimyotis.com/servicesca.crl
-                              http://crl.certigna.fr/servicesca.crl
-<span style="font-weight:bold;"> OCSP URI                     </span>http://servicesca.ocsp.certigna.fr
-                              http://servicesca.ocsp.dhimyotis.com
+<span style="font-weight:bold;"> Certificate Revocation List  </span>http://crl.certigna.fr/servicesca.crl
+                              http://crl.dhimyotis.com/servicesca.crl
+<span style="font-weight:bold;"> OCSP URI                     </span>http://servicesca.ocsp.dhimyotis.com
+                              http://servicesca.ocsp.certigna.fr
 <span style="font-weight:bold;"> OCSP stapling                </span><span style="color:#a86437;">not offered</span>
 <span style="font-weight:bold;"> OCSP must staple extension   </span>--
 <span style="font-weight:bold;"> DNS CAA RR</span> (experimental)    <span style="color:#a86437;">not offered</span>
@@ -153,7 +153,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> FREAK</span> (CVE-2015-0204)                     <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>
 <span style="font-weight:bold;"> DROWN</span> (CVE-2016-0800, CVE-2016-0703)      <span style="color:#008817;font-weight:bold;">not vulnerable on this host and port (OK)</span>
                                            make sure you don&apos;t use this certificate elsewhere with SSLv2 enabled services, see
-                                           <a href="https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=9E9675D555A90514A21DF72CF64B9F0A7BA921A6CA1F2513EF979B8ED3B33055" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=9E9675D555A90514A21DF72CF64B9F0A7BA921A6CA1F2513EF979B8ED3B33055</a>
+                                           <a href="https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=9FEAD5D258EC13032B0C34B516FD9CDC67E5F627A4B3392D797FFD3EBD8A71A1" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=9FEAD5D258EC13032B0C34B516FD9CDC67E5F627A4B3392D797FFD3EBD8A71A1</a>
 <span style="font-weight:bold;"> LOGJAM</span> (CVE-2015-4000), experimental      common prime with 2048 bits detected: <i>HAProxy</i> (<span style="color:#008817;">2048 bits</span>),
                                            but no DH EXPORT ciphers
 <span style="font-weight:bold;"> BEAST</span> (CVE-2011-3389)                     <span style="color:#008817;">not vulnerable (OK)</span>, no SSL3 or TLS1
@@ -214,7 +214,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Overall Grade                </span><span style="color:#008817;font-weight:bold;">A</span>
 <span style="font-weight:bold;"> Grade cap reasons            </span>Grade capped to A. HSTS is not offered
 
-<span style="color:white;background-color:black;"> Done 2024-03-12 11:21:13 [  56s] --&gt;&gt; 77.159.252.140:443 (pyrenees-orientales.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2024-07-17 16:14:46 [  93s] --&gt;&gt; 77.159.252.140:443 (pyrenees-orientales.gouv.fr) &lt;&lt;--</span>
 
 
 </pre>
