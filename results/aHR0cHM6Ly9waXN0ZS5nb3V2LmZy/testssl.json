@@ -31,15 +31,15 @@
               "id"           : "TLS1",
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "offered (deprecated)"
+              "severity"     : "INFO",
+              "finding"      : "not offered"
           }
 ,         {
               "id"           : "TLS1_1",
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "offered (deprecated)"
+              "severity"     : "INFO",
+              "finding"      : "not offered"
           }
 ,         {
               "id"           : "TLS1_2",
@@ -114,8 +114,8 @@
               "id"           : "cipherlist_STRONG_NOFS",
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "offered"
+              "severity"     : "INFO",
+              "finding"      : "not offered"
           }
 ,         {
               "id"           : "cipherlist_STRONG_FS",
@@ -123,34 +123,6 @@
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "offered"
-          }
-,         {
-              "id"           : "cipher_order-tls1",
-              "ip"           : "piste.gouv.fr/137.74.125.233",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "server"
-          }
-,         {
-              "id"           : "cipherorder_TLSv1",
-              "ip"           : "piste.gouv.fr/137.74.125.233",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "ECDHE-RSA-AES128-SHA"
-          }
-,         {
-              "id"           : "cipher_order-tls1_1",
-              "ip"           : "piste.gouv.fr/137.74.125.233",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "server"
-          }
-,         {
-              "id"           : "cipherorder_TLSv1_1",
-              "ip"           : "piste.gouv.fr/137.74.125.233",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "ECDHE-RSA-AES128-SHA"
           }
 ,         {
               "id"           : "cipher_order-tls1_2",
@@ -164,7 +136,7 @@
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "cipher_order",
@@ -185,7 +157,7 @@
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "DHE-RSA-AES128-GCM-SHA256 DHE-RSA-AES128-SHA256 DHE-RSA-AES128-SHA DHE-RSA-AES256-GCM-SHA384 DHE-RSA-AES256-SHA256 DHE-RSA-AES256-SHA ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES128-SHA ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384 ECDHE-RSA-AES256-SHA"
+              "finding"      : "ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384"
           }
 ,         {
               "id"           : "FS_ECDHE_curves",
@@ -227,7 +199,7 @@
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -290,7 +262,7 @@
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "9D38E29228F03358B638756295C8B4B7"
+              "finding"      : "805AEA2A8E1439B09F40FC7352BAC72B"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -304,21 +276,21 @@
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "33DF3E1E6A93A2825D813A12374834EF9447C441"
+              "finding"      : "5CD2511718FF72C7EECBCB99EBF7B679EBF1BE09"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "6E1A65D2723856C4EE97841A3D11258F2FCC05E7D5C1AEBD7FCEE9EF4F6F9419"
+              "finding"      : "E41665A7B9E0F5D7D1D3C56404724A032DB4F0A337DA738CD62F841554CF6787"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIJxjCCB66gAwIBAgIRAJ044pIo8DNYtjh1YpXItLcwDQYJKoZIhvcNAQELBQAwfTELMAkGA1UEBhMCRlIxEjAQBgNVBAoMCURISU1ZT1RJUzEcMBoGA1UECwwTMDAwMiA0ODE0NjMwODEwMDAzNjEdMBsGA1UEYQwUTlRSRlItNDgxNDYzMDgxMDAwMzYxHTAbBgNVBAMMFENlcnRpZ25hIFNlcnZpY2VzIENBMB4XDTIzMDcwNDIyMDAwMFoXDTI0MDcwMzIxNTk1OVowZjELMAkGA1UEBhMCRlIxFzAVBgNVBAcMDk5PSVNZIExFIEdSQU5EMQ0wCwYDVQQKDARBSUZFMRowGAYDVQQDDBFhcGkucGlzdGUuZ291di5mcjETMBEGA1UEBRMKUzI3Nzk5MDcwNTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL5Cx/R/fF0qA2M94CLvIM2Uzqf/jyIqZQ5IKfhOlzSQnZie+wdwwlfWSQd4GbcPnc+UU055h+V1+/DdX8PL/ZtKIQMhLaFShe8lKBgRiPHajRvBFdVAvHFHPJ197LeQwoacdag7krVCgaCm05smyOvZlkj81PkJ9wGnHQDmu228bFMnzjxOYodws21pybRZE4UOxUaCZs2Y45xFT+M8Njrv1M6rD6K3bjYyW4oIBcpUSX3OfMNy5fwE3mxsVUh8/D2QdskBsGp8OaYV3ljcQhZRgU1Ubvh7yzysJsmuhbdgXIO+HbNaqmwvgG1EJz33v/FKWmLe9oZp2OTBTrUTG8cCAwEAAaOCBVYwggVSMIHkBggrBgEFBQcBAQSB1zCB1DA4BggrBgEFBQcwAoYsaHR0cDovL2F1dG9yaXRlLmRoaW15b3Rpcy5jb20vc2VydmljZXNjYS5kZXIwNgYIKwYBBQUHMAKGKmh0dHA6Ly9hdXRvcml0ZS5jZXJ0aWduYS5mci9zZXJ2aWNlc2NhLmRlcjAuBggrBgEFBQcwAYYiaHR0cDovL3NlcnZpY2VzY2Eub2NzcC5jZXJ0aWduYS5mcjAwBggrBgEFBQcwAYYkaHR0cDovL3NlcnZpY2VzY2Eub2NzcC5kaGlteW90aXMuY29tMB8GA1UdIwQYMBaAFKzsho9LNxy4fxcbGdCu6E7jNFwSMAkGA1UdEwQCMAAwYQYDVR0gBFowWDAIBgZngQwBAgIwTAYLKoF6AYExAgUBAQEwPTA7BggrBgEFBQcCARYvaHR0cHM6Ly93d3cuY2VydGlnbmEuY29tL2F1dG9yaXRlLWNlcnRpZmljYXRpb24wZQYDVR0fBF4wXDAtoCugKYYnaHR0cDovL2NybC5kaGlteW90aXMuY29tL3NlcnZpY2VzY2EuY3JsMCugKaAnhiVodHRwOi8vY3JsLmNlcnRpZ25hLmZyL3NlcnZpY2VzY2EuY3JsMBMGA1UdJQQMMAoGCCsGAQUFBwMBMA4GA1UdDwEB/wQEAwIFoDCCAasGA1UdEQSCAaIwggGeghJtcHNzLnBpc3RlLmdvdXYuZnKCG3NhbmRib3gtb2F1dGgucGlzdGUuZ291di5mcoIjc2FuZGJveC1vYXV0aC5haWZlLmVjb25vbWllLmdvdXYuZnKCG3NoYXJlLmFpZmUuZWNvbm9taWUuZ291di5mcoITb2F1dGgucGlzdGUuZ291di5mcoIbb2F1dGguYWlmZS5lY29ub21pZS5nb3V2LmZygh9kZXZlbG9wZXIuYWlmZS5lY29ub21pZS5nb3V2LmZyghlhcGkuYWlmZS5lY29ub21pZS5nb3V2LmZyghFhcGkucGlzdGUuZ291di5mcoIYb2F1dGgubXBzcy5waXN0ZS5nb3V2LmZyghlzYW5kYm94LWFwaS5waXN0ZS5nb3V2LmZygiFzYW5kYm94LWFwaS5haWZlLmVjb25vbWllLmdvdXYuZnKCE3NoYXJlLnBpc3RlLmdvdXYuZnKCFHN0YXRpYy5waXN0ZS5nb3V2LmZygg1waXN0ZS5nb3V2LmZyghZhcGkubXBzcy5waXN0ZS5nb3V2LmZyMB0GA1UdDgQWBBTB9X0npEIhxIZcp0mSa/RsPbdBCzCCAX4GCisGAQQB1nkCBAIEggFuBIIBagFoAHYA7s3QZNXbGs7FXLedtM0TojKHRny87N7DUUhZRnEftZsAAAGJJdSY0QAABAMARzBFAiB1Wsc2Km4LUkaiQDdzITsNZhSb4c7iDx1xVyuxuQW1RgIhALAgXYl3omINvUPNPWHDk/nRMORWtKRZIfNV7sxe5mvYAHYAdv+IPwq2+5VRwmHM9Ye6NLSkzbsp3GhCCp/mZ0xaOnQAAAGJJdSW/wAABAMARzBFAiEAgqO5VEo9vvUwumM6J5qS5BCOuCVepko3BsoVTRqJnBoCIA0VOFEK67J6YxxFZ9vRpQmGwPew0nNNcny1VFDMMiOHAHYAVYHUwhaQNgFK6gubVzxT8MDkOHhwJQgXL6OqHQcT0wwAAAGJJdSaSgAABAMARzBFAiAF+rgn0hinZ7xZKvsTrIxQ4trtsJPBM1I4IP4PfbxVQQIhAJpz6wOc+TpLaCnyJdPHaw5TjQAazY4HLQsE33AU+KtPMA0GCSqGSIb3DQEBCwUAA4ICAQARbNJH4GqnvD4o0x0XY2j/5PHuHnSlMrzvZRAAav2Cr9kTfLtS+qy5duhQstjjvzSSr4wnjvScGBWdZFVSGoa7Zp8ITQKYML2OcRrgpN7chIq9hLNB+syL36YjY+2cVtpWM0f1anvbvzImUTke61IPm5ArcFSjz4Aub3a5r9hWmgnYJYws2TMr40EWpLBnPO7fh2eOyKUt6oEBrWfyjQExlPNyzoqrLdwEj/89R1lHdeVsHV9iNvntD9QgMd7cBJmMgNyceAIgRh33OP+D7WWn5cTqtmhi52/npJeM0Tg69MsOyzISciUukz4Bk7HOOvvSVfrkT5oopt02APALPoCYlHUoBicHYHfPl4W4TWu1NFv2pK5Gvb7cOiMXj+lVa2YBjbWAYM7sXOY7uVhUKQveA4wvU25s0vNkSXLE7Xs/gL8Icgb/88JIb/rfuACWWVBA28YWKcTJUQnDZAOsUT0nB4TxTKNLqzebadFXRhLc4h47EqHF74KLCj5MRClWXTK8D/UjZcJSd73XpPKQyRA6NUq+l3QSdHk6/4SN7jBIHvSJ9XYNeqA5Z47q/zTmpPQA6ieSxaPtuep+yuxVaW9rOMIxkNlK9VrdL8tLjJg66wtHTD+VZwq0cs33Tmo8bT5w6NOGIeiFu5djYnBDuJ/lnOp+N28bxuom2urkI/nLHQ==\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIK0zCCCLugAwIBAgIRAIBa6iqOFDmwn0D8c1K6xyswDQYJKoZIhvcNAQELBQAwfTELMAkGA1UEBhMCRlIxEjAQBgNVBAoMCURISU1ZT1RJUzEcMBoGA1UECwwTMDAwMiA0ODE0NjMwODEwMDAzNjEdMBsGA1UEYQwUTlRSRlItNDgxNDYzMDgxMDAwMzYxHTAbBgNVBAMMFENlcnRpZ25hIFNlcnZpY2VzIENBMB4XDTI0MDYxNzIyMDAwMFoXDTI1MDYxNzIxNTk1OVowZjELMAkGA1UEBhMCRlIxFzAVBgNVBAcMDk5PSVNZIExFIEdSQU5EMQ0wCwYDVQQKDARBSUZFMRowGAYDVQQDDBFhcGkucGlzdGUuZ291di5mcjETMBEGA1UEBRMKUzMxMjg4MTAwMjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALIY++dZsEP2zD7814Sfn5uJFMOVxp2r/qMncVUStm9C2zGqkLekZ4+OXK9MQd+TW41ZQDZe9yXuJPVnrwoVGvxNCHQEGRXXD6uQOW8zcoraEaxSenZF9v9QGmiyLKpjqKl5Pfilt3XFivKV1sRvGQTPMeeLQMikRieQCLJn6PSNYRdmzYqAYM2R6ODG2t817K3S+nAgpPYv1mIkgRvT6wIyGeLZoDz71XMV3TsJpe0gTv5/1hcBcazNVfEoGfbCM/o/zSVkc6OtLpUgvu3MFaavXhHu0a868yTWwo/QJFjt+MkT/ULEnK3nDJCsCHM8B3f99rPmj+kcynhHYqeYHL0CAwEAAaOCBmMwggZfMIHkBggrBgEFBQcBAQSB1zCB1DA2BggrBgEFBQcwAoYqaHR0cDovL2F1dG9yaXRlLmNlcnRpZ25hLmZyL3NlcnZpY2VzY2EuZGVyMDgGCCsGAQUFBzAChixodHRwOi8vYXV0b3JpdGUuZGhpbXlvdGlzLmNvbS9zZXJ2aWNlc2NhLmRlcjAuBggrBgEFBQcwAYYiaHR0cDovL3NlcnZpY2VzY2Eub2NzcC5jZXJ0aWduYS5mcjAwBggrBgEFBQcwAYYkaHR0cDovL3NlcnZpY2VzY2Eub2NzcC5kaGlteW90aXMuY29tMB8GA1UdIwQYMBaAFKzsho9LNxy4fxcbGdCu6E7jNFwSMAwGA1UdEwEB/wQCMAAwYQYDVR0gBFowWDAIBgZngQwBAgIwTAYLKoF6AYExAgUBAQEwPTA7BggrBgEFBQcCARYvaHR0cHM6Ly93d3cuY2VydGlnbmEuY29tL2F1dG9yaXRlLWNlcnRpZmljYXRpb24wZQYDVR0fBF4wXDAtoCugKYYnaHR0cDovL2NybC5kaGlteW90aXMuY29tL3NlcnZpY2VzY2EuY3JsMCugKaAnhiVodHRwOi8vY3JsLmNlcnRpZ25hLmZyL3NlcnZpY2VzY2EuY3JsMBMGA1UdJQQMMAoGCCsGAQUFBwMBMA4GA1UdDwEB/wQEAwIFoDCCArYGA1UdEQSCAq0wggKpghZhcGkubXBzcy5waXN0ZS5nb3V2LmZygg1waXN0ZS5nb3V2LmZyghFzYmcucGlzdGUuZ291di5mcoISbXBzcy5waXN0ZS5nb3V2LmZyghZtcHNzLnJieC5waXN0ZS5nb3V2LmZyghRzdGF0aWMucGlzdGUuZ291di5mcoIYc3RhdGljLnNiZy5waXN0ZS5nb3V2LmZyghVhcGkuc2JnLnBpc3RlLmdvdXYuZnKCGXNhbmRib3gtYXBpLnBpc3RlLmdvdXYuZnKCHXNhbmRib3gtYXBpLnNiZy5waXN0ZS5nb3V2LmZyghdvYXV0aC5zYmcucGlzdGUuZ291di5mcoIcb2F1dGgubXBzcy5zYmcucGlzdGUuZ291di5mcoIRcmJ4LnBpc3RlLmdvdXYuZnKCGHN0YXRpYy5yYngucGlzdGUuZ291di5mcoIRYXBpLnBpc3RlLmdvdXYuZnKCHXNhbmRib3gtYXBpLnJieC5waXN0ZS5nb3V2LmZyghphcGkubXBzcy5zYmcucGlzdGUuZ291di5mcoIXb2F1dGgucmJ4LnBpc3RlLmdvdXYuZnKCH3NhbmRib3gtb2F1dGgucmJ4LnBpc3RlLmdvdXYuZnKCFWFwaS5yYngucGlzdGUuZ291di5mcoIaYXBpLm1wc3MucmJ4LnBpc3RlLmdvdXYuZnKCE29hdXRoLnBpc3RlLmdvdXYuZnKCG3NhbmRib3gtb2F1dGgucGlzdGUuZ291di5mcoIfc2FuZGJveC1vYXV0aC5zYmcucGlzdGUuZ291di5mcoIYb2F1dGgubXBzcy5waXN0ZS5nb3V2LmZyghxvYXV0aC5tcHNzLnJieC5waXN0ZS5nb3V2LmZyghZtcHNzLnNiZy5waXN0ZS5nb3V2LmZyMB0GA1UdDgQWBBQzTL2dDfYceKGJQPTH09ToWW5G0zCCAX0GCisGAQQB1nkCBAIEggFtBIIBaQFnAHUAouMK5EXvva2bfjjtR2d3U9eCW4SU1yteGyzEuVCkR+cAAAGQKkqKFQAABAMARjBEAiAO01FmYfunFUl6H0vk/p8dscPNsxHySUnEsvPXt/HYNQIgK+hOBHTcXcaZRNaXUxL34hC7+pmX3olKZYr8zvb6f9gAdgDPEVbu1S58r/OHW9lpLpvpGnFnSrAX7KwB0lt3zsw7CAAAAZAqSoh2AAAEAwBHMEUCIQDdQrzRjmXzyIHN+mgLq4IvnPcdMVQLNgVJllUTb+EYnAIgAeUtFX/wr1Hzgwk4pY98q8jS5HrUmLXZNhyEPt66zboAdgDm0jFjQHeMwRBBBtdxuc7B0kD2loSG+7qHMh39HjeOUAAAAZAqSovqAAAEAwBHMEUCIGhH39ZxUq5wJU/91I93Sz2Gwn9xcPykMfmdnDfOriN8AiEA4HW0rIRfnVe/3hdgWhckZJVx7xkfCbnDhfYk18TEwl8wDQYJKoZIhvcNAQELBQADggIBAHVgHYmdZJvB+2h15qLqE30Gt8rX12/tIEI9sgoMDwqzqH/C7CYmpFAnnoHP6cowk8u+T4vqo2K10pl/IU7hjwULWoyhxpeNy6nHJExmbXvHji3ZxqsB1LzcmGcziNwd/cN/d9RRQ/1+vPvi+99SxQ+hbbl8ZkDeMxxhlxENHGgXEYc0rHfC+wViPr/295bl+ZxJNT+R2CK1HyQavne5eLriT33BllRtY57u3JsLshsW8GUr8U1J+d30s3uva3Y5G5rT35I/NPNtuvugkvQbBuMP4BoXUB7bH4ZnoMjjHJQ9vUQM/jbhpoDj46JBaaSGY4+buU0Ix7SgPiYHAkYaBL2z766GzM2lUpvrvOZPaKUHYVnayKudESFT5lvZ+xmbCv4d+Pc81di9SZkbhkvGbfuBdarh+C8RlJAZghdu5CJ9mlHQVTNXMoj7r22IV/vOUIKAU2AixTHtDK67P3QNnCwuzxOL61k4l3BVbVerUbz61wTPfTsHwuo9f9YMZTfGvk0vV23PY99/yzl1uCjZlI46gF3skPVp4zqdTx1Jlg7tVIQWTYYBGZyWEc+lHCFdaxHhZpZUUidAGVtMkDbJgrY4p7PQiXPfAgfAbj+v2WaBDm00EiCiXto168RV0//ARWQbiiJAo9HiEBnybPYv/88yF8gRnQiKnsktpgQYbi0K\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -332,14 +304,14 @@
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "api.rec.piste.gouv.fr"
+              "finding"      : "api.ppr.piste.gouv.fr"
           }
 ,         {
               "id"           : "cert_subjectAltName",
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "mpss.piste.gouv.fr sandbox-oauth.piste.gouv.fr sandbox-oauth.aife.economie.gouv.fr share.aife.economie.gouv.fr oauth.piste.gouv.fr oauth.aife.economie.gouv.fr developer.aife.economie.gouv.fr api.aife.economie.gouv.fr api.piste.gouv.fr oauth.mpss.piste.gouv.fr sandbox-api.piste.gouv.fr sandbox-api.aife.economie.gouv.fr share.piste.gouv.fr static.piste.gouv.fr piste.gouv.fr api.mpss.piste.gouv.fr"
+              "finding"      : "api.mpss.piste.gouv.fr piste.gouv.fr sbg.piste.gouv.fr mpss.piste.gouv.fr mpss.rbx.piste.gouv.fr static.piste.gouv.fr static.sbg.piste.gouv.fr api.sbg.piste.gouv.fr sandbox-api.piste.gouv.fr sandbox-api.sbg.piste.gouv.fr oauth.sbg.piste.gouv.fr oauth.mpss.sbg.piste.gouv.fr rbx.piste.gouv.fr static.rbx.piste.gouv.fr api.piste.gouv.fr sandbox-api.rbx.piste.gouv.fr api.mpss.sbg.piste.gouv.fr oauth.rbx.piste.gouv.fr sandbox-oauth.rbx.piste.gouv.fr api.rbx.piste.gouv.fr api.mpss.rbx.piste.gouv.fr oauth.piste.gouv.fr sandbox-oauth.piste.gouv.fr sandbox-oauth.sbg.piste.gouv.fr oauth.mpss.piste.gouv.fr oauth.mpss.rbx.piste.gouv.fr mpss.sbg.piste.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -367,21 +339,21 @@
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "113 >= 60 days"
+              "finding"      : "335 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-07-04 22:00"
+              "finding"      : "2024-06-17 22:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2024-07-03 21:59"
+              "finding"      : "2025-06-17 21:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -450,8 +422,8 @@
               "id"           : "certs_list_ordering_problem",
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "yes"
+              "severity"     : "INFO",
+              "finding"      : "no"
           }
 ,         {
               "id"           : "cert_caIssuers",
@@ -465,28 +437,28 @@
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDqDCCApCgAwIBAgIJAP7c4wEPyUj/MA0GCSqGSIb3DQEBBQUAMDQxCzAJBgNVBAYTAkZSMRIwEAYDVQQKDAlEaGlteW90aXMxETAPBgNVBAMMCENlcnRpZ25hMB4XDTA3MDYyOTE1MTMwNVoXDTI3MDYyOTE1MTMwNVowNDELMAkGA1UEBhMCRlIxEjAQBgNVBAoMCURoaW15b3RpczERMA8GA1UEAwwIQ2VydGlnbmEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDIaPHJ1tazNHUmgh7stL7qXOEm7RFHYeGifBZ4QCHkYJ5ayGPhxLGWkv8YbWkj4Sti993iNi+RB7lIzw7sebYs5zRLcAglozyHGxnygQcPOJAZ0xH+hrTy0V4eHpbNgGzOOzGTtvKg0KmVEn2lmsxryIRWijOp5yIVUxbwzBfsV1/pogqYCd7jX5xv3EjjhQsVWqa6n6xI4wmy9/Qy3l40vhx4XUJbzg4ij02Q130yGLMLLGq/jj8UEYkgDncUtT2UCIf3JR7VsmAA7G8qKCVuKj4YYxclPz5EIBb2JsglrgVKtOdjLPOMFlN+XPsRGgjBRmKfIrjxwo1p3Po6WAbfAgMBAAGjgbwwgbkwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUGu3+QTmQtCRZvgHyUtVF9lo53BEwZAYDVR0jBF0wW4AUGu3+QTmQtCRZvgHyUtVF9lo53BGhOKQ2MDQxCzAJBgNVBAYTAkZSMRIwEAYDVQQKDAlEaGlteW90aXMxETAPBgNVBAMMCENlcnRpZ25hggkA/tzjAQ/JSP8wDgYDVR0PAQH/BAQDAgEGMBEGCWCGSAGG+EIBAQQEAwIABzANBgkqhkiG9w0BAQUFAAOCAQEAhQMeknH2Qq/ho2Ge6/PAD/Kl1NqV5ta+aDY9fm4fTIrv0Q8hbV6lUmPOEvjvKtpv6zf+EwLHyzs+ImvaYS5/1HI93TDhHkxAGYwP15zRgzB7mFncfca5DClMoTOi62c6ZYTTluLtdkVwj7Ur3vkj1kluPBS1xp81HlDQwY9qcEQCYsuuHWhBp6pX6FOqB9IG9tUUBguRA3UsbHK1YZWaDYu5Def131TN3ubY1gkIl2PlwS6wt0QmwCbAr1UwnjvVNioZBPRcHv/PLLf/0P2HQBHVESO7SMAhqaQoLf0V+LBOK/QwWyH8EZE0vkHve52Xdf+XlcCWWC/qu0bXu+TZLg==\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIGFjCCBP6gAwIBAgIQb4L6KKzW94S7WxILqHNnrTANBgkqhkiG9w0BAQsFADA0MQswCQYDVQQGEwJGUjESMBAGA1UECgwJRGhpbXlvdGlzMREwDwYDVQQDDAhDZXJ0aWduYTAeFw0xNTExMjUxMTMzNTJaFw0yNTExMjIxMTMzNTJaMH0xCzAJBgNVBAYTAkZSMRIwEAYDVQQKDAlESElNWU9USVMxHDAaBgNVBAsMEzAwMDIgNDgxNDYzMDgxMDAwMzYxHTAbBgNVBGEMFE5UUkZSLTQ4MTQ2MzA4MTAwMDM2MR0wGwYDVQQDDBRDZXJ0aWduYSBTZXJ2aWNlcyBDQTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBALPM+7LpWBz9wFcPaTc3xnB+5g0XrnptB0EPPfrR04vO52Ykm4ky1d4ZLd10tbM1fa1RqNSOVWWg93O4pL7zCFKlz6JV74ZZVhHpEAwzBwv2oPnxvVbxtSN67xsSY66ahUYxjzs8+3FhmsiRxqwnTYvK2u70uglUvRisOKyTL/M6JnrC4y8tlmoz7OSa5BmBMVplJFQtvmON6N9aHLvYMz+EyJPCbXL6pELxeHjFT5QmIaRamsr2DOTaCjtBZKI1Wnh3X7lnbjM8MESJiV2t7E9tIQNG0Z/HI3tO4aaUMum3KysY5sC8v3vi7rryGidgzHQhrtP0ZXWW5UH/k7umLS/P/XXWnCFpc2Lxa1uDGfc2im7xibRoPP+JNZszN76euFlls6jyEXAiwnVr14tVVTewLK0OWs5SJHpEKp8PGMZRDj59EmMvokWwzL6QzNZ6vVAp00oOm05sbspNY9+MFqGKKUsKvhFGEa4XmRNxDe6KswLcjPZB+NKHZ0QWFd4ip5C5XmEK/8qIPjwVr9dah9+oiHGGO8Wx7gJAMF5DTmkvW7GhqCKj1LmHnabjzc8av6kxWVQZi/C7HCm9i/W4wio+JA2EAFLqNL3GPNbK9kau4yPhQt/c7zxzo0OHnlsV4THCG7oOCd3cfCiyfQcb3FBt6OSpaKRZxjCLBwP00r0fAgMBAAGjggHZMIIB1TASBgNVHRMBAf8ECDAGAQH/AgEAMA4GA1UdDwEB/wQEAwIBBjAdBgNVHQ4EFgQUrOyGj0s3HLh/FxsZ0K7oTuM0XBIwZAYDVR0jBF0wW4AUGu3+QTmQtCRZvgHyUtVF9lo53BGhOKQ2MDQxCzAJBgNVBAYTAkZSMRIwEAYDVQQKDAlEaGlteW90aXMxETAPBgNVBAMMCENlcnRpZ25hggkA/tzjAQ/JSP8wSQYDVR0gBEIwQDA+BgoqgXoBgTEBAAECMDAwLgYIKwYBBQUHAgEWImh0dHBzOi8vd3d3LmNlcnRpZ25hLmZyL2F1dG9yaXRlcy8wfAYIKwYBBQUHAQEEcDBuMDQGCCsGAQUFBzAChihodHRwOi8vYXV0b3JpdGUuY2VydGlnbmEuZnIvY2VydGlnbmEuZGVyMDYGCCsGAQUFBzAChipodHRwOi8vYXV0b3JpdGUuZGhpbXlvdGlzLmNvbS9jZXJ0aWduYS5kZXIwYQYDVR0fBFowWDApoCegJYYjaHR0cDovL2NybC5jZXJ0aWduYS5mci9jZXJ0aWduYS5jcmwwK6ApoCeGJWh0dHA6Ly9jcmwuZGhpbXlvdGlzLmNvbS9jZXJ0aWduYS5jcmwwDQYJKoZIhvcNAQELBQADggEBAGLft7gIuGPZVfg0cTM+HT2xAZFPDb/2+siH06x+dH044zMKbBINbRzhKipwB1A3MW8FQjveE9tyrfyuqZE/X+o2SlGcdNV44ybYkxo4f6kcLEavV/IW+oFEnojZlhpksYcxrvQoEyqkAwshe8IS2KtZHKVACrt+XSs0lwvy7ALGmHaF7A4by6cZWItA7Lhj8XWp+8tBJDj7HocRbWtxzEODdBuyMgJzFrNjc+97J0vH/K0+3yjmkczpKshMA0tM+MF9XDMN/MuwrPmUWGO/fHiqHgUp8yqeWtl1n44ZxkkK1t9GRwhnDWLv73/xhTmdhWYQ/reo0GbgBoLiltKmIJQ=\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "E3B6A2DB2ED7CE48842F7AC53241C7B71D54144BFB40C11F3F1D0B42F5EEA12D"
+              "finding"      : "71E653BFBF5E72515B4099BBD5EC8872812B47C6EC1FA9ADD327E1C92C9EA16D"
           }
 ,         {
               "id"           : "intermediate_cert_notBefore <#1>",
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2007-06-29 15:13"
+              "finding"      : "2015-11-25 11:33"
           }
 ,         {
               "id"           : "intermediate_cert_notAfter <#1>",
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2027-06-29 15:13"
+              "finding"      : "2025-11-22 11:33"
           }
 ,         {
               "id"           : "intermediate_cert_expiration <#1>",
@@ -500,35 +472,35 @@
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Certigna <-- Certigna"
+              "finding"      : "Certigna Services CA <-- Certigna"
           }
 ,         {
               "id"           : "intermediate_cert <#2>",
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDqDCCApCgAwIBAgIJAP7c4wEPyUj/MA0GCSqGSIb3DQEBBQUAMDQxCzAJBgNVBAYTAkZSMRIwEAYDVQQKDAlEaGlteW90aXMxETAPBgNVBAMMCENlcnRpZ25hMB4XDTA3MDYyOTE1MTMwNVoXDTI3MDYyOTE1MTMwNVowNDELMAkGA1UEBhMCRlIxEjAQBgNVBAoMCURoaW15b3RpczERMA8GA1UEAwwIQ2VydGlnbmEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDIaPHJ1tazNHUmgh7stL7qXOEm7RFHYeGifBZ4QCHkYJ5ayGPhxLGWkv8YbWkj4Sti993iNi+RB7lIzw7sebYs5zRLcAglozyHGxnygQcPOJAZ0xH+hrTy0V4eHpbNgGzOOzGTtvKg0KmVEn2lmsxryIRWijOp5yIVUxbwzBfsV1/pogqYCd7jX5xv3EjjhQsVWqa6n6xI4wmy9/Qy3l40vhx4XUJbzg4ij02Q130yGLMLLGq/jj8UEYkgDncUtT2UCIf3JR7VsmAA7G8qKCVuKj4YYxclPz5EIBb2JsglrgVKtOdjLPOMFlN+XPsRGgjBRmKfIrjxwo1p3Po6WAbfAgMBAAGjgbwwgbkwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUGu3+QTmQtCRZvgHyUtVF9lo53BEwZAYDVR0jBF0wW4AUGu3+QTmQtCRZvgHyUtVF9lo53BGhOKQ2MDQxCzAJBgNVBAYTAkZSMRIwEAYDVQQKDAlEaGlteW90aXMxETAPBgNVBAMMCENlcnRpZ25hggkA/tzjAQ/JSP8wDgYDVR0PAQH/BAQDAgEGMBEGCWCGSAGG+EIBAQQEAwIABzANBgkqhkiG9w0BAQUFAAOCAQEAhQMeknH2Qq/ho2Ge6/PAD/Kl1NqV5ta+aDY9fm4fTIrv0Q8hbV6lUmPOEvjvKtpv6zf+EwLHyzs+ImvaYS5/1HI93TDhHkxAGYwP15zRgzB7mFncfca5DClMoTOi62c6ZYTTluLtdkVwj7Ur3vkj1kluPBS1xp81HlDQwY9qcEQCYsuuHWhBp6pX6FOqB9IG9tUUBguRA3UsbHK1YZWaDYu5Def131TN3ubY1gkIl2PlwS6wt0QmwCbAr1UwnjvVNioZBPRcHv/PLLf/0P2HQBHVESO7SMAhqaQoLf0V+LBOK/QwWyH8EZE0vkHve52Xdf+XlcCWWC/qu0bXu+TZLg==\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "intermediate_cert_fingerprintSHA256 <#2>",
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "71E653BFBF5E72515B4099BBD5EC8872812B47C6EC1FA9ADD327E1C92C9EA16D"
+              "finding"      : "E3B6A2DB2ED7CE48842F7AC53241C7B71D54144BFB40C11F3F1D0B42F5EEA12D"
           }
 ,         {
               "id"           : "intermediate_cert_notBefore <#2>",
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2015-11-25 11:33"
+              "finding"      : "2007-06-29 15:13"
           }
 ,         {
               "id"           : "intermediate_cert_notAfter <#2>",
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2025-11-22 11:33"
+              "finding"      : "2027-06-29 15:13"
           }
 ,         {
               "id"           : "intermediate_cert_expiration <#2>",
@@ -542,7 +514,7 @@
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Certigna Services CA <-- Certigna"
+              "finding"      : "Certigna <-- Certigna"
           }
 ,         {
               "id"           : "intermediate_cert_badOCSP",
@@ -570,7 +542,7 @@
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710241193"
+              "finding"      : "1721231456"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -719,7 +691,7 @@
               "severity"     : "OK",
               "cve"          : "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
               "cwe"          : "CWE-203",
-              "finding"      : "not vulnerable"
+              "finding"      : "not vulnerable, no RSA key transport cipher"
           }
 ,         {
               "id"           : "secure_renego",
@@ -770,7 +742,7 @@
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "supported"
+              "finding"      : "no protocol below TLS 1.2 offered"
           }
 ,         {
               "id"           : "SWEET32",
@@ -806,16 +778,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=6E1A65D2723856C4EE97841A3D11258F2FCC05E7D5C1AEBD7FCEE9EF4F6F9419"
-          }
-,         {
-              "id"           : "LOGJAM-common_primes",
-              "ip"           : "piste.gouv.fr/137.74.125.233",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "cve"          : "CVE-2015-4000",
-              "cwe"          : "CWE-310",
-              "finding"      : "HAProxy"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=E41665A7B9E0F5D7D1D3C56404724A032DB4F0A337DA738CD62F841554CF6787"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -827,22 +790,22 @@
               "finding"      : "not vulnerable, no DH EXPORT ciphers,"
           }
 ,         {
-              "id"           : "BEAST_CBC_TLS1",
+              "id"           : "LOGJAM-common_primes",
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "cve"          : "CVE-2011-3389",
-              "cwe"          : "CWE-20",
-              "finding"      : "ECDHE-RSA-AES128-SHA ECDHE-RSA-AES256-SHA DHE-RSA-AES128-SHA DHE-RSA-AES256-SHA AES128-SHA AES256-SHA"
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "no DH key with <= TLS 1.2"
           }
 ,         {
               "id"           : "BEAST",
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
-              "severity"     : "LOW",
+              "severity"     : "OK",
               "cve"          : "CVE-2011-3389",
               "cwe"          : "CWE-20",
-              "finding"      : "VULNERABLE -- but also supports higher protocols  TLSv1.1 TLSv1.2 (likely mitigated)"
+              "finding"      : "not vulnerable, no SSL3 or TLS1"
           }
 ,         {
               "id"           : "LUCKY13",
@@ -883,14 +846,14 @@
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-CHACHA20-POLY1305"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-android_81",
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-CHACHA20-POLY1305"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-android_90",
@@ -960,7 +923,7 @@
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.0 ECDHE-RSA-AES128-SHA"
+              "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-ie_8_xp",
@@ -974,14 +937,14 @@
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 DHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_win81",
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 DHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_winphone81",
@@ -995,14 +958,14 @@
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-edge_15_win10",
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-edge_101_win10_21h2",
@@ -1037,14 +1000,14 @@
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.0 ECDHE-RSA-AES128-SHA"
+              "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-java_8u161",
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-java1102",
@@ -1079,14 +1042,14 @@
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-openssl_110l",
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-CHACHA20-POLY1305"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-openssl_111d",
@@ -1107,7 +1070,7 @@
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-thunderbird_91_9",
@@ -1135,14 +1098,14 @@
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "95"
+              "finding"      : "100"
           }
 ,         {
               "id"           : "protocol_support_score_weighted",
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "28"
+              "finding"      : "30"
           }
 ,         {
               "id"           : "key_exchange_score",
@@ -1177,34 +1140,20 @@
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "79"
+              "finding"      : "81"
           }
 ,         {
               "id"           : "overall_grade",
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "B"
-          }
-,         {
-              "id"           : "grade_cap_reason_1",
-              "ip"           : "piste.gouv.fr/137.74.125.233",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "Grade capped to B. TLS 1.1 offered"
-          }
-,         {
-              "id"           : "grade_cap_reason_2",
-              "ip"           : "piste.gouv.fr/137.74.125.233",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "Grade capped to B. TLS 1.0 offered"
+              "severity"     : "OK",
+              "finding"      : "A+"
           }
 ,         {
               "id"           : "scanTime",
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "79"
+              "finding"      : "62"
           }
 ]
