@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln participation-citoyenne.gouv.fr</pre>
-<p class="lead">Tue Mar 12 10:57:54 2024 – Tue Mar 12 11:00:01 2024<br>1 hosts scanned.
+<p class="lead">Wed Jul 17 15:47:25 2024 – Wed Jul 17 15:47:38 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -76,9 +76,9 @@
 </tr></thead>
 <tbody><tr>
 <td><span class="label label-success">up</span></td>
-<td>51.68.27.186</td>
+<td>104.18.14.157</td>
 <td>participation-citoyenne.gouv.fr</td>
-<td>3</td>
+<td>4</td>
 <td>0</td>
 </tr></tbody>
 </table></div>
@@ -91,13 +91,10 @@
             });
           </script><h2 id="onlinehosts" class="target">Online Hosts</h2>
 <div class="panel panel-default">
-<div class="panel-heading clickable" data-toggle="collapse" data-target="#51-68-27-186"><h3 class="panel-title">51.68.27.186 - participation-citoyenne.gouv.fr</h3></div>
-<div class="panel-body collapse in" id="51-68-27-186">
+<div class="panel-heading clickable" data-toggle="collapse" data-target="#104-18-14-157"><h3 class="panel-title">104.18.14.157 - participation-citoyenne.gouv.fr</h3></div>
+<div class="panel-body collapse in" id="104-18-14-157">
 <h4>Hostnames</h4>
-<ul>
-<li>participation-citoyenne.gouv.fr (user)</li>
-<li>ip186.ip-51-68-27.eu (PTR)</li>
-</ul>
+<ul><li>participation-citoyenne.gouv.fr (user)</li></ul>
 <h4>Ports</h4>
 <div class="table-responsive"><table class="table table-bordered">
 <thead><tr>
@@ -111,160 +108,56 @@
 </tr></thead>
 <tbody>
 <tr class="success">
-<td title="Port">22</td>
-<td title="Protocol">tcp</td>
-<td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">ssh</td>
-<td title="Product">OpenSSH</td>
-<td title="Version">7.8</td>
-<td title="Extra Info">protocol 2.0</td>
-</tr>
-<tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:openbsd:openssh:7.8">cpe:/a:openbsd:openssh:7.8</a><h5>vulners</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">
-  cpe:/a:openbsd:openssh:7.8: 
-    	PRION:CVE-2019-6111	5.8	https://vulners.com/prion/PRION:CVE-2019-6111
-    	EXPLOITPACK:98FE96309F9524B8C84C508837551A19	5.8	https://vulners.com/exploitpack/EXPLOITPACK:98FE96309F9524B8C84C508837551A19	*EXPLOIT*
-    	EXPLOITPACK:5330EA02EBDE345BFC9D6DDDD97F9E97	5.8	https://vulners.com/exploitpack/EXPLOITPACK:5330EA02EBDE345BFC9D6DDDD97F9E97	*EXPLOIT*
-    	EDB-ID:46516	5.8	https://vulners.com/exploitdb/EDB-ID:46516	*EXPLOIT*
-    	EDB-ID:46193	5.8	https://vulners.com/exploitdb/EDB-ID:46193	*EXPLOIT*
-    	CVE-2019-6111	5.8	https://vulners.com/cve/CVE-2019-6111
-    	1337DAY-ID-32328	5.8	https://vulners.com/zdt/1337DAY-ID-32328	*EXPLOIT*
-    	1337DAY-ID-32009	5.8	https://vulners.com/zdt/1337DAY-ID-32009	*EXPLOIT*
-    	PRION:CVE-2018-15919	5.0	https://vulners.com/prion/PRION:CVE-2018-15919
-    	CVE-2018-15919	5.0	https://vulners.com/cve/CVE-2018-15919
-    	PACKETSTORM:151227	0.0	https://vulners.com/packetstorm/PACKETSTORM:151227	*EXPLOIT*</pre>
-</td></tr>
-<tr class="success">
 <td title="Port">80</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">http</td>
-<td title="Product"></td>
+<td title="Product">Cloudflare http proxy</td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">
-  FourOhFourRequest: 
-    HTTP/1.1 403 Forbidden
-    Date: Tue, 12 Mar 2024 10:58:16 GMT
-    Content-Length: 199
-    Connection: close
-    Content-Type: text/html; charset=iso-8859-1
-    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
-    &lt;html&gt;&lt;head&gt;
-    &lt;title&gt;403 Forbidden&lt;/title&gt;
-    &lt;/head&gt;&lt;body&gt;
-    &lt;h1&gt;Forbidden&lt;/h1&gt;
-    &lt;p&gt;You don't have permission to access this resource.&lt;/p&gt;
-    &lt;/body&gt;&lt;/html&gt;
-  GetRequest, HTTPOptions: 
-    HTTP/1.1 403 Forbidden
-    Date: Tue, 12 Mar 2024 10:58:10 GMT
-    Content-Length: 199
-    Connection: close
-    Content-Type: text/html; charset=iso-8859-1
-    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
-    &lt;html&gt;&lt;head&gt;
-    &lt;title&gt;403 Forbidden&lt;/title&gt;
-    &lt;/head&gt;&lt;body&gt;
-    &lt;h1&gt;Forbidden&lt;/h1&gt;
-    &lt;p&gt;You don't have permission to access this resource.&lt;/p&gt;
-    &lt;/body&gt;&lt;/html&gt;
-  Help: 
-    HTTP/1.1 400 Bad Request
-    Date: Tue, 12 Mar 2024 10:58:37 GMT
-    Content-Length: 226
-    Connection: close
-    Content-Type: text/html; charset=iso-8859-1
-    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
-    &lt;html&gt;&lt;head&gt;
-    &lt;title&gt;400 Bad Request&lt;/title&gt;
-    &lt;/head&gt;&lt;body&gt;
-    &lt;h1&gt;Bad Request&lt;/h1&gt;
-    &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
-    &lt;/p&gt;
-    &lt;/body&gt;&lt;/html&gt;
-  RTSPRequest: 
-    HTTP/1.1 400 Bad Request
-    Date: Tue, 12 Mar 2024 10:58:10 GMT
-    Content-Length: 226
-    Connection: close
-    Content-Type: text/html; charset=iso-8859-1
-    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
-    &lt;html&gt;&lt;head&gt;
-    &lt;title&gt;400 Bad Request&lt;/title&gt;
-    &lt;/head&gt;&lt;body&gt;
-    &lt;h1&gt;Bad Request&lt;/h1&gt;
-    &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
-    &lt;/p&gt;
-    &lt;/body&gt;&lt;/html&gt;</pre>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">cloudflare</pre>
 </td></tr>
-<tr class="active">
-<td>113</td>
-<td>tcp</td>
-<td>closed<br>reset</td>
-<td>ident</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
 <tr class="success">
 <td title="Port">443</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">https</td>
-<td title="Product"></td>
+<td title="Product">cloudflare</td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">
-  FourOhFourRequest, HTTPOptions: 
-    HTTP/1.1 400 Bad Request
-    Date: Tue, 12 Mar 2024 10:58:17 GMT
-    Content-Length: 226
-    Connection: close
-    Content-Type: text/html; charset=iso-8859-1
-    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
-    &lt;html&gt;&lt;head&gt;
-    &lt;title&gt;400 Bad Request&lt;/title&gt;
-    &lt;/head&gt;&lt;body&gt;
-    &lt;h1&gt;Bad Request&lt;/h1&gt;
-    &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
-    &lt;/p&gt;
-    &lt;/body&gt;&lt;/html&gt;
-  GetRequest: 
-    HTTP/1.1 400 Bad Request
-    Date: Tue, 12 Mar 2024 10:58:16 GMT
-    Content-Length: 226
-    Connection: close
-    Content-Type: text/html; charset=iso-8859-1
-    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
-    &lt;html&gt;&lt;head&gt;
-    &lt;title&gt;400 Bad Request&lt;/title&gt;
-    &lt;/head&gt;&lt;body&gt;
-    &lt;h1&gt;Bad Request&lt;/h1&gt;
-    &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
-    &lt;/p&gt;
-    &lt;/body&gt;&lt;/html&gt;
-  RTSPRequest: 
-    HTTP/1.1 400 Bad Request
-    Date: Tue, 12 Mar 2024 10:58:29 GMT
-    Content-Length: 226
-    Connection: close
-    Content-Type: text/html; charset=iso-8859-1
-    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
-    &lt;html&gt;&lt;head&gt;
-    &lt;title&gt;400 Bad Request&lt;/title&gt;
-    &lt;/head&gt;&lt;body&gt;
-    &lt;h1&gt;Bad Request&lt;/h1&gt;
-    &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
-    &lt;/p&gt;
-    &lt;/body&gt;&lt;/html&gt;</pre>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">cloudflare</pre>
+</td></tr>
+<tr class="success">
+<td title="Port">8080</td>
+<td title="Protocol">tcp</td>
+<td title="State / Reason">open<br>syn-ack</td>
+<td title="Service">http</td>
+<td title="Product">Cloudflare http proxy</td>
+<td title="Version"></td>
+<td title="Extra Info"></td>
+</tr>
+<tr><td colspan="7">
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">cloudflare</pre>
+</td></tr>
+<tr class="success">
+<td title="Port">8443</td>
+<td title="Protocol">tcp</td>
+<td title="State / Reason">open<br>syn-ack</td>
+<td title="Service">https-alt</td>
+<td title="Product">cloudflare</td>
+<td title="Version"></td>
+<td title="Extra Info"></td>
+</tr>
+<tr><td colspan="7">
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">cloudflare</pre>
 </td></tr>
 </tbody>
 </table></div>
@@ -284,31 +177,41 @@
 </tr></thead>
 <tbody>
 <tr>
-<td>51.68.27.186 - participation-citoyenne.gouv.fr</td>
-<td>22</td>
-<td>tcp</td>
-<td>ssh</td>
-<td>OpenSSH</td>
-<td>7.8</td>
-<td>cpe:/a:openbsd:openssh:7.8</td>
-<td>protocol 2.0</td>
-</tr>
-<tr>
-<td>51.68.27.186 - participation-citoyenne.gouv.fr</td>
+<td>104.18.14.157 - participation-citoyenne.gouv.fr</td>
 <td>80</td>
 <td>tcp</td>
 <td>http</td>
-<td></td>
+<td>Cloudflare http proxy</td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td>51.68.27.186 - participation-citoyenne.gouv.fr</td>
+<td>104.18.14.157 - participation-citoyenne.gouv.fr</td>
 <td>443</td>
 <td>tcp</td>
 <td>https</td>
+<td>cloudflare</td>
 <td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>104.18.14.157 - participation-citoyenne.gouv.fr</td>
+<td>8080</td>
+<td>tcp</td>
+<td>http</td>
+<td>Cloudflare http proxy</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>104.18.14.157 - participation-citoyenne.gouv.fr</td>
+<td>8443</td>
+<td>tcp</td>
+<td>https-alt</td>
+<td>cloudflare</td>
 <td></td>
 <td></td>
 <td></td>
