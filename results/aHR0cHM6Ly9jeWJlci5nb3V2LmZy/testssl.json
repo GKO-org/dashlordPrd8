@@ -171,7 +171,7 @@
               "ip"           : "cyber.gouv.fr/193.70.123.152",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "'renegotiation info/#65281' 'server name/#0' 'EC point formats/#11' 'session ticket/#35' 'supported versions/#43' 'key share/#51' 'supported_groups/#10' 'max fragment length/#1' 'application layer protocol negotiation/#16' 'extended master secret/#23'"
+              "finding"      : "'renegotiation info/#65281' 'server name/#0' 'EC point formats/#11' 'session ticket/#35' 'supported versions/#43' 'key share/#51' 'supported_groups/#10'"
           }
 ,         {
               "id"           : "TLS_session_ticket",
@@ -338,8 +338,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "cyber.gouv.fr/193.70.123.152",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "174 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (47)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -352,7 +352,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "cyber.gouv.fr/193.70.123.152",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2024-09-02 21:59"
           }
 ,         {
@@ -401,8 +401,8 @@
               "id"           : "DNS_CAArecord",
               "ip"           : "cyber.gouv.fr/193.70.123.152",
               "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "--"
+              "severity"     : "OK",
+              "finding"      : "issue=certigna.fr, issue=letsencrypt.org"
           }
 ,         {
               "id"           : "certificate_transparency",
@@ -493,14 +493,14 @@
               "ip"           : "cyber.gouv.fr/193.70.123.152",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-404 seconds from localtime"
+              "finding"      : "-2739 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "cyber.gouv.fr/193.70.123.152",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710241603"
+              "finding"      : "1721229609"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -599,7 +599,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "X-Cacheable: YESX-Cache-TTL: 86400.000X-Cache: HITX-Cache-TTL-Remaining: 86198.075X-Cache-Age: 201X-Cache-Hits: 59"
+              "finding"      : "X-Cacheable: YESX-Cache-TTL: 86400.000X-Cache: HITX-Cache-TTL-Remaining: 83660.783X-Cache-Age: 2739X-Cache-Hits: 517"
           }
 ,         {
               "id"           : "heartbleed",
@@ -783,7 +783,7 @@
               "ip"           : "cyber.gouv.fr/193.70.123.152",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-android_70",
@@ -923,14 +923,14 @@
               "ip"           : "cyber.gouv.fr/193.70.123.152",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+              "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-safari_130_osx_10146",
               "ip"           : "cyber.gouv.fr/193.70.123.152",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+              "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-safari_154_osx_1231",
@@ -1098,6 +1098,6 @@
               "ip"           : "cyber.gouv.fr/193.70.123.152",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "65"
+              "finding"      : "56"
           }
 ]
