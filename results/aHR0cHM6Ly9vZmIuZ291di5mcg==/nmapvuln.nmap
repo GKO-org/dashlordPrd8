@@ -1,9 +1,9 @@
-# Nmap 7.92 scan initiated Tue Mar 12 10:41:16 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln ofb.gouv.fr
+# Nmap 7.92 scan initiated Wed Jul 17 15:30:52 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln ofb.gouv.fr
 Nmap scan report for ofb.gouv.fr (83.118.214.134)
 Host is up (0.15s latency).
 rDNS record for 83.118.214.134: 134.214.118.83.in-addr.arpa.celeste.fr
-Not shown: 995 filtered tcp ports (no-response)
-PORT     STATE  SERVICE    VERSION
+Not shown: 994 filtered tcp ports (no-response)
+PORT     STATE  SERVICE       VERSION
 80/tcp   open   http
 | fingerprint-strings: 
 |   DNSStatusRequestTCP, DNSVersionBindReqTCP, Help, RPCCheck, RTSPRequest, X11Probe: 
@@ -77,9 +77,38 @@ PORT     STATE  SERVICE    VERSION
 |     content-length: 0
 |     location: https:///
 |_    connection: close
-3 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+8443/tcp open   ssl/https-alt
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.0 503 Service Unavailable
+|     cache-control: no-cache
+|     content-type: text/html
+|     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+|     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+|     <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+|     <head>
+|     <title>Site indisponible</title>
+|     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+|     <link rel="shortcut icon" href="/favicon.ico" />
+|     <meta name="robots" content="noindex" />
+|     <style type="text/css"><!--
+|     body {
+|     color: #444444;
+|     background-color: #EEEEEE;
+|     font-family: 'Trebuchet MS', sans-serif;
+|     font-size: 80%;
+|     font-size: 1.2em; }
+|     #page{
+|     background-color: #FFFFFF;
+|     width: 60%;
+|     margin: 24px auto;
+|     padding: 12px;
+|     #header{
+|     padding: 6px ;
+|_    text-align: cent
+4 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port80-TCP:V=7.92%I=7%D=3/12%Time=65F0315B%P=x86_64-alpine-linux-musl%r
+SF-Port80-TCP:V=7.92%I=7%D=7/17%Time=6697E3BB%P=x86_64-alpine-linux-musl%r
 SF:(GetRequest,5D,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\ncontent-len
 SF:gth:\x200\r\nlocation:\x20https:///\r\nconnection:\x20close\r\n\r\n")%r
 SF:(HTTPOptions,5D,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\ncontent-le
@@ -112,7 +141,7 @@ SF:nCache-Control:\x20no-cache\r\nConnection:\x20close\r\nContent-Type:\x2
 SF:0text/html\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x20b
 SF:rowser\x20sent\x20an\x20invalid\x20request\.\n</body></html>\n");
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=3/12%Time=65F03162%P=x86_64-alpine-linux
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=7/17%Time=6697E3C1%P=x86_64-alpine-linux
 SF:-musl%r(GetRequest,652,"HTTP/1\.0\x20503\x20Service\x20Unavailable\r\nc
 SF:ache-control:\x20no-cache\r\ncontent-type:\x20text/html\r\n\r\n<!DOCTYP
 SF:E\x20html\x20PUBLIC\x20\"-//W3C//DTD\x20XHTML\x201\.0\x20Transitional//
@@ -158,7 +187,7 @@ SF:;\n\x20\x20\x20\x20}\n\x20\x20\x20\x20#header{\n\x20\x20\x20\x20\x20\x2
 SF:0\x20\x20padding:\x206px\x20;\n\x20\x20\x20\x20\x20\x20\x20\x20text-ali
 SF:gn:\x20cent");
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port8080-TCP:V=7.92%I=7%D=3/12%Time=65F0315B%P=x86_64-alpine-linux-musl
+SF-Port8080-TCP:V=7.92%I=7%D=7/17%Time=6697E3BB%P=x86_64-alpine-linux-musl
 SF:%r(GetRequest,5D,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\ncontent-l
 SF:ength:\x200\r\nlocation:\x20https:///\r\nconnection:\x20close\r\n\r\n")
 SF:%r(HTTPOptions,5D,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\ncontent-
@@ -190,6 +219,52 @@ SF:estTCP,CF,"HTTP/1\.1\x20400\x20Bad\x20request\r\nContent-length:\x2090\
 SF:r\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\nContent-Type:\
 SF:x20text/html\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x2
 SF:0browser\x20sent\x20an\x20invalid\x20request\.\n</body></html>\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8443-TCP:V=7.92%T=SSL%I=7%D=7/17%Time=6697E3C1%P=x86_64-alpine-linu
+SF:x-musl%r(GetRequest,652,"HTTP/1\.0\x20503\x20Service\x20Unavailable\r\n
+SF:cache-control:\x20no-cache\r\ncontent-type:\x20text/html\r\n\r\n<!DOCTY
+SF:PE\x20html\x20PUBLIC\x20\"-//W3C//DTD\x20XHTML\x201\.0\x20Transitional/
+SF:/EN\"\n\x20\x20\x20\"http://www\.w3\.org/TR/xhtml1/DTD/xhtml1-transitio
+SF:nal\.dtd\">\n<html\x20xmlns=\"http://www\.w3\.org/1999/xhtml\"\x20xml:l
+SF:ang=\"en\"\x20lang=\"en\">\n<head>\n\x20\x20\x20\x20<title>Site\x20indi
+SF:sponible</title>\n\x20\x20\x20\x20<meta\x20http-equiv=\"Content-Type\"\
+SF:x20content=\"text/html;\x20charset=utf-8\"/>\n\x20\x20\x20\x20<link\x20
+SF:rel=\"shortcut\x20icon\"\x20href=\"/favicon\.ico\"\x20/>\n\x20\x20\x20\
+SF:x20<meta\x20name=\"robots\"\x20content=\"noindex\"\x20/>\n\x20\x20\x20\
+SF:x20\x20\x20\x20\x20<style\x20type=\"text/css\"><!--\n\x20\x20\x20\x20bo
+SF:dy\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#444444;\n\x20\x20\x
+SF:20\x20\x20\x20\x20\x20background-color:\x20#EEEEEE;\n\x20\x20\x20\x20\x
+SF:20\x20\x20\x20font-family:\x20'Trebuchet\x20MS',\x20sans-serif;\n\x20\x
+SF:20\x20\x20\x20\x20\x20\x20font-size:\x2080%;\n\x20\x20\x20\x20}\n\x20\x
+SF:20\x20\x20h1\x20{}\n\x20\x20\x20\x20h2\x20{\x20font-size:\x201\.2em;\x2
+SF:0}\n\x20\x20\x20\x20#page{\n\x20\x20\x20\x20\x20\x20\x20\x20background-
+SF:color:\x20#FFFFFF;\n\x20\x20\x20\x20\x20\x20\x20\x20width:\x2060%;\n\x2
+SF:0\x20\x20\x20\x20\x20\x20\x20margin:\x2024px\x20auto;\n\x20\x20\x20\x20
+SF:\x20\x20\x20\x20padding:\x2012px;\n\x20\x20\x20\x20}\n\x20\x20\x20\x20#
+SF:header{\n\x20\x20\x20\x20\x20\x20\x20\x20padding:\x206px\x20;\n\x20\x20
+SF:\x20\x20\x20\x20\x20\x20text-align:\x20cent")%r(HTTPOptions,652,"HTTP/1
+SF:\.0\x20503\x20Service\x20Unavailable\r\ncache-control:\x20no-cache\r\nc
+SF:ontent-type:\x20text/html\r\n\r\n<!DOCTYPE\x20html\x20PUBLIC\x20\"-//W3
+SF:C//DTD\x20XHTML\x201\.0\x20Transitional//EN\"\n\x20\x20\x20\"http://www
+SF:\.w3\.org/TR/xhtml1/DTD/xhtml1-transitional\.dtd\">\n<html\x20xmlns=\"h
+SF:ttp://www\.w3\.org/1999/xhtml\"\x20xml:lang=\"en\"\x20lang=\"en\">\n<he
+SF:ad>\n\x20\x20\x20\x20<title>Site\x20indisponible</title>\n\x20\x20\x20\
+SF:x20<meta\x20http-equiv=\"Content-Type\"\x20content=\"text/html;\x20char
+SF:set=utf-8\"/>\n\x20\x20\x20\x20<link\x20rel=\"shortcut\x20icon\"\x20hre
+SF:f=\"/favicon\.ico\"\x20/>\n\x20\x20\x20\x20<meta\x20name=\"robots\"\x20
+SF:content=\"noindex\"\x20/>\n\x20\x20\x20\x20\x20\x20\x20\x20<style\x20ty
+SF:pe=\"text/css\"><!--\n\x20\x20\x20\x20body\x20{\n\x20\x20\x20\x20\x20\x
+SF:20\x20\x20color:\x20#444444;\n\x20\x20\x20\x20\x20\x20\x20\x20backgroun
+SF:d-color:\x20#EEEEEE;\n\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20'
+SF:Trebuchet\x20MS',\x20sans-serif;\n\x20\x20\x20\x20\x20\x20\x20\x20font-
+SF:size:\x2080%;\n\x20\x20\x20\x20}\n\x20\x20\x20\x20h1\x20{}\n\x20\x20\x2
+SF:0\x20h2\x20{\x20font-size:\x201\.2em;\x20}\n\x20\x20\x20\x20#page{\n\x2
+SF:0\x20\x20\x20\x20\x20\x20\x20background-color:\x20#FFFFFF;\n\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20width:\x2060%;\n\x20\x20\x20\x20\x20\x20\x20\x20ma
+SF:rgin:\x2024px\x20auto;\n\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2012p
+SF:x;\n\x20\x20\x20\x20}\n\x20\x20\x20\x20#header{\n\x20\x20\x20\x20\x20\x
+SF:20\x20\x20padding:\x206px\x20;\n\x20\x20\x20\x20\x20\x20\x20\x20text-al
+SF:ign:\x20cent");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Tue Mar 12 10:42:09 2024 -- 1 IP address (1 host up) scanned in 53.54 seconds
+# Nmap done at Wed Jul 17 15:31:39 2024 -- 1 IP address (1 host up) scanned in 47.24 seconds
