@@ -146,25 +146,11 @@
               "finding"      : "TLSv1.2   x9f     DHE-RSA-AES256-GCM-SHA384         DH 2048    AESGCM      256      TLS_DHE_RSA_WITH_AES_256_GCM_SHA384"
           }
 ,         {
-              "id"           : "cipher-tls1_2_xc02f",
-              "ip"           : "observatoire-des-territoires.gouv.fr/217.115.162.98",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "TLSv1.2   xc02f   ECDHE-RSA-AES128-GCM-SHA256       ECDH 521   AESGCM      128      TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x9e",
-              "ip"           : "observatoire-des-territoires.gouv.fr/217.115.162.98",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "TLSv1.2   x9e     DHE-RSA-AES128-GCM-SHA256         DH 2048    AESGCM      128      TLS_DHE_RSA_WITH_AES_128_GCM_SHA256"
-          }
-,         {
               "id"           : "supportedciphers_TLSv1_2",
               "ip"           : "observatoire-des-territoires.gouv.fr/217.115.162.98",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "ECDHE-RSA-AES256-GCM-SHA384 DHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES128-GCM-SHA256 DHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "ECDHE-RSA-AES256-GCM-SHA384 DHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "cipher_order",
@@ -367,7 +353,7 @@
               "ip"           : "observatoire-des-territoires.gouv.fr/217.115.162.98",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "174 >= 60 days"
+              "finding"      : "146 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -528,7 +514,7 @@
               "ip"           : "observatoire-des-territoires.gouv.fr/217.115.162.98",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1721229933"
+              "finding"      : "1723638999"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1063,21 +1049,21 @@
               "ip"           : "observatoire-des-territoires.gouv.fr/217.115.162.98",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "90"
+              "finding"      : "100"
           }
 ,         {
               "id"           : "cipher_strength_score_weighted",
               "ip"           : "observatoire-des-territoires.gouv.fr/217.115.162.98",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "36"
+              "finding"      : "40"
           }
 ,         {
               "id"           : "final_score",
               "ip"           : "observatoire-des-territoires.gouv.fr/217.115.162.98",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "93"
+              "finding"      : "97"
           }
 ,         {
               "id"           : "overall_grade",
@@ -1091,6 +1077,6 @@
               "ip"           : "observatoire-des-territoires.gouv.fr/217.115.162.98",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "61"
+              "finding"      : "237"
           }
 ]
