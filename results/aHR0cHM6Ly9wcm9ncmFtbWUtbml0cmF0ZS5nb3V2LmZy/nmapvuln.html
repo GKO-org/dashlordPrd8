@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln programme-nitrate.gouv.fr</pre>
-<p class="lead">Wed Jul 17 16:06:29 2024 – Wed Jul 17 16:07:12 2024<br>1 hosts scanned.
+<p class="lead">Wed Aug 14 13:15:27 2024 – Wed Aug 14 13:16:14 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -123,8 +123,24 @@
 <a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   FourOhFourRequest: 
+    HTTP/1.1 403 Forbidden
+    Date: Wed, 14 Aug 2024 13:15:46 GMT
+    Content-Type: text/html
+    Content-Length: 13869
+    Connection: close
+    Vary: Accept-Encoding
+    WWW-Authenticate: Basic realm="Ecedi access restrictions"
+    cache-control: no-cache
+    &lt;!DOCTYPE html&gt;
+    &lt;html lang="en"&gt;
+    &lt;head&gt;
+    &lt;title&gt;CrowdSec Ban&lt;/title&gt;
+    &lt;meta content="text/html; charset=utf-8" /&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+    &lt;style&gt;/*! tailwindcss v3.2.7 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:""}html{-webkit-text-size-adjust:100%;font-feature-settings:normal;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;line-height:1.5;-moz-tab-size:4;-o-tab-
+  GetRequest: 
     HTTP/1.1 401 Unauthorized
-    Date: Wed, 17 Jul 2024 16:06:44 GMT
+    Date: Wed, 14 Aug 2024 13:15:44 GMT
     Content-Type: text/html
     Content-Length: 172
     Connection: close
@@ -136,9 +152,9 @@
     &lt;hr&gt;&lt;center&gt;nginx&lt;/center&gt;
     &lt;/body&gt;
     &lt;/html&gt;
-  GetRequest, HTTPOptions: 
+  HTTPOptions: 
     HTTP/1.1 401 Unauthorized
-    Date: Wed, 17 Jul 2024 16:06:43 GMT
+    Date: Wed, 14 Aug 2024 13:15:45 GMT
     Content-Type: text/html
     Content-Length: 172
     Connection: close
@@ -160,7 +176,7 @@
     &lt;/html&gt;
   X11Probe: 
     HTTP/1.1 400 Bad Request
-    Date: Wed, 17 Jul 2024 16:06:44 GMT
+    Date: Wed, 14 Aug 2024 13:15:45 GMT
     Content-Type: text/html
     Content-Length: 150
     Connection: close
