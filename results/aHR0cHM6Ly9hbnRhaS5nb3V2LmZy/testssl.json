@@ -325,7 +325,7 @@
               "ip"           : "antai.gouv.fr/90.102.74.9",
               "port"         : "443",
               "severity"     : "CRITICAL",
-              "finding"      : "Some certificate trust checks failed -> Java (self signed CA in chain) Apple (self signed CA in chain)  , OK -> Mozilla Microsoft Linux"
+              "finding"      : "Some certificate trust checks failed -> Apple (self signed CA in chain)  , OK -> Mozilla Microsoft Linux Java"
           }
 ,         {
               "id"           : "cert_certificatePolicies_EV",
@@ -339,7 +339,7 @@
               "ip"           : "antai.gouv.fr/90.102.74.9",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "208 >= 60 days"
+              "finding"      : "180 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -1098,6 +1098,6 @@
               "ip"           : "antai.gouv.fr/90.102.74.9",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "59"
+              "finding"      : "96"
           }
 ]
