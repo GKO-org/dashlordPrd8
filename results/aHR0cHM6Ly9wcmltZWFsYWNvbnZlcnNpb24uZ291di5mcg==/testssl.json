@@ -338,8 +338,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "primealaconversion.gouv.fr/217.109.233.87",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "67 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (36)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -352,7 +352,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "primealaconversion.gouv.fr/217.109.233.87",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2024-10-20 21:59"
           }
 ,         {
@@ -1049,6 +1049,6 @@
               "ip"           : "primealaconversion.gouv.fr/217.109.233.87",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "100"
+              "finding"      : "95"
           }
 ]
