@@ -338,8 +338,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "parcoursup.gouv.fr/45.60.74.33",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "87 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (56)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -352,7 +352,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "parcoursup.gouv.fr/45.60.74.33",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2024-11-10 08:36"
           }
 ,         {
