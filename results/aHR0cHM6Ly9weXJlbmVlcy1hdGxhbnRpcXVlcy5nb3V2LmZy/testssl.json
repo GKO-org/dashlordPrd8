@@ -338,8 +338,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "pyrenees-atlantiques.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "84 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (53)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -352,7 +352,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "pyrenees-atlantiques.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2024-11-06 22:59"
           }
 ,         {
@@ -500,7 +500,7 @@
               "ip"           : "pyrenees-atlantiques.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1723641596"
+              "finding"      : "1726319991"
           }
 ,         {
               "id"           : "HTTP_headerAge",
@@ -1063,6 +1063,6 @@
               "ip"           : "pyrenees-atlantiques.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "55"
+              "finding"      : "54"
           }
 ]
