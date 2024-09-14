@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln numerique.gouv.fr</pre>
-<p class="lead">Wed Aug 14 12:34:45 2024 – Wed Aug 14 12:35:02 2024<br>1 hosts scanned.
+<p class="lead">Sat Sep 14 12:33:35 2024 – Sat Sep 14 12:35:59 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -76,9 +76,9 @@
 </tr></thead>
 <tbody><tr>
 <td><span class="label label-success">up</span></td>
-<td>51.68.121.50</td>
+<td>46.105.198.61</td>
 <td>numerique.gouv.fr</td>
-<td>4</td>
+<td>2</td>
 <td>0</td>
 </tr></tbody>
 </table></div>
@@ -91,13 +91,10 @@
             });
           </script><h2 id="onlinehosts" class="target">Online Hosts</h2>
 <div class="panel panel-default">
-<div class="panel-heading clickable" data-toggle="collapse" data-target="#51-68-121-50"><h3 class="panel-title">51.68.121.50 - numerique.gouv.fr</h3></div>
-<div class="panel-body collapse in" id="51-68-121-50">
+<div class="panel-heading clickable" data-toggle="collapse" data-target="#46-105-198-61"><h3 class="panel-title">46.105.198.61 - numerique.gouv.fr</h3></div>
+<div class="panel-body collapse in" id="46-105-198-61">
 <h4>Hostnames</h4>
-<ul>
-<li>numerique.gouv.fr (user)</li>
-<li>50.ip-51-68-121.eu (PTR)</li>
-</ul>
+<ul><li>numerique.gouv.fr (user)</li></ul>
 <h4>Ports</h4>
 <div class="table-responsive"><table class="table table-bordered">
 <thead><tr>
@@ -111,71 +108,111 @@
 </tr></thead>
 <tbody>
 <tr class="success">
-<td title="Port">22</td>
-<td title="Protocol">tcp</td>
-<td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">ssh</td>
-<td title="Product">OpenSSH</td>
-<td title="Version">8.4p1 Debian 5+deb11u1</td>
-<td title="Extra Info">protocol 2.0</td>
-</tr>
-<tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:openbsd:openssh:8.4p1">cpe:/a:openbsd:openssh:8.4p1</a><h5>vulners</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">
-  cpe:/a:openbsd:openssh:8.4p1: 
-    	CVE-2023-38408	9.8	https://vulners.com/cve/CVE-2023-38408
-    	B8190CDB-3EB9-5631-9828-8064A1575B23	9.8	https://vulners.com/githubexploit/B8190CDB-3EB9-5631-9828-8064A1575B23	*EXPLOIT*
-    	8FC9C5AB-3968-5F3C-825E-E8DB5379A623	9.8	https://vulners.com/githubexploit/8FC9C5AB-3968-5F3C-825E-E8DB5379A623	*EXPLOIT*
-    	8AD01159-548E-546E-AA87-2DE89F3927EC	9.8	https://vulners.com/githubexploit/8AD01159-548E-546E-AA87-2DE89F3927EC	*EXPLOIT*
-    	5E6968B4-DBD6-57FA-BF6E-D9B2219DB27A	9.8	https://vulners.com/githubexploit/5E6968B4-DBD6-57FA-BF6E-D9B2219DB27A	*EXPLOIT*
-    	SSV:92579	7.5	https://vulners.com/seebug/SSV:92579	*EXPLOIT*
-    	PACKETSTORM:173661	7.5	https://vulners.com/packetstorm/PACKETSTORM:173661	*EXPLOIT*
-    	F0979183-AE88-53B4-86CF-3AF0523F3807	7.5	https://vulners.com/githubexploit/F0979183-AE88-53B4-86CF-3AF0523F3807	*EXPLOIT*
-    	1337DAY-ID-26576	7.5	https://vulners.com/zdt/1337DAY-ID-26576	*EXPLOIT*
-    	CVE-2021-28041	7.1	https://vulners.com/cve/CVE-2021-28041
-    	CVE-2021-41617	7.0	https://vulners.com/cve/CVE-2021-41617
-    	CVE-2023-51385	6.5	https://vulners.com/cve/CVE-2023-51385
-    	CVE-2023-48795	5.9	https://vulners.com/cve/CVE-2023-48795
-    	CVE-2020-14145	5.9	https://vulners.com/cve/CVE-2020-14145
-    	CVE-2016-20012	5.3	https://vulners.com/cve/CVE-2016-20012
-    	PACKETSTORM:140261	0.0	https://vulners.com/packetstorm/PACKETSTORM:140261	*EXPLOIT*</pre>
-</td></tr>
-<tr class="success">
 <td title="Port">80</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">http</td>
-<td title="Product">nginx</td>
-<td title="Version">1.18.0</td>
+<td title="Product"></td>
+<td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:igor_sysoev:nginx:1.18.0">cpe:/a:igor_sysoev:nginx:1.18.0</a><h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">nginx/1.18.0</pre>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  GetRequest: 
+    HTTP/1.1 400 Bad Request
+    date: Sat, 14 Sep 2024 12:33:46 GMT
+    x-cacheable: Not cacheable: not http 200
+    x-cdn-pop: bhs
+    x-cdn-pop-ip: 137.74.122.0/26
+    content-type: text/html; charset=utf-8
+    content-length: 28501
+    x-iplb-request-id: ACBE6FF0:79C1_2E69C63D:0050_66E582A4_28BD:1075
+    x-iplb-instance: 54459
+    connection: close
+    &lt;html&gt;
+    &lt;head&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"/&gt;
+    &lt;title&gt;Error: there is a problem...&lt;/title&gt;
+    &lt;style type="text/css"&gt;
+    font-family: 'lato', "Trebuchet MS", "Arial", "Lucida grande", "Bitstream Charter", "Liberation sans", "FreeSans", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #494949;
+    padding: 0;
+    margin: 0;
+    font-size: normal;
+    font-weight: 200;
+    @font-face {
+    font-family: 'lato';
+    src: url('http://www.ovh.com/fr/themes/14/f
+  HTTPOptions: 
+    HTTP/1.1 400 Bad Request
+    date: Sat, 14 Sep 2024 12:33:46 GMT
+    x-cacheable: Not cacheable: not http 200
+    x-cdn-pop: bhs
+    x-cdn-pop-ip: 137.74.122.0/26
+    content-type: text/html; charset=utf-8
+    content-length: 28501
+    x-iplb-request-id: ACBE6FF0:79C4_2E69C63D:0050_66E582AA_293B:1002
+    x-iplb-instance: 52529
+    connection: close
+    &lt;html&gt;
+    &lt;head&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"/&gt;
+    &lt;title&gt;Error: there is a problem...&lt;/title&gt;
+    &lt;style type="text/css"&gt;
+    font-family: 'lato', "Trebuchet MS", "Arial", "Lucida grande", "Bitstream Charter", "Liberation sans", "FreeSans", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #494949;
+    padding: 0;
+    margin: 0;
+    font-size: normal;
+    font-weight: 200;
+    @font-face {
+    font-family: 'lato';
+    src: url('http://www.ovh.com/fr/themes/14/f</pre>
 </td></tr>
 <tr class="success">
 <td title="Port">443</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">http</td>
-<td title="Product">nginx</td>
+<td title="Service">https</td>
+<td title="Product"></td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:igor_sysoev:nginx">cpe:/a:igor_sysoev:nginx</a><h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">nginx/1.18.0</pre>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  GetRequest, HTTPOptions: 
+    HTTP/1.1 400 Bad Request
+    Date: Sat, 14 Sep 2024 12:33:51 GMT
+    X-Cacheable: Not cacheable: not http 200
+    X-CDN-Pop: bhs
+    X-CDN-Pop-IP: 137.74.122.0/26
+    Content-Type: text/html; charset=utf-8
+    Content-Length: 28501
+    Connection: close
+    &lt;html&gt;
+    &lt;head&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"/&gt;
+    &lt;title&gt;Error: there is a problem...&lt;/title&gt;
+    &lt;style type="text/css"&gt;
+    font-family: 'lato', "Trebuchet MS", "Arial", "Lucida grande", "Bitstream Charter", "Liberation sans", "FreeSans", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #494949;
+    padding: 0;
+    margin: 0;
+    font-size: normal;
+    font-weight: 200;
+    @font-face {
+    font-family: 'lato';
+    src: url('http://www.ovh.com/fr/themes/14/fonts/lato/lato-regular-webfont.eot');
+    src: url('http://www.ovh.com/fr/themes/14/font</pre>
 </td></tr>
-<tr class="success">
-<td title="Port">3005</td>
-<td title="Protocol">tcp</td>
-<td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">http</td>
-<td title="Product">Node.js</td>
-<td title="Version"></td>
-<td title="Extra Info">Express middleware</td>
-</tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:nodejs:node.js">cpe:/a:nodejs:node.js</a></td></tr>
 </tbody>
 </table></div>
 </div>
@@ -194,44 +231,24 @@
 </tr></thead>
 <tbody>
 <tr>
-<td>51.68.121.50 - numerique.gouv.fr</td>
-<td>22</td>
-<td>tcp</td>
-<td>ssh</td>
-<td>OpenSSH</td>
-<td>8.4p1 Debian 5+deb11u1</td>
-<td>cpe:/a:openbsd:openssh:8.4p1</td>
-<td>protocol 2.0</td>
-</tr>
-<tr>
-<td>51.68.121.50 - numerique.gouv.fr</td>
+<td>46.105.198.61 - numerique.gouv.fr</td>
 <td>80</td>
 <td>tcp</td>
 <td>http</td>
-<td>nginx</td>
-<td>1.18.0</td>
-<td>cpe:/a:igor_sysoev:nginx:1.18.0</td>
+<td></td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr>
-<td>51.68.121.50 - numerique.gouv.fr</td>
+<td>46.105.198.61 - numerique.gouv.fr</td>
 <td>443</td>
 <td>tcp</td>
-<td>http</td>
-<td>nginx</td>
+<td>https</td>
 <td></td>
-<td>cpe:/a:igor_sysoev:nginx</td>
 <td></td>
-</tr>
-<tr>
-<td>51.68.121.50 - numerique.gouv.fr</td>
-<td>3005</td>
-<td>tcp</td>
-<td>http</td>
-<td>Node.js</td>
 <td></td>
-<td>cpe:/a:nodejs:node.js</td>
-<td>Express middleware</td>
+<td></td>
 </tr>
 </tbody>
 </table></div>
