@@ -339,7 +339,7 @@
               "ip"           : "portailpro.gouv.fr/145.242.17.12",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "363 >= 60 days"
+              "finding"      : "332 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -542,7 +542,7 @@
               "ip"           : "portailpro.gouv.fr/145.242.17.12",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1723640333"
+              "finding"      : "1726318696"
           }
 ,         {
               "id"           : "HSTS_multiple",
@@ -1147,6 +1147,6 @@
               "ip"           : "portailpro.gouv.fr/145.242.17.12",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "77"
+              "finding"      : "71"
           }
 ]
