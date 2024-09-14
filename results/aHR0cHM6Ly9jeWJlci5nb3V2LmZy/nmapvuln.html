@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cyber.gouv.fr</pre>
-<p class="lead">Wed Jul 17 16:06:21 2024 – Wed Jul 17 16:06:44 2024<br>1 hosts scanned.
+<p class="lead">Sat Sep 14 13:12:29 2024 – Sat Sep 14 13:13:18 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -76,7 +76,7 @@
 </tr></thead>
 <tbody><tr>
 <td><span class="label label-success">up</span></td>
-<td>193.70.123.152</td>
+<td>185.231.164.136</td>
 <td>cyber.gouv.fr</td>
 <td>2</td>
 <td>0</td>
@@ -91,13 +91,10 @@
             });
           </script><h2 id="onlinehosts" class="target">Online Hosts</h2>
 <div class="panel panel-default">
-<div class="panel-heading clickable" data-toggle="collapse" data-target="#193-70-123-152"><h3 class="panel-title">193.70.123.152 - cyber.gouv.fr</h3></div>
-<div class="panel-body collapse in" id="193-70-123-152">
+<div class="panel-heading clickable" data-toggle="collapse" data-target="#185-231-164-136"><h3 class="panel-title">185.231.164.136 - cyber.gouv.fr</h3></div>
+<div class="panel-body collapse in" id="185-231-164-136">
 <h4>Hostnames</h4>
-<ul>
-<li>cyber.gouv.fr (user)</li>
-<li>ip152.ip-193-70-123.eu (PTR)</li>
-</ul>
+<ul><li>cyber.gouv.fr (user)</li></ul>
 <h4>Ports</h4>
 <div class="table-responsive"><table class="table table-bordered">
 <thead><tr>
@@ -115,26 +112,122 @@
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">http</td>
-<td title="Product">Apache httpd</td>
+<td title="Product"></td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:apache:http_server">cpe:/a:apache:http_server</a><h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  FourOhFourRequest: 
+    HTTP/1.1 301 Moved Permanently
+    Date: Sat, 14 Sep 2024 13:12:48 GMT
+    Content-Type: text/html
+    Content-Length: 166
+    Connection: close
+    Location: https://cyber.gouv.fr/nice%20ports%2C/Tri%6Eity.txt%2ebak
+    &lt;html&gt;
+    &lt;head&gt;&lt;title&gt;301 Moved Permanently&lt;/title&gt;&lt;/head&gt;
+    &lt;body&gt;
+    &lt;center&gt;&lt;h1&gt;301 Moved Permanently&lt;/h1&gt;&lt;/center&gt;
+    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+  GetRequest, HTTPOptions: 
+    HTTP/1.1 301 Moved Permanently
+    Date: Sat, 14 Sep 2024 13:12:47 GMT
+    Content-Type: text/html
+    Content-Length: 166
+    Connection: close
+    Location: https://cyber.gouv.fr/
+    &lt;html&gt;
+    &lt;head&gt;&lt;title&gt;301 Moved Permanently&lt;/title&gt;&lt;/head&gt;
+    &lt;body&gt;
+    &lt;center&gt;&lt;h1&gt;301 Moved Permanently&lt;/h1&gt;&lt;/center&gt;
+    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+  RTSPRequest: 
+    HTTP/1.1 400 Bad Request
+    Date: Sat, 14 Sep 2024 13:12:47 GMT
+    Content-Type: text/html
+    Content-Length: 154
+    Connection: close
+    &lt;html&gt;
+    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;
+    &lt;body&gt;
+    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;
+    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+  X11Probe: 
+    HTTP/1.1 400 Bad Request
+    Date: Sat, 14 Sep 2024 13:12:48 GMT
+    Content-Type: text/html
+    Content-Length: 154
+    Connection: close
+    &lt;html&gt;
+    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;
+    &lt;body&gt;
+    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;
+    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;</pre>
 </td></tr>
 <tr class="success">
 <td title="Port">443</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">http</td>
-<td title="Product">Apache httpd</td>
+<td title="Service">https</td>
+<td title="Product"></td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:apache:http_server">cpe:/a:apache:http_server</a><h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  GetRequest: 
+    HTTP/1.1 200 OK
+    Date: Sat, 14 Sep 2024 13:12:53 GMT
+    Content-Type: text/html
+    Content-Length: 3880
+    Connection: close
+    Referrer-Policy: no-referrer
+    Cache-Control: no-cache
+    Strict-Transport-Security: max-age=63072000
+    X-Frame-Options: DENY
+    X-Content-Type-Options: nosniff
+    X-XSS-Protection: 1; mode=block
+    &lt;!doctypehtml&gt;&lt;meta name="viewport"content="width=device-width"&gt;&lt;meta charset="utf-8"&gt;&lt;script&gt;&lt;/script&gt;&lt;script&gt;var __blnChallengeStore={"unregisterServiceWorker":false,"checkChallengeParams":{"tracking_id":"","rule_id":"","bot_category":"unknown","request_fate":"challengejs"},"cookie":{"maxAge":900,"path":"/","name":"bln_challengejs","value":"oHNyRfQSv7DEd1Y2FV-uz2GtGESTAZM5IrC4Jbb2eBQvd8LV9IPALjsO15STD80tElphhjRF4mEaxSiUhtR6JOvYNgxxXpjSFsV9CzQqOyc"},"domain":".cyber.gouv.fr"};(()=&gt;{"use strict";const e=function*({domain:e,maxAge:n,name:o,path:a,secure:t,value:i}){yield`${o}=${i}`,
+  HTTPOptions: 
+    HTTP/1.1 500 Internal Server Error
+    Date: Sat, 14 Sep 2024 13:12:54 GMT
+    Content-Type: text/html
+    Content-Length: 8295
+    Connection: close
+    ETag: "66d086dd-2067"
+    X-Varnish: 1175
+    Age: 0
+    Strict-Transport-Security: max-age=63072000
+    X-Frame-Options: DENY
+    X-Content-Type-Options: nosniff
+    Referrer-Policy: origin-when-cross-origin
+    X-XSS-Protection: 1; mode=block
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+    &lt;head&gt;
+    &lt;title&gt;Baleen - Error Page&lt;/title&gt;
+    &lt;meta content="width=device-width" name="viewport"/&gt;
+    &lt;meta charset="utf-8"/&gt;
+    &lt;link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&amp;display=swap"
+    rel="stylesheet"
+    &lt;link href="/.well-known/baleen/error-pages-out/assets/style.css" rel="stylesheet"/&gt;
+    &lt;script&gt;import('/.well-known/baleen/error-pages-out/scripts/tracking.js')&lt;/script&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    &lt;div&gt;
+    class="error-title"&gt;Error 500&lt;/h1&gt;</pre>
 </td></tr>
 </tbody>
 </table></div>
@@ -154,23 +247,23 @@
 </tr></thead>
 <tbody>
 <tr>
-<td>193.70.123.152 - cyber.gouv.fr</td>
+<td>185.231.164.136 - cyber.gouv.fr</td>
 <td>80</td>
 <td>tcp</td>
 <td>http</td>
-<td>Apache httpd</td>
 <td></td>
-<td>cpe:/a:apache:http_server</td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr>
-<td>193.70.123.152 - cyber.gouv.fr</td>
+<td>185.231.164.136 - cyber.gouv.fr</td>
 <td>443</td>
 <td>tcp</td>
-<td>http</td>
-<td>Apache httpd</td>
+<td>https</td>
 <td></td>
-<td>cpe:/a:apache:http_server</td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 </tbody>
