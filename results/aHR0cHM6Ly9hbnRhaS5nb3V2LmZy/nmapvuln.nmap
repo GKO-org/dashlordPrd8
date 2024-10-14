@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Sat Sep 14 13:02:50 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln antai.gouv.fr
+# Nmap 7.92 scan initiated Mon Oct 14 13:06:37 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln antai.gouv.fr
 Nmap scan report for antai.gouv.fr (90.102.74.9)
-Host is up (0.090s latency).
+Host is up (0.088s latency).
 Not shown: 998 filtered tcp ports (no-response)
 PORT    STATE SERVICE    VERSION
 80/tcp  open  http-proxy F5 BIG-IP load balancer http proxy
@@ -10,12 +10,12 @@ PORT    STATE SERVICE    VERSION
 | fingerprint-strings: 
 |   FourOhFourRequest: 
 |     HTTP/1.1 404 Not Found
-|     Date: Sat, 14 Sep 2024 13:03:11 GMT
+|     Date: Mon, 14 Oct 2024 13:06:58 GMT
 |     X-Frame-Options: DENY
-|     Last-Modified: Wed, 14 Aug 2024 12:13:32 GMT
-|     ETag: "e229-61fa3a795b300"
+|     Last-Modified: Mon, 07 Oct 2024 14:15:45 GMT
+|     ETag: "e8f8-623e3a818a640"
 |     Accept-Ranges: bytes
-|     Content-Length: 57897
+|     Content-Length: 59640
 |     X-XSS-Protection: 1; mode=block
 |     Connection: close
 |     Content-Type: text/html; charset=UTF-8
@@ -23,12 +23,12 @@ PORT    STATE SERVICE    VERSION
 |     <html lang="fr" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="utf-8"><link rel="canonical" href="https://www.antai.gouv.fr/page-introuvable"><meta name="MobileOptimized" content="width"><meta name="HandheldFriendly" content="true"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="icon" href="/themes/open_antai_swa/favicon.ico" type="image/vnd.microsoft.icon"><link rel="alternate" hreflang="fr" href="https://www.antai.gouv.fr/page-introuvable"><link rel="alternate" hreflang="en" href="https://www.ant
 |   GetRequest: 
 |     HTTP/1.1 200 OK
-|     Date: Sat, 14 Sep 2024 13:03:10 GMT
+|     Date: Mon, 14 Oct 2024 13:06:57 GMT
 |     X-Frame-Options: DENY
-|     Last-Modified: Wed, 14 Aug 2024 12:13:01 GMT
-|     ETag: "126de-61fa3a5bcad40"
+|     Last-Modified: Mon, 07 Oct 2024 14:15:11 GMT
+|     ETag: "12dad-623e3a611d9c0"
 |     Accept-Ranges: bytes
-|     Content-Length: 75486
+|     Content-Length: 77229
 |     X-XSS-Protection: 1; mode=block
 |     Connection: close
 |     Content-Type: text/html; charset=UTF-8
@@ -36,7 +36,7 @@ PORT    STATE SERVICE    VERSION
 |     <html lang="fr" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="utf-8"><link rel="canonical" href="https://www.antai.gouv.fr/"><meta name="MobileOptimized" content="width"><meta name="HandheldFriendly" content="true"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="icon" href="/themes/open_antai_swa/favicon.ico" type="image/vnd.microsoft.icon"><title>ANTAI : Agence nationale de traitement automatis&eacute; des infractions | ANTAI.gouv.fr</title><link rel="stylesheet" media="all" href="/sites/default/files/
 |   HTTPOptions: 
 |     HTTP/1.1 200 OK
-|     Date: Sat, 14 Sep 2024 13:03:11 GMT
+|     Date: Mon, 14 Oct 2024 13:06:58 GMT
 |     X-Frame-Options: DENY
 |     Allow: GET,HEAD,POST,OPTIONS
 |     X-XSS-Protection: 1; mode=block
@@ -44,46 +44,46 @@ PORT    STATE SERVICE    VERSION
 |     Connection: close
 |_    Content-Type: text/html; charset=UTF-8
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=9/14%Time=66E5898E%P=x86_64-alpine-linux
-SF:-musl%r(GetRequest,3D4C,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Sat,\x2014\
-SF:x20Sep\x202024\x2013:03:10\x20GMT\r\nX-Frame-Options:\x20DENY\r\nLast-M
-SF:odified:\x20Wed,\x2014\x20Aug\x202024\x2012:13:01\x20GMT\r\nETag:\x20\"
-SF:126de-61fa3a5bcad40\"\r\nAccept-Ranges:\x20bytes\r\nContent-Length:\x20
-SF:75486\r\nX-XSS-Protection:\x201;\x20mode=block\r\nConnection:\x20close\
-SF:r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\n\r\n<!DOCTYPE\x20htm
-SF:l>\n<html\x20lang=\"fr\"\x20dir=\"ltr\"><head><meta\x20http-equiv=\"Con
-SF:tent-Type\"\x20content=\"text/html;\x20charset=UTF-8\"><meta\x20charset
-SF:=\"utf-8\"><link\x20rel=\"canonical\"\x20href=\"https://www\.antai\.gou
-SF:v\.fr/\"><meta\x20name=\"MobileOptimized\"\x20content=\"width\"><meta\x
-SF:20name=\"HandheldFriendly\"\x20content=\"true\"><meta\x20name=\"viewpor
-SF:t\"\x20content=\"width=device-width,\x20initial-scale=1\.0\"><link\x20r
-SF:el=\"icon\"\x20href=\"/themes/open_antai_swa/favicon\.ico\"\x20type=\"i
-SF:mage/vnd\.microsoft\.icon\"><title>ANTAI\x20:\x20Agence\x20nationale\x2
-SF:0de\x20traitement\x20automatis&eacute;\x20des\x20infractions\x20\|\x20A
-SF:NTAI\.gouv\.fr</title><link\x20rel=\"stylesheet\"\x20media=\"all\"\x20h
-SF:ref=\"/sites/default/files/")%r(HTTPOptions,DC,"HTTP/1\.1\x20200\x20OK\
-SF:r\nDate:\x20Sat,\x2014\x20Sep\x202024\x2013:03:11\x20GMT\r\nX-Frame-Opt
-SF:ions:\x20DENY\r\nAllow:\x20GET,HEAD,POST,OPTIONS\r\nX-XSS-Protection:\x
-SF:201;\x20mode=block\r\nContent-Length:\x200\r\nConnection:\x20close\r\nC
-SF:ontent-Type:\x20text/html;\x20charset=UTF-8\r\n\r\n")%r(FourOhFourReque
-SF:st,1640,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Sat,\x2014\x20Sep
-SF:\x202024\x2013:03:11\x20GMT\r\nX-Frame-Options:\x20DENY\r\nLast-Modifie
-SF:d:\x20Wed,\x2014\x20Aug\x202024\x2012:13:32\x20GMT\r\nETag:\x20\"e229-6
-SF:1fa3a795b300\"\r\nAccept-Ranges:\x20bytes\r\nContent-Length:\x2057897\r
-SF:\nX-XSS-Protection:\x201;\x20mode=block\r\nConnection:\x20close\r\nCont
-SF:ent-Type:\x20text/html;\x20charset=UTF-8\r\n\r\n<!DOCTYPE\x20html>\n<ht
-SF:ml\x20lang=\"fr\"\x20dir=\"ltr\"><head><meta\x20http-equiv=\"Content-Ty
-SF:pe\"\x20content=\"text/html;\x20charset=UTF-8\"><meta\x20charset=\"utf-
-SF:8\"><link\x20rel=\"canonical\"\x20href=\"https://www\.antai\.gouv\.fr/p
-SF:age-introuvable\"><meta\x20name=\"MobileOptimized\"\x20content=\"width\
-SF:"><meta\x20name=\"HandheldFriendly\"\x20content=\"true\"><meta\x20name=
-SF:\"viewport\"\x20content=\"width=device-width,\x20initial-scale=1\.0\"><
-SF:link\x20rel=\"icon\"\x20href=\"/themes/open_antai_swa/favicon\.ico\"\x2
-SF:0type=\"image/vnd\.microsoft\.icon\"><link\x20rel=\"alternate\"\x20href
-SF:lang=\"fr\"\x20href=\"https://www\.antai\.gouv\.fr/page-introuvable\"><
-SF:link\x20rel=\"alternate\"\x20hreflang=\"en\"\x20href=\"https://www\.ant
-SF:");
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=10/14%Time=670D1772%P=x86_64-alpine-linu
+SF:x-musl%r(GetRequest,37B8,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Mon,\x2014
+SF:\x20Oct\x202024\x2013:06:57\x20GMT\r\nX-Frame-Options:\x20DENY\r\nLast-
+SF:Modified:\x20Mon,\x2007\x20Oct\x202024\x2014:15:11\x20GMT\r\nETag:\x20\
+SF:"12dad-623e3a611d9c0\"\r\nAccept-Ranges:\x20bytes\r\nContent-Length:\x2
+SF:077229\r\nX-XSS-Protection:\x201;\x20mode=block\r\nConnection:\x20close
+SF:\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\n\r\n<!DOCTYPE\x20ht
+SF:ml>\n<html\x20lang=\"fr\"\x20dir=\"ltr\"><head><meta\x20http-equiv=\"Co
+SF:ntent-Type\"\x20content=\"text/html;\x20charset=UTF-8\"><meta\x20charse
+SF:t=\"utf-8\"><link\x20rel=\"canonical\"\x20href=\"https://www\.antai\.go
+SF:uv\.fr/\"><meta\x20name=\"MobileOptimized\"\x20content=\"width\"><meta\
+SF:x20name=\"HandheldFriendly\"\x20content=\"true\"><meta\x20name=\"viewpo
+SF:rt\"\x20content=\"width=device-width,\x20initial-scale=1\.0\"><link\x20
+SF:rel=\"icon\"\x20href=\"/themes/open_antai_swa/favicon\.ico\"\x20type=\"
+SF:image/vnd\.microsoft\.icon\"><title>ANTAI\x20:\x20Agence\x20nationale\x
+SF:20de\x20traitement\x20automatis&eacute;\x20des\x20infractions\x20\|\x20
+SF:ANTAI\.gouv\.fr</title><link\x20rel=\"stylesheet\"\x20media=\"all\"\x20
+SF:href=\"/sites/default/files/")%r(HTTPOptions,DC,"HTTP/1\.1\x20200\x20OK
+SF:\r\nDate:\x20Mon,\x2014\x20Oct\x202024\x2013:06:58\x20GMT\r\nX-Frame-Op
+SF:tions:\x20DENY\r\nAllow:\x20GET,HEAD,POST,OPTIONS\r\nX-XSS-Protection:\
+SF:x201;\x20mode=block\r\nContent-Length:\x200\r\nConnection:\x20close\r\n
+SF:Content-Type:\x20text/html;\x20charset=UTF-8\r\n\r\n")%r(FourOhFourRequ
+SF:est,4000,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Mon,\x2014\x20Oc
+SF:t\x202024\x2013:06:58\x20GMT\r\nX-Frame-Options:\x20DENY\r\nLast-Modifi
+SF:ed:\x20Mon,\x2007\x20Oct\x202024\x2014:15:45\x20GMT\r\nETag:\x20\"e8f8-
+SF:623e3a818a640\"\r\nAccept-Ranges:\x20bytes\r\nContent-Length:\x2059640\
+SF:r\nX-XSS-Protection:\x201;\x20mode=block\r\nConnection:\x20close\r\nCon
+SF:tent-Type:\x20text/html;\x20charset=UTF-8\r\n\r\n<!DOCTYPE\x20html>\n<h
+SF:tml\x20lang=\"fr\"\x20dir=\"ltr\"><head><meta\x20http-equiv=\"Content-T
+SF:ype\"\x20content=\"text/html;\x20charset=UTF-8\"><meta\x20charset=\"utf
+SF:-8\"><link\x20rel=\"canonical\"\x20href=\"https://www\.antai\.gouv\.fr/
+SF:page-introuvable\"><meta\x20name=\"MobileOptimized\"\x20content=\"width
+SF:\"><meta\x20name=\"HandheldFriendly\"\x20content=\"true\"><meta\x20name
+SF:=\"viewport\"\x20content=\"width=device-width,\x20initial-scale=1\.0\">
+SF:<link\x20rel=\"icon\"\x20href=\"/themes/open_antai_swa/favicon\.ico\"\x
+SF:20type=\"image/vnd\.microsoft\.icon\"><link\x20rel=\"alternate\"\x20hre
+SF:flang=\"fr\"\x20href=\"https://www\.antai\.gouv\.fr/page-introuvable\">
+SF:<link\x20rel=\"alternate\"\x20hreflang=\"en\"\x20href=\"https://www\.an
+SF:t");
 Service Info: Device: load balancer
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sat Sep 14 13:05:20 2024 -- 1 IP address (1 host up) scanned in 150.31 seconds
+# Nmap done at Mon Oct 14 13:09:07 2024 -- 1 IP address (1 host up) scanned in 150.37 seconds
