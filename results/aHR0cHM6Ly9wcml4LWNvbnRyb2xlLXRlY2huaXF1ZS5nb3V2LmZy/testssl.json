@@ -338,8 +338,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "prix-controle-technique.gouv.fr/185.24.187.247",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "expires < 60 days (57)"
+              "severity"     : "HIGH",
+              "finding"      : "expires < 30 days (27)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -352,7 +352,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "prix-controle-technique.gouv.fr/185.24.187.247",
               "port"         : "443",
-              "severity"     : "MEDIUM",
+              "severity"     : "HIGH",
               "finding"      : "2024-11-10 22:59"
           }
 ,         {
@@ -535,14 +535,14 @@
               "ip"           : "prix-controle-technique.gouv.fr/185.24.187.247",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "prix-controle-technique.gouv.fr/185.24.187.247",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1726319267"
+              "finding"      : "1728911565"
           }
 ,         {
               "id"           : "HSTS",
@@ -1119,6 +1119,6 @@
               "ip"           : "prix-controle-technique.gouv.fr/185.24.187.247",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "83"
+              "finding"      : "163"
           }
 ]
