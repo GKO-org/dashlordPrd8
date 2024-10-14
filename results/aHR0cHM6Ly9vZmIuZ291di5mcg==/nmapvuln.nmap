@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Sat Sep 14 12:38:27 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln ofb.gouv.fr
+# Nmap 7.92 scan initiated Mon Oct 14 12:42:17 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln ofb.gouv.fr
 Nmap scan report for ofb.gouv.fr (83.118.214.134)
-Host is up (0.13s latency).
+Host is up (0.10s latency).
 rDNS record for 83.118.214.134: 134.214.118.83.in-addr.arpa.celeste.fr
 Not shown: 994 filtered tcp ports (no-response)
 PORT     STATE  SERVICE       VERSION
@@ -58,7 +58,7 @@ PORT     STATE  SERVICE       VERSION
 |_    text-align: cent
 8080/tcp open   http-proxy
 | fingerprint-strings: 
-|   DNSVersionBindReqTCP, Help, RPCCheck, RTSPRequest, Socks4, Socks5: 
+|   DNSStatusRequestTCP, DNSVersionBindReqTCP, RPCCheck, RTSPRequest, Socks4, Socks5: 
 |     HTTP/1.1 400 Bad request
 |     Content-length: 90
 |     Cache-Control: no-cache
@@ -108,119 +108,40 @@ PORT     STATE  SERVICE       VERSION
 |_    text-align: cent
 4 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port80-TCP:V=7.92%I=7%D=9/14%Time=66E583D6%P=x86_64-alpine-linux-musl%r
-SF:(GetRequest,5D,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\ncontent-len
-SF:gth:\x200\r\nlocation:\x20https:///\r\nconnection:\x20close\r\n\r\n")%r
-SF:(HTTPOptions,5D,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\ncontent-le
+SF-Port80-TCP:V=7.92%I=7%D=10/14%Time=670D11BD%P=x86_64-alpine-linux-musl%
+SF:r(GetRequest,5D,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\ncontent-le
 SF:ngth:\x200\r\nlocation:\x20https:///\r\nconnection:\x20close\r\n\r\n")%
-SF:r(RTSPRequest,CF,"HTTP/1\.1\x20400\x20Bad\x20request\r\nContent-length:
-SF:\x2090\r\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\nContent
-SF:-Type:\x20text/html\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\n
-SF:Your\x20browser\x20sent\x20an\x20invalid\x20request\.\n</body></html>\n
-SF:")%r(X11Probe,CF,"HTTP/1\.1\x20400\x20Bad\x20request\r\nContent-length:
-SF:\x2090\r\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\nContent
-SF:-Type:\x20text/html\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\n
-SF:Your\x20browser\x20sent\x20an\x20invalid\x20request\.\n</body></html>\n
-SF:")%r(FourOhFourRequest,80,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\n
-SF:content-length:\x200\r\nlocation:\x20https:///nice%20ports%2C/Tri%6Eity
-SF:\.txt%2ebak\r\nconnection:\x20close\r\n\r\n")%r(RPCCheck,CF,"HTTP/1\.1\
-SF:x20400\x20Bad\x20request\r\nContent-length:\x2090\r\nCache-Control:\x20
-SF:no-cache\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\n\r\n<
-SF:html><body><h1>400\x20Bad\x20request</h1>\nYour\x20browser\x20sent\x20a
-SF:n\x20invalid\x20request\.\n</body></html>\n")%r(DNSVersionBindReqTCP,CF
-SF:,"HTTP/1\.1\x20400\x20Bad\x20request\r\nContent-length:\x2090\r\nCache-
-SF:Control:\x20no-cache\r\nConnection:\x20close\r\nContent-Type:\x20text/h
-SF:tml\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x20browser\
-SF:x20sent\x20an\x20invalid\x20request\.\n</body></html>\n")%r(DNSStatusRe
-SF:questTCP,CF,"HTTP/1\.1\x20400\x20Bad\x20request\r\nContent-length:\x209
-SF:0\r\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\nContent-Type
-SF::\x20text/html\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\
-SF:x20browser\x20sent\x20an\x20invalid\x20request\.\n</body></html>\n")%r(
-SF:Help,CF,"HTTP/1\.1\x20400\x20Bad\x20request\r\nContent-length:\x2090\r\
-SF:nCache-Control:\x20no-cache\r\nConnection:\x20close\r\nContent-Type:\x2
-SF:0text/html\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x20b
-SF:rowser\x20sent\x20an\x20invalid\x20request\.\n</body></html>\n");
-==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=9/14%Time=66E583DD%P=x86_64-alpine-linux
-SF:-musl%r(GetRequest,652,"HTTP/1\.0\x20503\x20Service\x20Unavailable\r\nc
-SF:ache-control:\x20no-cache\r\ncontent-type:\x20text/html\r\n\r\n<!DOCTYP
-SF:E\x20html\x20PUBLIC\x20\"-//W3C//DTD\x20XHTML\x201\.0\x20Transitional//
-SF:EN\"\n\x20\x20\x20\"http://www\.w3\.org/TR/xhtml1/DTD/xhtml1-transition
-SF:al\.dtd\">\n<html\x20xmlns=\"http://www\.w3\.org/1999/xhtml\"\x20xml:la
-SF:ng=\"en\"\x20lang=\"en\">\n<head>\n\x20\x20\x20\x20<title>Site\x20indis
-SF:ponible</title>\n\x20\x20\x20\x20<meta\x20http-equiv=\"Content-Type\"\x
-SF:20content=\"text/html;\x20charset=utf-8\"/>\n\x20\x20\x20\x20<link\x20r
-SF:el=\"shortcut\x20icon\"\x20href=\"/favicon\.ico\"\x20/>\n\x20\x20\x20\x
-SF:20<meta\x20name=\"robots\"\x20content=\"noindex\"\x20/>\n\x20\x20\x20\x
-SF:20\x20\x20\x20\x20<style\x20type=\"text/css\"><!--\n\x20\x20\x20\x20bod
-SF:y\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#444444;\n\x20\x20\x2
-SF:0\x20\x20\x20\x20\x20background-color:\x20#EEEEEE;\n\x20\x20\x20\x20\x2
-SF:0\x20\x20\x20font-family:\x20'Trebuchet\x20MS',\x20sans-serif;\n\x20\x2
-SF:0\x20\x20\x20\x20\x20\x20font-size:\x2080%;\n\x20\x20\x20\x20}\n\x20\x2
-SF:0\x20\x20h1\x20{}\n\x20\x20\x20\x20h2\x20{\x20font-size:\x201\.2em;\x20
-SF:}\n\x20\x20\x20\x20#page{\n\x20\x20\x20\x20\x20\x20\x20\x20background-c
-SF:olor:\x20#FFFFFF;\n\x20\x20\x20\x20\x20\x20\x20\x20width:\x2060%;\n\x20
-SF:\x20\x20\x20\x20\x20\x20\x20margin:\x2024px\x20auto;\n\x20\x20\x20\x20\
-SF:x20\x20\x20\x20padding:\x2012px;\n\x20\x20\x20\x20}\n\x20\x20\x20\x20#h
-SF:eader{\n\x20\x20\x20\x20\x20\x20\x20\x20padding:\x206px\x20;\n\x20\x20\
-SF:x20\x20\x20\x20\x20\x20text-align:\x20cent")%r(HTTPOptions,652,"HTTP/1\
-SF:.0\x20503\x20Service\x20Unavailable\r\ncache-control:\x20no-cache\r\nco
-SF:ntent-type:\x20text/html\r\n\r\n<!DOCTYPE\x20html\x20PUBLIC\x20\"-//W3C
-SF://DTD\x20XHTML\x201\.0\x20Transitional//EN\"\n\x20\x20\x20\"http://www\
-SF:.w3\.org/TR/xhtml1/DTD/xhtml1-transitional\.dtd\">\n<html\x20xmlns=\"ht
-SF:tp://www\.w3\.org/1999/xhtml\"\x20xml:lang=\"en\"\x20lang=\"en\">\n<hea
-SF:d>\n\x20\x20\x20\x20<title>Site\x20indisponible</title>\n\x20\x20\x20\x
-SF:20<meta\x20http-equiv=\"Content-Type\"\x20content=\"text/html;\x20chars
-SF:et=utf-8\"/>\n\x20\x20\x20\x20<link\x20rel=\"shortcut\x20icon\"\x20href
-SF:=\"/favicon\.ico\"\x20/>\n\x20\x20\x20\x20<meta\x20name=\"robots\"\x20c
-SF:ontent=\"noindex\"\x20/>\n\x20\x20\x20\x20\x20\x20\x20\x20<style\x20typ
-SF:e=\"text/css\"><!--\n\x20\x20\x20\x20body\x20{\n\x20\x20\x20\x20\x20\x2
-SF:0\x20\x20color:\x20#444444;\n\x20\x20\x20\x20\x20\x20\x20\x20background
-SF:-color:\x20#EEEEEE;\n\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20'T
-SF:rebuchet\x20MS',\x20sans-serif;\n\x20\x20\x20\x20\x20\x20\x20\x20font-s
-SF:ize:\x2080%;\n\x20\x20\x20\x20}\n\x20\x20\x20\x20h1\x20{}\n\x20\x20\x20
-SF:\x20h2\x20{\x20font-size:\x201\.2em;\x20}\n\x20\x20\x20\x20#page{\n\x20
-SF:\x20\x20\x20\x20\x20\x20\x20background-color:\x20#FFFFFF;\n\x20\x20\x20
-SF:\x20\x20\x20\x20\x20width:\x2060%;\n\x20\x20\x20\x20\x20\x20\x20\x20mar
-SF:gin:\x2024px\x20auto;\n\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2012px
-SF:;\n\x20\x20\x20\x20}\n\x20\x20\x20\x20#header{\n\x20\x20\x20\x20\x20\x2
-SF:0\x20\x20padding:\x206px\x20;\n\x20\x20\x20\x20\x20\x20\x20\x20text-ali
-SF:gn:\x20cent");
-==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port8080-TCP:V=7.92%I=7%D=9/14%Time=66E583D6%P=x86_64-alpine-linux-musl
-SF:%r(GetRequest,5D,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\ncontent-l
+SF:r(HTTPOptions,5D,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\ncontent-l
 SF:ength:\x200\r\nlocation:\x20https:///\r\nconnection:\x20close\r\n\r\n")
-SF:%r(HTTPOptions,5D,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\ncontent-
-SF:length:\x200\r\nlocation:\x20https:///\r\nconnection:\x20close\r\n\r\n"
-SF:)%r(RTSPRequest,CF,"HTTP/1\.1\x20400\x20Bad\x20request\r\nContent-lengt
-SF:h:\x2090\r\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\nConte
-SF:nt-Type:\x20text/html\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>
-SF:\nYour\x20browser\x20sent\x20an\x20invalid\x20request\.\n</body></html>
-SF:\n")%r(FourOhFourRequest,80,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r
-SF:\ncontent-length:\x200\r\nlocation:\x20https:///nice%20ports%2C/Tri%6Ei
-SF:ty\.txt%2ebak\r\nconnection:\x20close\r\n\r\n")%r(Socks5,CF,"HTTP/1\.1\
-SF:x20400\x20Bad\x20request\r\nContent-length:\x2090\r\nCache-Control:\x20
-SF:no-cache\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\n\r\n<
-SF:html><body><h1>400\x20Bad\x20request</h1>\nYour\x20browser\x20sent\x20a
-SF:n\x20invalid\x20request\.\n</body></html>\n")%r(Socks4,CF,"HTTP/1\.1\x2
-SF:0400\x20Bad\x20request\r\nContent-length:\x2090\r\nCache-Control:\x20no
-SF:-cache\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\n\r\n<ht
-SF:ml><body><h1>400\x20Bad\x20request</h1>\nYour\x20browser\x20sent\x20an\
-SF:x20invalid\x20request\.\n</body></html>\n")%r(RPCCheck,CF,"HTTP/1\.1\x2
-SF:0400\x20Bad\x20request\r\nContent-length:\x2090\r\nCache-Control:\x20no
-SF:-cache\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\n\r\n<ht
-SF:ml><body><h1>400\x20Bad\x20request</h1>\nYour\x20browser\x20sent\x20an\
-SF:x20invalid\x20request\.\n</body></html>\n")%r(DNSVersionBindReqTCP,CF,"
-SF:HTTP/1\.1\x20400\x20Bad\x20request\r\nContent-length:\x2090\r\nCache-Co
-SF:ntrol:\x20no-cache\r\nConnection:\x20close\r\nContent-Type:\x20text/htm
-SF:l\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x20browser\x2
-SF:0sent\x20an\x20invalid\x20request\.\n</body></html>\n")%r(Help,CF,"HTTP
-SF:/1\.1\x20400\x20Bad\x20request\r\nContent-length:\x2090\r\nCache-Contro
-SF:l:\x20no-cache\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\
-SF:n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x20browser\x20sen
-SF:t\x20an\x20invalid\x20request\.\n</body></html>\n");
+SF:%r(RTSPRequest,CF,"HTTP/1\.1\x20400\x20Bad\x20request\r\nContent-length
+SF::\x2090\r\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\nConten
+SF:t-Type:\x20text/html\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\
+SF:nYour\x20browser\x20sent\x20an\x20invalid\x20request\.\n</body></html>\
+SF:n")%r(X11Probe,CF,"HTTP/1\.1\x20400\x20Bad\x20request\r\nContent-length
+SF::\x2090\r\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\nConten
+SF:t-Type:\x20text/html\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\
+SF:nYour\x20browser\x20sent\x20an\x20invalid\x20request\.\n</body></html>\
+SF:n")%r(FourOhFourRequest,80,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\
+SF:ncontent-length:\x200\r\nlocation:\x20https:///nice%20ports%2C/Tri%6Eit
+SF:y\.txt%2ebak\r\nconnection:\x20close\r\n\r\n")%r(RPCCheck,CF,"HTTP/1\.1
+SF:\x20400\x20Bad\x20request\r\nContent-length:\x2090\r\nCache-Control:\x2
+SF:0no-cache\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\n\r\n
+SF:<html><body><h1>400\x20Bad\x20request</h1>\nYour\x20browser\x20sent\x20
+SF:an\x20invalid\x20request\.\n</body></html>\n")%r(DNSVersionBindReqTCP,C
+SF:F,"HTTP/1\.1\x20400\x20Bad\x20request\r\nContent-length:\x2090\r\nCache
+SF:-Control:\x20no-cache\r\nConnection:\x20close\r\nContent-Type:\x20text/
+SF:html\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x20browser
+SF:\x20sent\x20an\x20invalid\x20request\.\n</body></html>\n")%r(DNSStatusR
+SF:equestTCP,CF,"HTTP/1\.1\x20400\x20Bad\x20request\r\nContent-length:\x20
+SF:90\r\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\nContent-Typ
+SF:e:\x20text/html\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour
+SF:\x20browser\x20sent\x20an\x20invalid\x20request\.\n</body></html>\n")%r
+SF:(Help,CF,"HTTP/1\.1\x20400\x20Bad\x20request\r\nContent-length:\x2090\r
+SF:\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\nContent-Type:\x
+SF:20text/html\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x20
+SF:browser\x20sent\x20an\x20invalid\x20request\.\n</body></html>\n");
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port8443-TCP:V=7.92%T=SSL%I=7%D=9/14%Time=66E583DD%P=x86_64-alpine-linu
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=10/14%Time=670D11C3%P=x86_64-alpine-linu
 SF:x-musl%r(GetRequest,652,"HTTP/1\.0\x20503\x20Service\x20Unavailable\r\n
 SF:cache-control:\x20no-cache\r\ncontent-type:\x20text/html\r\n\r\n<!DOCTY
 SF:PE\x20html\x20PUBLIC\x20\"-//W3C//DTD\x20XHTML\x201\.0\x20Transitional/
@@ -265,6 +186,85 @@ SF:rgin:\x2024px\x20auto;\n\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2012p
 SF:x;\n\x20\x20\x20\x20}\n\x20\x20\x20\x20#header{\n\x20\x20\x20\x20\x20\x
 SF:20\x20\x20padding:\x206px\x20;\n\x20\x20\x20\x20\x20\x20\x20\x20text-al
 SF:ign:\x20cent");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8080-TCP:V=7.92%I=7%D=10/14%Time=670D11BD%P=x86_64-alpine-linux-mus
+SF:l%r(GetRequest,5D,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\ncontent-
+SF:length:\x200\r\nlocation:\x20https:///\r\nconnection:\x20close\r\n\r\n"
+SF:)%r(HTTPOptions,5D,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\ncontent
+SF:-length:\x200\r\nlocation:\x20https:///\r\nconnection:\x20close\r\n\r\n
+SF:")%r(RTSPRequest,CF,"HTTP/1\.1\x20400\x20Bad\x20request\r\nContent-leng
+SF:th:\x2090\r\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\nCont
+SF:ent-Type:\x20text/html\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1
+SF:>\nYour\x20browser\x20sent\x20an\x20invalid\x20request\.\n</body></html
+SF:>\n")%r(FourOhFourRequest,80,"HTTP/1\.1\x20301\x20Moved\x20Permanently\
+SF:r\ncontent-length:\x200\r\nlocation:\x20https:///nice%20ports%2C/Tri%6E
+SF:ity\.txt%2ebak\r\nconnection:\x20close\r\n\r\n")%r(Socks5,CF,"HTTP/1\.1
+SF:\x20400\x20Bad\x20request\r\nContent-length:\x2090\r\nCache-Control:\x2
+SF:0no-cache\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\n\r\n
+SF:<html><body><h1>400\x20Bad\x20request</h1>\nYour\x20browser\x20sent\x20
+SF:an\x20invalid\x20request\.\n</body></html>\n")%r(Socks4,CF,"HTTP/1\.1\x
+SF:20400\x20Bad\x20request\r\nContent-length:\x2090\r\nCache-Control:\x20n
+SF:o-cache\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\n\r\n<h
+SF:tml><body><h1>400\x20Bad\x20request</h1>\nYour\x20browser\x20sent\x20an
+SF:\x20invalid\x20request\.\n</body></html>\n")%r(RPCCheck,CF,"HTTP/1\.1\x
+SF:20400\x20Bad\x20request\r\nContent-length:\x2090\r\nCache-Control:\x20n
+SF:o-cache\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\n\r\n<h
+SF:tml><body><h1>400\x20Bad\x20request</h1>\nYour\x20browser\x20sent\x20an
+SF:\x20invalid\x20request\.\n</body></html>\n")%r(DNSVersionBindReqTCP,CF,
+SF:"HTTP/1\.1\x20400\x20Bad\x20request\r\nContent-length:\x2090\r\nCache-C
+SF:ontrol:\x20no-cache\r\nConnection:\x20close\r\nContent-Type:\x20text/ht
+SF:ml\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x20browser\x
+SF:20sent\x20an\x20invalid\x20request\.\n</body></html>\n")%r(DNSStatusReq
+SF:uestTCP,CF,"HTTP/1\.1\x20400\x20Bad\x20request\r\nContent-length:\x2090
+SF:\r\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\nContent-Type:
+SF:\x20text/html\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x
+SF:20browser\x20sent\x20an\x20invalid\x20request\.\n</body></html>\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8443-TCP:V=7.92%T=SSL%I=7%D=10/14%Time=670D11C3%P=x86_64-alpine-lin
+SF:ux-musl%r(GetRequest,652,"HTTP/1\.0\x20503\x20Service\x20Unavailable\r\
+SF:ncache-control:\x20no-cache\r\ncontent-type:\x20text/html\r\n\r\n<!DOCT
+SF:YPE\x20html\x20PUBLIC\x20\"-//W3C//DTD\x20XHTML\x201\.0\x20Transitional
+SF://EN\"\n\x20\x20\x20\"http://www\.w3\.org/TR/xhtml1/DTD/xhtml1-transiti
+SF:onal\.dtd\">\n<html\x20xmlns=\"http://www\.w3\.org/1999/xhtml\"\x20xml:
+SF:lang=\"en\"\x20lang=\"en\">\n<head>\n\x20\x20\x20\x20<title>Site\x20ind
+SF:isponible</title>\n\x20\x20\x20\x20<meta\x20http-equiv=\"Content-Type\"
+SF:\x20content=\"text/html;\x20charset=utf-8\"/>\n\x20\x20\x20\x20<link\x2
+SF:0rel=\"shortcut\x20icon\"\x20href=\"/favicon\.ico\"\x20/>\n\x20\x20\x20
+SF:\x20<meta\x20name=\"robots\"\x20content=\"noindex\"\x20/>\n\x20\x20\x20
+SF:\x20\x20\x20\x20\x20<style\x20type=\"text/css\"><!--\n\x20\x20\x20\x20b
+SF:ody\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#444444;\n\x20\x20\
+SF:x20\x20\x20\x20\x20\x20background-color:\x20#EEEEEE;\n\x20\x20\x20\x20\
+SF:x20\x20\x20\x20font-family:\x20'Trebuchet\x20MS',\x20sans-serif;\n\x20\
+SF:x20\x20\x20\x20\x20\x20\x20font-size:\x2080%;\n\x20\x20\x20\x20}\n\x20\
+SF:x20\x20\x20h1\x20{}\n\x20\x20\x20\x20h2\x20{\x20font-size:\x201\.2em;\x
+SF:20}\n\x20\x20\x20\x20#page{\n\x20\x20\x20\x20\x20\x20\x20\x20background
+SF:-color:\x20#FFFFFF;\n\x20\x20\x20\x20\x20\x20\x20\x20width:\x2060%;\n\x
+SF:20\x20\x20\x20\x20\x20\x20\x20margin:\x2024px\x20auto;\n\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20padding:\x2012px;\n\x20\x20\x20\x20}\n\x20\x20\x20\x20
+SF:#header{\n\x20\x20\x20\x20\x20\x20\x20\x20padding:\x206px\x20;\n\x20\x2
+SF:0\x20\x20\x20\x20\x20\x20text-align:\x20cent")%r(HTTPOptions,652,"HTTP/
+SF:1\.0\x20503\x20Service\x20Unavailable\r\ncache-control:\x20no-cache\r\n
+SF:content-type:\x20text/html\r\n\r\n<!DOCTYPE\x20html\x20PUBLIC\x20\"-//W
+SF:3C//DTD\x20XHTML\x201\.0\x20Transitional//EN\"\n\x20\x20\x20\"http://ww
+SF:w\.w3\.org/TR/xhtml1/DTD/xhtml1-transitional\.dtd\">\n<html\x20xmlns=\"
+SF:http://www\.w3\.org/1999/xhtml\"\x20xml:lang=\"en\"\x20lang=\"en\">\n<h
+SF:ead>\n\x20\x20\x20\x20<title>Site\x20indisponible</title>\n\x20\x20\x20
+SF:\x20<meta\x20http-equiv=\"Content-Type\"\x20content=\"text/html;\x20cha
+SF:rset=utf-8\"/>\n\x20\x20\x20\x20<link\x20rel=\"shortcut\x20icon\"\x20hr
+SF:ef=\"/favicon\.ico\"\x20/>\n\x20\x20\x20\x20<meta\x20name=\"robots\"\x2
+SF:0content=\"noindex\"\x20/>\n\x20\x20\x20\x20\x20\x20\x20\x20<style\x20t
+SF:ype=\"text/css\"><!--\n\x20\x20\x20\x20body\x20{\n\x20\x20\x20\x20\x20\
+SF:x20\x20\x20color:\x20#444444;\n\x20\x20\x20\x20\x20\x20\x20\x20backgrou
+SF:nd-color:\x20#EEEEEE;\n\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20
+SF:'Trebuchet\x20MS',\x20sans-serif;\n\x20\x20\x20\x20\x20\x20\x20\x20font
+SF:-size:\x2080%;\n\x20\x20\x20\x20}\n\x20\x20\x20\x20h1\x20{}\n\x20\x20\x
+SF:20\x20h2\x20{\x20font-size:\x201\.2em;\x20}\n\x20\x20\x20\x20#page{\n\x
+SF:20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#FFFFFF;\n\x20\x20\x
+SF:20\x20\x20\x20\x20\x20width:\x2060%;\n\x20\x20\x20\x20\x20\x20\x20\x20m
+SF:argin:\x2024px\x20auto;\n\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2012
+SF:px;\n\x20\x20\x20\x20}\n\x20\x20\x20\x20#header{\n\x20\x20\x20\x20\x20\
+SF:x20\x20\x20padding:\x206px\x20;\n\x20\x20\x20\x20\x20\x20\x20\x20text-a
+SF:lign:\x20cent");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sat Sep 14 12:39:17 2024 -- 1 IP address (1 host up) scanned in 49.94 seconds
+# Nmap done at Mon Oct 14 12:43:06 2024 -- 1 IP address (1 host up) scanned in 48.06 seconds
