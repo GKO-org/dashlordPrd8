@@ -178,7 +178,7 @@
               "ip"           : "www.nouvelles-chances.gouv.fr/213.91.3.170",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "'server name/#0' 'session ticket/#35' 'EC point formats/#11' 'renegotiation info/#65281' 'key share/#51' 'supported versions/#43' 'application layer protocol negotiation/#16'"
+              "finding"      : "'EC point formats/#11' 'session ticket/#35' 'server name/#0' 'renegotiation info/#65281' 'key share/#51' 'supported versions/#43' 'application layer protocol negotiation/#16'"
           }
 ,         {
               "id"           : "TLS_session_ticket",
@@ -345,8 +345,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "www.nouvelles-chances.gouv.fr/213.91.3.170",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "74 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (44)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -359,7 +359,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "www.nouvelles-chances.gouv.fr/213.91.3.170",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2024-11-27 23:59"
           }
 ,         {
@@ -549,14 +549,14 @@
               "ip"           : "www.nouvelles-chances.gouv.fr/213.91.3.170",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1726314583"
+              "finding"      : "1728907965"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "www.nouvelles-chances.gouv.fr/213.91.3.170",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2276 seconds"
+              "finding"      : "1197 seconds"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -627,7 +627,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "x-varnish: 41588845 37926289via: 1.1 varnish (Varnish/6.2)"
+              "finding"      : "x-varnish: 98306949 95189242via: 1.1 varnish (Varnish/6.2)"
           }
 ,         {
               "id"           : "heartbleed",
@@ -1133,6 +1133,6 @@
               "ip"           : "www.nouvelles-chances.gouv.fr/213.91.3.170",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "84"
+              "finding"      : "121"
           }
 ]
