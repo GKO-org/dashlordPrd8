@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cyber.gouv.fr</pre>
-<p class="lead">Mon Oct 14 13:15:01 2024 – Mon Oct 14 13:15:35 2024<br>1 hosts scanned.
+<p class="lead">Thu Nov 14 13:16:37 2024 – Thu Nov 14 13:17:12 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -121,7 +121,7 @@
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   FourOhFourRequest: 
     HTTP/1.1 301 Moved Permanently
-    Date: Mon, 14 Oct 2024 13:15:14 GMT
+    Date: Thu, 14 Nov 2024 13:16:51 GMT
     Content-Type: text/html
     Content-Length: 166
     Connection: close
@@ -133,9 +133,23 @@
     &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;
     &lt;/body&gt;
     &lt;/html&gt;
-  GetRequest, HTTPOptions: 
+  GetRequest: 
     HTTP/1.1 301 Moved Permanently
-    Date: Mon, 14 Oct 2024 13:15:14 GMT
+    Date: Thu, 14 Nov 2024 13:16:50 GMT
+    Content-Type: text/html
+    Content-Length: 166
+    Connection: close
+    Location: https://cyber.gouv.fr/
+    &lt;html&gt;
+    &lt;head&gt;&lt;title&gt;301 Moved Permanently&lt;/title&gt;&lt;/head&gt;
+    &lt;body&gt;
+    &lt;center&gt;&lt;h1&gt;301 Moved Permanently&lt;/h1&gt;&lt;/center&gt;
+    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+  HTTPOptions: 
+    HTTP/1.1 301 Moved Permanently
+    Date: Thu, 14 Nov 2024 13:16:51 GMT
     Content-Type: text/html
     Content-Length: 166
     Connection: close
@@ -149,7 +163,7 @@
     &lt;/html&gt;
   RTSPRequest, X11Probe: 
     HTTP/1.1 400 Bad Request
-    Date: Mon, 14 Oct 2024 13:15:14 GMT
+    Date: Thu, 14 Nov 2024 13:16:51 GMT
     Content-Type: text/html
     Content-Length: 154
     Connection: close
@@ -173,11 +187,11 @@
 <tr><td colspan="7">
 <a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
-  GetRequest: 
+  FourOhFourRequest: 
     HTTP/1.1 200 OK
-    Date: Mon, 14 Oct 2024 13:15:20 GMT
+    Date: Thu, 14 Nov 2024 13:16:57 GMT
     Content-Type: text/html
-    Content-Length: 3880
+    Content-Length: 3984
     Connection: close
     Referrer-Policy: no-referrer
     Cache-Control: no-cache
@@ -185,36 +199,41 @@
     X-Frame-Options: DENY
     X-Content-Type-Options: nosniff
     X-XSS-Protection: 1; mode=block
-    &lt;!doctypehtml&gt;&lt;meta name="viewport"content="width=device-width"&gt;&lt;meta charset="utf-8"&gt;&lt;script&gt;&lt;/script&gt;&lt;script&gt;var __blnChallengeStore={"unregisterServiceWorker":false,"checkChallengeParams":{"request_fate":"challengejs","rule_id":"","tracking_id":"","bot_category":"unknown"},"domain":".cyber.gouv.fr","cookie":{"maxAge":900,"name":"bln_challengejs","value":"Pp9XJJLdUZlSju64eqL7TmFTFZH_wDpU8S5wdbjp9LDIKu0EpjEy3dPzTh7-OYIf8f9ketC-94FcjTsmjvOQAT11Iz8_QazcXpf9PoVmzvs","path":"/"}};(()=&gt;{"use strict";const e=function*({domain:e,maxAge:n,name:o,path:a,secure:t,value:i}){yield`${o}=${i}`,
-  HTTPOptions: 
-    HTTP/1.1 500 Internal Server Error
-    Date: Mon, 14 Oct 2024 13:15:20 GMT
+    &lt;!doctypehtml&gt;&lt;meta name="viewport"content="width=device-width"&gt;&lt;meta charset="utf-8"&gt;&lt;script&gt;&lt;/script&gt;&lt;script&gt;var __blnChallengeStore={"cookie":{"path":"/","secure":true,"name":"bln_challengejs","value":"Pp9XJJLdUZlSju64eqL7TssxNz9RgJpqkQnrwyiHhn-pBcwMsQzyqfGEkARJcQNretpES2-aJF68ROPktFWkuobyig2mbmpTfkQZJFRR0KMxoS6ac7Gc1NGoDO0NHuHGiVSg9743ltTSCE6Gc5ZkaQ","maxAge":900,"sameSite":"None"},"unregisterServiceWorker":false,"domain":".cyber.gouv.fr","checkChallengeParams":{"request_fate":"challengejs","tracking_id":"","bot_category":"unknown","rule_id":""}};(()=&gt;{"use strict";const e=func
+  GetRequest: 
+    HTTP/1.1 200 OK
+    Date: Thu, 14 Nov 2024 13:16:57 GMT
     Content-Type: text/html
-    Content-Length: 8295
+    Content-Length: 3984
     Connection: close
-    ETag: "66d086dd-2067"
-    X-Varnish: 53732
+    Referrer-Policy: no-referrer
+    Cache-Control: no-cache
+    Strict-Transport-Security: max-age=63072000
+    X-Frame-Options: DENY
+    X-Content-Type-Options: nosniff
+    X-XSS-Protection: 1; mode=block
+    &lt;!doctypehtml&gt;&lt;meta name="viewport"content="width=device-width"&gt;&lt;meta charset="utf-8"&gt;&lt;script&gt;&lt;/script&gt;&lt;script&gt;var __blnChallengeStore={"cookie":{"maxAge":900,"value":"6FsiRrFL93m7u4Rt0EN5tV94U5PluoVbPxE_Ay5EWmpxq3_n34mSacty1DeKuJkqsJ63lqJbvJAHnSVRygU_6bynU0rylnSctsyDaKWkEXspWfNkqJstpSChoGUkGZtjWR4hic-d118064se6eBD5Q","secure":true,"sameSite":"None","name":"bln_challengejs","path":"/"},"unregisterServiceWorker":false,"domain":".cyber.gouv.fr","checkChallengeParams":{"rule_id":"","request_fate":"challengejs","bot_category":"unknown","tracking_id":""}};(()=&gt;{"use strict";const e=func
+  HTTPOptions: 
+    HTTP/1.1 500 Proxy Error
+    Date: Thu, 14 Nov 2024 13:16:57 GMT
+    Content-Type: text/html; charset=iso-8859-1
+    Content-Length: 273
+    Connection: close
+    X-Varnish: 23218547
+    X-Varnish: 615692
     Age: 0
     Strict-Transport-Security: max-age=63072000
     X-Frame-Options: DENY
     X-Content-Type-Options: nosniff
     Referrer-Policy: origin-when-cross-origin
     X-XSS-Protection: 1; mode=block
-    &lt;!DOCTYPE html&gt;
-    &lt;html&gt;
-    &lt;head&gt;
-    &lt;title&gt;Baleen - Error Page&lt;/title&gt;
-    &lt;meta content="width=device-width" name="viewport"/&gt;
-    &lt;meta charset="utf-8"/&gt;
-    &lt;link
-    href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&amp;display=swap"
-    rel="stylesheet"
-    &lt;link href="/.well-known/baleen/error-pages-out/assets/style.css" rel="stylesheet"/&gt;
-    &lt;script&gt;import('/.well-known/baleen/error-pages-out/scripts/tracking.js')&lt;/script&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-    &lt;div&gt;
-    class="error-title"&gt;Error 500&lt;/h1&gt;</pre>
+    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
+    &lt;html&gt;&lt;head&gt;
+    &lt;title&gt;500 Proxy Error&lt;/title&gt;
+    &lt;/head&gt;&lt;body&gt;
+    &lt;h1&gt;Proxy Error&lt;/h1&gt;
+    proxy server could not handle the request&lt;p&gt;Reason: &lt;strong&gt;Error during SSL Handshake with remote server&lt;/strong&gt;&lt;/p&gt;&lt;p /&gt;
+    &lt;/body&gt;&lt;/html&gt;</pre>
 </td></tr>
 </tbody>
 </table></div>
