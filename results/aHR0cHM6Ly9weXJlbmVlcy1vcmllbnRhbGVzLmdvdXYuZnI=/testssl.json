@@ -3,8 +3,8 @@
               "id"           : "service",
               "ip"           : "pyrenees-orientales.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "DEBUG",
-              "finding"      : "Couldn't determine service, skipping all HTTP checks"
+              "severity"     : "INFO",
+              "finding"      : "HTTP"
           }
 ,         {
               "id"           : "pre_128cipher",
@@ -262,7 +262,7 @@
               "ip"           : "pyrenees-orientales.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "41DA90C73DD6116EE4C5DDB8C855C622"
+              "finding"      : "8586E4B165B0725186F83934F80BA79D"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "pyrenees-orientales.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "799ED9AE74438A22AFB50C1FF55CEF52B498427D"
+              "finding"      : "BF28DA940445AD218951D8EFAF616A9E446F2CCD"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "pyrenees-orientales.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "9FEAD5D258EC13032B0C34B516FD9CDC67E5F627A4B3392D797FFD3EBD8A71A1"
+              "finding"      : "80FCA3FEB9DED7CD750744E2AE8B0350BF69E35D6C4D29948F86D679B6F7AE2C"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "pyrenees-orientales.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -338,22 +338,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "pyrenees-orientales.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (16)"
+              "severity"     : "OK",
+              "finding"      : "334 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "pyrenees-orientales.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-03-22 23:00"
+              "finding"      : "2024-10-14 22:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "pyrenees-orientales.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "2024-10-30 22:59"
+              "severity"     : "OK",
+              "finding"      : "2025-10-14 21:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -381,7 +381,7 @@
               "ip"           : "pyrenees-orientales.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://servicesca.ocsp.dhimyotis.com http://servicesca.ocsp.certigna.fr"
+              "finding"      : "http://servicesca.ocsp.certigna.fr http://servicesca.ocsp.dhimyotis.com"
           }
 ,         {
               "id"           : "OCSP_stapling",
@@ -482,6 +482,84 @@
               "finding"      : "intermediate certificate(s) is/are ok"
           }
 ,         {
+              "id"           : "HTTP_status_code",
+              "ip"           : "pyrenees-orientales.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "301 Moved Permanently ('/')"
+          }
+,         {
+              "id"           : "HTTP_clock_skew",
+              "ip"           : "pyrenees-orientales.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 seconds from localtime"
+          }
+,         {
+              "id"           : "HTTP_headerTime",
+              "ip"           : "pyrenees-orientales.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1731590778"
+          }
+,         {
+              "id"           : "HTTP_headerAge",
+              "ip"           : "pyrenees-orientales.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 seconds"
+          }
+,         {
+              "id"           : "HSTS",
+              "ip"           : "pyrenees-orientales.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "HPKP",
+              "ip"           : "pyrenees-orientales.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No support for HTTP Public Key Pinning"
+          }
+,         {
+              "id"           : "banner_server",
+              "ip"           : "pyrenees-orientales.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Apache"
+          }
+,         {
+              "id"           : "banner_application",
+              "ip"           : "pyrenees-orientales.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No application banner found"
+          }
+,         {
+              "id"           : "cookie_count",
+              "ip"           : "pyrenees-orientales.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 at '/' (30x detected, better try target URL of 30x)"
+          }
+,         {
+              "id"           : "Cache-Control",
+              "ip"           : "pyrenees-orientales.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "max-age=1"
+          }
+,         {
+              "id"           : "banner_reverseproxy",
+              "ip"           : "pyrenees-orientales.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-200",
+              "finding"      : "x-cache: Miss"
+          }
+,         {
               "id"           : "heartbleed",
               "ip"           : "pyrenees-orientales.gouv.fr/77.159.252.140",
               "port"         : "443",
@@ -503,10 +581,10 @@
               "id"           : "ticketbleed",
               "ip"           : "pyrenees-orientales.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "INFO",
+              "severity"     : "OK",
               "cve"          : "CVE-2016-9244",
               "cwe"          : "CWE-200",
-              "finding"      : "not applicable, not HTTP"
+              "finding"      : "no session ticket extension"
           }
 ,         {
               "id"           : "ROBOT",
@@ -541,7 +619,16 @@
               "severity"     : "OK",
               "cve"          : "CVE-2012-4929",
               "cwe"          : "CWE-310",
-              "finding"      : "not vulnerable (not using HTTP anyway)"
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "BREACH",
+              "ip"           : "pyrenees-orientales.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-3587",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no gzip/deflate/compress/br HTTP compression  - only supplied '/' tested"
           }
 ,         {
               "id"           : "POODLE_SSL",
@@ -593,7 +680,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=9FEAD5D258EC13032B0C34B516FD9CDC67E5F627A4B3392D797FFD3EBD8A71A1"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=80FCA3FEB9DED7CD750744E2AE8B0350BF69E35D6C4D29948F86D679B6F7AE2C"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
@@ -962,13 +1049,20 @@
               "ip"           : "pyrenees-orientales.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "A+"
+              "finding"      : "A"
+          }
+,         {
+              "id"           : "grade_cap_reason_1",
+              "ip"           : "pyrenees-orientales.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to A. HSTS is not offered"
           }
 ,         {
               "id"           : "scanTime",
               "ip"           : "pyrenees-orientales.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "95"
+              "finding"      : "57"
           }
 ]
