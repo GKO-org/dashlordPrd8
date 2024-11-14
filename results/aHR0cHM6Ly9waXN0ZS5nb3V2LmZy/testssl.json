@@ -339,7 +339,7 @@
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "246 >= 60 days"
+              "finding"      : "215 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -542,7 +542,7 @@
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1728910910"
+              "finding"      : "1731589461"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1154,6 +1154,6 @@
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "61"
+              "finding"      : "105"
           }
 ]
