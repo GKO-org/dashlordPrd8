@@ -262,7 +262,7 @@
               "ip"           : "prix-controle-technique.gouv.fr/185.24.187.247",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "A881176C52F901A5EFBF06F8402DAA04"
+              "finding"      : "AC3C00E6221E33EA95CF05D1A1E514E5"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "prix-controle-technique.gouv.fr/185.24.187.247",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "CCA4E1347970DBA38B49DDAF63ECF2EF123DFE39"
+              "finding"      : "97C694D2C1D5524F05FD6E362CC6BCCEA9475DAC"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "prix-controle-technique.gouv.fr/185.24.187.247",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "69AF728BBB23F4094F59F18E87D64374229D6C398387D79AE0D1099A08AB2968"
+              "finding"      : "398EE74F8426B7DA3D78F3EAE8D11DBB0D15ADA3C89D11C490C8B111E0EC2E30"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "prix-controle-technique.gouv.fr/185.24.187.247",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIIezCCBmOgAwIBAgIRAKiBF2xS+QGl778G+EAtqgQwDQYJKoZIhvcNAQELBQAwfTELMAkGA1UEBhMCRlIxEjAQBgNVBAoMCURISU1ZT1RJUzEcMBoGA1UECwwTMDAwMiA0ODE0NjMwODEwMDAzNjEdMBsGA1UEYQwUTlRSRlItNDgxNDYzMDgxMDAwMzYxHTAbBgNVBAMMFENlcnRpZ25hIFNlcnZpY2VzIENBMB4XDTI0MDMyMTIzMDAwMFoXDTI0MTExMDIyNTk1OVowgYUxCzAJBgNVBAYTAkZSMQ4wDAYDVQQHDAVQQVJJUzE0MDIGA1UECgwrRElSIEdFTiBDT05DVVIgQ09OU09NIFJFUFJFUyBGUkFVREVTIERHQ0NSRjEbMBkGA1UEAwwScHJpeC5jb25zby5nb3V2LmZyMRMwEQYDVQQFEwpTMzA0MDUxODI1MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAukTjqAURQ5u9AmkFb76PElWpbXhuPtFK+2Mh3d3OQQGuK/FPhXb+9mxa8IC+HwaYy0vdIn7MreF0vQdrnU+I8QUdbM4Awla9l/P4sKPZhO7e+VkgDevvnDHa4HMxY++qModTzSFZlIAqQU56oEUkjU+VAT/x4I+WMQzXr5WWKs9qbeDkRNxF9qni8rI9DHnS18g7wnRcbs1kDHxT0keW+kRbE/YtvYZOUuMjKwP3XioDHSmcK768RXqkMoZBhdCwaPheDrKchF8m9+vfmslgXb3kbD7bVxeZ0VZW7BppuNWHrNCVOL/+UUAJ/5kDDI7/JZV5j5AdrsfpIHY3mQqoMQIDAQABo4ID6zCCA+cwgeQGCCsGAQUFBwEBBIHXMIHUMDYGCCsGAQUFBzAChipodHRwOi8vYXV0b3JpdGUuY2VydGlnbmEuZnIvc2VydmljZXNjYS5kZXIwOAYIKwYBBQUHMAKGLGh0dHA6Ly9hdXRvcml0ZS5kaGlteW90aXMuY29tL3NlcnZpY2VzY2EuZGVyMC4GCCsGAQUFBzABhiJodHRwOi8vc2VydmljZXNjYS5vY3NwLmNlcnRpZ25hLmZyMDAGCCsGAQUFBzABhiRodHRwOi8vc2VydmljZXNjYS5vY3NwLmRoaW15b3Rpcy5jb20wHwYDVR0jBBgwFoAUrOyGj0s3HLh/FxsZ0K7oTuM0XBIwDAYDVR0TAQH/BAIwADBhBgNVHSAEWjBYMAgGBmeBDAECAjBMBgsqgXoBgTECBQEBATA9MDsGCCsGAQUFBwIBFi9odHRwczovL3d3dy5jZXJ0aWduYS5jb20vYXV0b3JpdGUtY2VydGlmaWNhdGlvbjBlBgNVHR8EXjBcMC2gK6AphidodHRwOi8vY3JsLmRoaW15b3Rpcy5jb20vc2VydmljZXNjYS5jcmwwK6ApoCeGJWh0dHA6Ly9jcmwuY2VydGlnbmEuZnIvc2VydmljZXNjYS5jcmwwEwYDVR0lBAwwCgYIKwYBBQUHAwEwDgYDVR0PAQH/BAQDAgWgMEEGA1UdEQQ6MDiCEnByaXguY29uc28uZ291di5mcoIPcC5jb25zby5nb3V2LmZyghFwcm8uY29uc28uZ291di5mcjAdBgNVHQ4EFgQUaVi4TJwSCSmt9dPPPFipJysiPsswggF8BgorBgEEAdZ5AgQCBIIBbASCAWgBZgB1AHb/iD8KtvuVUcJhzPWHujS0pM27KdxoQgqf5mdMWjp0AAABjma9JngAAAQDAEYwRAIgILIU/kdGjIZ+x8jsqYBIaA5L+fnFwLgjlqvocYD9P5MCIAu4PwzLn0MmlEmUjwHiy+vNJs0lf/WAN7OnR02C4S0IAHYA7s3QZNXbGs7FXLedtM0TojKHRny87N7DUUhZRnEftZsAAAGOZr0nCQAABAMARzBFAiEA1h8l9RkTP5iyhLpNfCrZXk0u5fg/e6moZvqebk7qV0wCIFI7YaQeaZXUpyRP/dlYanxia2uDGnEEXG+yL3JyEqj2AHUA2ra/az+1tiKfm8K7XGvocJFxbLtRhIU0vaQ9MEjX+6sAAAGOZr0oDQAABAMARjBEAiB3fSbfIsZxwuZKrO+2rO7LJO+3yQkdPC07MzPHH4P1vAIgLKRYPTSj0IEXu6D6Ktd8cRnlMsffApqUGUeKCp6PLrAwDQYJKoZIhvcNAQELBQADggIBAJD/3sgp59ZITbeiM+UoC51PHa6iSwk+zcMan/ZgZ3bfmE0DvlfQdxpW/vdU9d2sy34k9Lu85N/9bpMFJ3ehK09YXRhVI3UX5FD7ywbhQS+6yJMpMHI8qwIzdQZOKSNVnDEXFv8t5JnZtanJFQfybo3BrPqqRYZiqpkIG2EUZH1ZrrLsLL25LQlvKogwBcHCGhhNtA5agEJOJxRmbElcpddGAK4Dllvtj7qhqYo0w6JLuyi/rwa6s6g/1jt5B64xpOaK+iPDfpqMfjEoY84SifX1+T779szyPvIFy+9GQs8BGh1xIo/+fJaLRhUKOakd7mrqZthganGxoGPg1lwFZWeNV69uyCGi+iJ5p+sVl6URpDemyO8EjCjdaPqj+ck2lGB0joEAcnaarL5sLtP4TG8lKUZ4kxxcFAsNRQFDI90ycN5f3LBBMC3G6XYD3OxlXnpHfgBi1WAY2LdtTyvThF5CcylH35W6vglwjelMUgtd9qBQ6fodN1eEi1FTKtJWG3cBInYFAvR3IE9DyWJA7WjQkk83EE+C7xcE2g0tlMzIZP5laun4ksE7jgGCNthjW+tcvmfv4ChTd7kbu/RlHuVzIWozUeAWnPs76Z0l/fVn8tE7yE4ZHlj9pJyCED0aNVTe9C67uKCA/mvDNsug63MvVCsWCtu0OzhPC672WR+3\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIII9DCCBtygAwIBAgIRAKw8AOYiHjPqlc8F0aHlFOUwDQYJKoZIhvcNAQELBQAwfTELMAkGA1UEBhMCRlIxEjAQBgNVBAoMCURISU1ZT1RJUzEcMBoGA1UECwwTMDAwMiA0ODE0NjMwODEwMDAzNjEdMBsGA1UEYQwUTlRSRlItNDgxNDYzMDgxMDAwMzYxHTAbBgNVBAMMFENlcnRpZ25hIFNlcnZpY2VzIENBMB4XDTI0MTEwNTIzMDAwMFoXDTI1MTEwOTIyNTk1OVowgYUxCzAJBgNVBAYTAkZSMQ4wDAYDVQQHDAVQQVJJUzE0MDIGA1UECgwrRElSIEdFTiBDT05DVVIgQ09OU09NIFJFUFJFUyBGUkFVREVTIERHQ0NSRjEbMBkGA1UEAwwScHJpeC5jb25zby5nb3V2LmZyMRMwEQYDVQQFEwpTMzI2OTMxMjQxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnrFxWljDKjogzHb5y/r0zDJp0POlXnp613p6EuPwrlfeEJoYIMPklYov21poWst5Z5qpG+5FSYEA8t8U561rfvaljLj1FDXst6dL2EmSkUR/TTYJ19X9iZ6j8ilCX458ZtXiShmEfSRU0emuWBX9cJZcs05uzimxgJsKvVm/Ub0LxmFfrYQA8YObfHk+ukgszZHoo6+d4FvI/ZDRiRWqkOCvEZP2yjF0llMupwA6m6c9M87Sepfh8gy6PCug/xmezkJ1lXl4SBiCd8DjbPtAUBEOS9U0DLa2RpYGQP7+1Y55qawDkD5dRQctNv0wbZV8IbrMLLQWYBmwraWfeCH9FwIDAQABo4IEZDCCBGAwgeQGCCsGAQUFBwEBBIHXMIHUMDgGCCsGAQUFBzAChixodHRwOi8vYXV0b3JpdGUuZGhpbXlvdGlzLmNvbS9zZXJ2aWNlc2NhLmRlcjA2BggrBgEFBQcwAoYqaHR0cDovL2F1dG9yaXRlLmNlcnRpZ25hLmZyL3NlcnZpY2VzY2EuZGVyMC4GCCsGAQUFBzABhiJodHRwOi8vc2VydmljZXNjYS5vY3NwLmNlcnRpZ25hLmZyMDAGCCsGAQUFBzABhiRodHRwOi8vc2VydmljZXNjYS5vY3NwLmRoaW15b3Rpcy5jb20wHwYDVR0jBBgwFoAUrOyGj0s3HLh/FxsZ0K7oTuM0XBIwDAYDVR0TAQH/BAIwADBhBgNVHSAEWjBYMAgGBmeBDAECAjBMBgsqgXoBgTECBQEBATA9MDsGCCsGAQUFBwIBFi9odHRwczovL3d3dy5jZXJ0aWduYS5jb20vYXV0b3JpdGUtY2VydGlmaWNhdGlvbjBlBgNVHR8EXjBcMC2gK6AphidodHRwOi8vY3JsLmRoaW15b3Rpcy5jb20vc2VydmljZXNjYS5jcmwwK6ApoCeGJWh0dHA6Ly9jcmwuY2VydGlnbmEuZnIvc2VydmljZXNjYS5jcmwwEwYDVR0lBAwwCgYIKwYBBQUHAwEwDgYDVR0PAQH/BAQDAgWgMEEGA1UdEQQ6MDiCEnByaXguY29uc28uZ291di5mcoIRcHJvLmNvbnNvLmdvdXYuZnKCD3AuY29uc28uZ291di5mcjAdBgNVHQ4EFgQUNHaAjFAONTEwyw75SXRRNvA80fAwggH1BgorBgEEAdZ5AgQCBIIB5QSCAeEB3wB2AA3h8jAr0w3BQGISCepVLvxHdHyx1+kw7w5CHrR+Tqo0AAABkwE7jLgAAAQDAEcwRQIhAOER3MwBhF3jsmGZDrITJ9uCAqx3ZlHoNVXF3+My5WNUAiBMDoepcfdQccNXs69E1Fd344MUB7vhRdPfs45VJqbRngB1AN3cyjSV1+EWBeeVMvrHn/g9HFDf2wA6FBJ2Ciysu8gqAAABkwE7ie8AAAQDAEYwRAIgX5h6uKjNNRhML2OwhgW39zYMQuRVj1J5PMVSwLHC0gwCIBgFEqV+Nf01PqL4CVYT4glnyqtwNZMdeWUWi88d0GcsAHYA5tIxY0B3jMEQQQbXcbnOwdJA9paEhvu6hzId/R43jlAAAAGTATuM+gAABAMARzBFAiB8YOEIdqRiKk0f+Oa1mxxNXYT/EIkRUwwpbozR5UhyOQIhANdJBl2phLqo3X39/ElrkLcE4FMr83y3oF0O7tKCURdQAHYArxgaKNaMo+CpikycZ6sJ+Lu8IrquvLE4o6Gd0/m2Aw0AAAGTATuKzwAABAMARzBFAiEAwcZslWXC7LHm2OwV/86RvTYcX6wlzV9JjblayMvwuOECID7rgKmTfkhYqyX37IPH/jN6EwBuR7bEaSxnJvnuOibBMA0GCSqGSIb3DQEBCwUAA4ICAQAtzNYIGLGnZ/4imsKHqb+/M166D/GpLo3JsmnjxzLZCDLrnKem0A4e8Pyeb35BjwxgGs5ZPWqJsXFTuhUArZVX43kvUBSaZlWVsfRBTyhxTRpwYrw7caPI6tuOZOtypJzur17mLRDjb1geaAqN8pbk/R/8S55RRznEATaXAo8TrvABRKymKMmi1blp6wgP1aEolNOMFkqG/WGxYQbh8Hgys6EOs73hT3tyhwmqC/FcQA4EwM45LXhu9+kLjtJhHT1Oz4c/DAolez1wHc7mexOQXQN0rF6qpKd/OSjGFFs3BUwpYPbC4zRjNYXGkivX/2D2RCaKLYsBwpmeenAAXcArUx8KZmd/5eV58K3FIt/8b1GzU7MnjZBPOycu2rfU6wbcrqgB0qgm3C/nKeEioy16p/jBrR89mrnaTXxZ+b3mT3xCrUgWViQS4J3kqymLBYWu5Wb7oCV5jzE9rWkECvlIJu9SFnj6ZBRaax4aSNre7P7cv6lV56t+TC0FwTQbB6q0mtK+FybsTr+F2yKvaPxGLG2Wz8EUPXyfZhgvHj034BYeipYYFuB28V/dIblojmOkheeA5vw3RDzDrUiYssm4KaZaJulJ7Pcdv6RyugOu4C0DeCIWS/hz6h03QdHqdfb1NGJRUuWjceg1x/ojHfvNCiODc4LP14CtWs2YcWokKg==\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -311,7 +311,7 @@
               "ip"           : "prix-controle-technique.gouv.fr/185.24.187.247",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "prix.conso.gouv.fr p.conso.gouv.fr pro.conso.gouv.fr"
+              "finding"      : "prix.conso.gouv.fr pro.conso.gouv.fr p.conso.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -338,22 +338,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "prix-controle-technique.gouv.fr/185.24.187.247",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (27)"
+              "severity"     : "OK",
+              "finding"      : "360 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "prix-controle-technique.gouv.fr/185.24.187.247",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-03-21 23:00"
+              "finding"      : "2024-11-05 23:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "prix-controle-technique.gouv.fr/185.24.187.247",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "2024-11-10 22:59"
+              "severity"     : "OK",
+              "finding"      : "2025-11-09 22:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -416,7 +416,7 @@
               "ip"           : "prix-controle-technique.gouv.fr/185.24.187.247",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "3"
+              "finding"      : "2"
           }
 ,         {
               "id"           : "certs_list_ordering_problem",
@@ -475,48 +475,6 @@
               "finding"      : "Certigna Services CA <-- Certigna"
           }
 ,         {
-              "id"           : "intermediate_cert <#2>",
-              "ip"           : "prix-controle-technique.gouv.fr/185.24.187.247",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDqDCCApCgAwIBAgIJAP7c4wEPyUj/MA0GCSqGSIb3DQEBBQUAMDQxCzAJBgNVBAYTAkZSMRIwEAYDVQQKDAlEaGlteW90aXMxETAPBgNVBAMMCENlcnRpZ25hMB4XDTA3MDYyOTE1MTMwNVoXDTI3MDYyOTE1MTMwNVowNDELMAkGA1UEBhMCRlIxEjAQBgNVBAoMCURoaW15b3RpczERMA8GA1UEAwwIQ2VydGlnbmEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDIaPHJ1tazNHUmgh7stL7qXOEm7RFHYeGifBZ4QCHkYJ5ayGPhxLGWkv8YbWkj4Sti993iNi+RB7lIzw7sebYs5zRLcAglozyHGxnygQcPOJAZ0xH+hrTy0V4eHpbNgGzOOzGTtvKg0KmVEn2lmsxryIRWijOp5yIVUxbwzBfsV1/pogqYCd7jX5xv3EjjhQsVWqa6n6xI4wmy9/Qy3l40vhx4XUJbzg4ij02Q130yGLMLLGq/jj8UEYkgDncUtT2UCIf3JR7VsmAA7G8qKCVuKj4YYxclPz5EIBb2JsglrgVKtOdjLPOMFlN+XPsRGgjBRmKfIrjxwo1p3Po6WAbfAgMBAAGjgbwwgbkwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUGu3+QTmQtCRZvgHyUtVF9lo53BEwZAYDVR0jBF0wW4AUGu3+QTmQtCRZvgHyUtVF9lo53BGhOKQ2MDQxCzAJBgNVBAYTAkZSMRIwEAYDVQQKDAlEaGlteW90aXMxETAPBgNVBAMMCENlcnRpZ25hggkA/tzjAQ/JSP8wDgYDVR0PAQH/BAQDAgEGMBEGCWCGSAGG+EIBAQQEAwIABzANBgkqhkiG9w0BAQUFAAOCAQEAhQMeknH2Qq/ho2Ge6/PAD/Kl1NqV5ta+aDY9fm4fTIrv0Q8hbV6lUmPOEvjvKtpv6zf+EwLHyzs+ImvaYS5/1HI93TDhHkxAGYwP15zRgzB7mFncfca5DClMoTOi62c6ZYTTluLtdkVwj7Ur3vkj1kluPBS1xp81HlDQwY9qcEQCYsuuHWhBp6pX6FOqB9IG9tUUBguRA3UsbHK1YZWaDYu5Def131TN3ubY1gkIl2PlwS6wt0QmwCbAr1UwnjvVNioZBPRcHv/PLLf/0P2HQBHVESO7SMAhqaQoLf0V+LBOK/QwWyH8EZE0vkHve52Xdf+XlcCWWC/qu0bXu+TZLg==\n-----END CERTIFICATE-----"
-          }
-,         {
-              "id"           : "intermediate_cert_fingerprintSHA256 <#2>",
-              "ip"           : "prix-controle-technique.gouv.fr/185.24.187.247",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "E3B6A2DB2ED7CE48842F7AC53241C7B71D54144BFB40C11F3F1D0B42F5EEA12D"
-          }
-,         {
-              "id"           : "intermediate_cert_notBefore <#2>",
-              "ip"           : "prix-controle-technique.gouv.fr/185.24.187.247",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "2007-06-29 15:13"
-          }
-,         {
-              "id"           : "intermediate_cert_notAfter <#2>",
-              "ip"           : "prix-controle-technique.gouv.fr/185.24.187.247",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "2027-06-29 15:13"
-          }
-,         {
-              "id"           : "intermediate_cert_expiration <#2>",
-              "ip"           : "prix-controle-technique.gouv.fr/185.24.187.247",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "ok > 40 days"
-          }
-,         {
-              "id"           : "intermediate_cert_chain <#2>",
-              "ip"           : "prix-controle-technique.gouv.fr/185.24.187.247",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "Certigna <-- Certigna"
-          }
-,         {
               "id"           : "intermediate_cert_badOCSP",
               "ip"           : "prix-controle-technique.gouv.fr/185.24.187.247",
               "port"         : "443",
@@ -535,14 +493,14 @@
               "ip"           : "prix-controle-technique.gouv.fr/185.24.187.247",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "prix-controle-technique.gouv.fr/185.24.187.247",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1728911565"
+              "finding"      : "1731590060"
           }
 ,         {
               "id"           : "HSTS",
@@ -729,7 +687,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=69AF728BBB23F4094F59F18E87D64374229D6C398387D79AE0D1099A08AB2968"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=398EE74F8426B7DA3D78F3EAE8D11DBB0D15ADA3C89D11C490C8B111E0EC2E30"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1119,6 +1077,6 @@
               "ip"           : "prix-controle-technique.gouv.fr/185.24.187.247",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "163"
+              "finding"      : "86"
           }
 ]
