@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Mon Oct 14 13:08:25 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln primealaconversion.gouv.fr
+# Nmap 7.92 scan initiated Thu Nov 14 13:09:47 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln primealaconversion.gouv.fr
 Nmap scan report for primealaconversion.gouv.fr (217.109.233.87)
 Host is up (0.089s latency).
 rDNS record for 217.109.233.87: d96de957.fsp.oleane.fr
@@ -23,7 +23,7 @@ PORT    STATE SERVICE    VERSION
 |_    Content-Length: 0
 443/tcp open  ssl/https?
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port80-TCP:V=7.92%I=7%D=10/14%Time=670D17D7%P=x86_64-alpine-linux-musl%
+SF-Port80-TCP:V=7.92%I=7%D=11/14%Time=6735F6A9%P=x86_64-alpine-linux-musl%
 SF:r(GetRequest,5D,"HTTP/1\.0\x20301\x20Moved\x20Permanently\r\nLocation:\
 SF:x20https:///\r\nConnection:\x20close\r\nContent-Length:\x200\r\n\r\n")%
 SF:r(HTTPOptions,5D,"HTTP/1\.0\x20301\x20Moved\x20Permanently\r\nLocation:
@@ -37,4 +37,4 @@ SF:ermanently\r\nLocation:\x20https://sip:nm\r\nConnection:\x20close\r\nCo
 SF:ntent-Length:\x200\r\n\r\n");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Mon Oct 14 13:11:48 2024 -- 1 IP address (1 host up) scanned in 202.94 seconds
+# Nmap done at Thu Nov 14 13:13:10 2024 -- 1 IP address (1 host up) scanned in 203.14 seconds
