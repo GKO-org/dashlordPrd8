@@ -338,8 +338,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "notre-environnement.gouv.fr/92.175.135.130",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "90 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (59)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -352,7 +352,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "notre-environnement.gouv.fr/92.175.135.130",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2025-01-12 22:59"
           }
 ,         {
@@ -1011,6 +1011,6 @@
               "ip"           : "notre-environnement.gouv.fr/92.175.135.130",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "93"
+              "finding"      : "116"
           }
 ]
