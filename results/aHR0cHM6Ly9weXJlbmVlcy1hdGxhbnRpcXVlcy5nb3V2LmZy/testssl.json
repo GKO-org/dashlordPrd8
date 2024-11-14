@@ -262,7 +262,7 @@
               "ip"           : "pyrenees-atlantiques.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "F7971A00FAAE4CB0DFA281A25BE1AB0F"
+              "finding"      : "0FD55EDEEA3D3E02E7027B01FC9AC8C0"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "pyrenees-atlantiques.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "F43CCC39EF27F669626C333507494A4CDB893C04"
+              "finding"      : "F5132FEAA32E13A3E5F857E393A91B72EAE9570B"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "pyrenees-atlantiques.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "6CBA2D7DCB6A8D2E26F233B3FB8288631FCD31FFBCEE45CFB0819FD45C339B40"
+              "finding"      : "6447610B540EBC9A4784864334E2D49F7A8816629C7B90025838E13125F244C0"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "pyrenees-atlantiques.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIIgDCCBmigAwIBAgIRAPeXGgD6rkyw36KBolvhqw8wDQYJKoZIhvcNAQELBQAwfTELMAkGA1UEBhMCRlIxEjAQBgNVBAoMCURISU1ZT1RJUzEcMBoGA1UECwwTMDAwMiA0ODE0NjMwODEwMDAzNjEdMBsGA1UEYQwUTlRSRlItNDgxNDYzMDgxMDAwMzYxHTAbBgNVBAMMFENlcnRpZ25hIFNlcnZpY2VzIENBMB4XDTI0MDMyMTIzMDAwMFoXDTI0MTEwNjIyNTk1OVowgYAxCzAJBgNVBAYTAkZSMQ4wDAYDVQQHDAVQQVJJUzEhMB8GA1UECgwYTUlOSVNURVJFIERFIEwgSU5URVJJRVVSMSkwJwYDVQQDDCB3d3cucHlyZW5lZXMtYXRsYW50aXF1ZXMuZ291di5mcjETMBEGA1UEBRMKUzMwNDAzMTc4NDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJrRtw8TDc6UUkuCoY972G2nvzSEYzpaH84hs9IOV0ETpEYK049uPGe/H85db2i3a/1/CJ4K3kJBwBaurpTTLKJft2OvuqA314hKu6jJMmWKAwUOLRzTTALF5FQ1zGxgS1HGlx/YWf84+w+tUFWoY2ya8xn+kwUC9frh9utmxUsovu0laPwqGDXqLmCvfhexEupR7rndM0vWSoVr/DXBtu2WDkdSM4fDgw+AqeBQcH8mSClQDbEiTMSJPrZ14RFMySZVhvuGd9GpmiKsx7ZGhZ6RCSlIG4FYyOqELKvO1OlOVMrjda0gZa3sZeLr3ypshrlGW+65rXBMpBeMMe/55SkCAwEAAaOCA/UwggPxMIHkBggrBgEFBQcBAQSB1zCB1DA4BggrBgEFBQcwAoYsaHR0cDovL2F1dG9yaXRlLmRoaW15b3Rpcy5jb20vc2VydmljZXNjYS5kZXIwNgYIKwYBBQUHMAKGKmh0dHA6Ly9hdXRvcml0ZS5jZXJ0aWduYS5mci9zZXJ2aWNlc2NhLmRlcjAwBggrBgEFBQcwAYYkaHR0cDovL3NlcnZpY2VzY2Eub2NzcC5kaGlteW90aXMuY29tMC4GCCsGAQUFBzABhiJodHRwOi8vc2VydmljZXNjYS5vY3NwLmNlcnRpZ25hLmZyMB8GA1UdIwQYMBaAFKzsho9LNxy4fxcbGdCu6E7jNFwSMAwGA1UdEwEB/wQCMAAwYQYDVR0gBFowWDAIBgZngQwBAgIwTAYLKoF6AYExAgUBAQEwPTA7BggrBgEFBQcCARYvaHR0cHM6Ly93d3cuY2VydGlnbmEuY29tL2F1dG9yaXRlLWNlcnRpZmljYXRpb24wZQYDVR0fBF4wXDAroCmgJ4YlaHR0cDovL2NybC5jZXJ0aWduYS5mci9zZXJ2aWNlc2NhLmNybDAtoCugKYYnaHR0cDovL2NybC5kaGlteW90aXMuY29tL3NlcnZpY2VzY2EuY3JsMBMGA1UdJQQMMAoGCCsGAQUFBwMBMA4GA1UdDwEB/wQEAwIFoDBJBgNVHREEQjBAghxweXJlbmVlcy1hdGxhbnRpcXVlcy5nb3V2LmZygiB3d3cucHlyZW5lZXMtYXRsYW50aXF1ZXMuZ291di5mcjAdBgNVHQ4EFgQUAVdQBgHWd95oAAvbukalLbeGo20wggF+BgorBgEEAdZ5AgQCBIIBbgSCAWoBaAB1AHb/iD8KtvuVUcJhzPWHujS0pM27KdxoQgqf5mdMWjp0AAABjmZWKU8AAAQDAEYwRAIgftjUOTPtar28zi01/UXBTcM94w+Q3uZrMOEcQzY5La8CIEQ20CCBDTk71nSaYULCnyu+TKZ8XXzbeXOJwdqPw2pSAHcA7s3QZNXbGs7FXLedtM0TojKHRny87N7DUUhZRnEftZsAAAGOZlYrXAAABAMASDBGAiEA4oFxQ612LFpBflvq6zic1AYJQFp7wc69Z+tOR5N1vO0CIQDfUpqnp9vCLmwwSDAa3mIMLnLJCNQ4BtYL4vwiqVq5gAB2AFWB1MIWkDYBSuoLm1c8U/DA5Dh4cCUIFy+jqh0HE9MMAAABjmZWMO0AAAQDAEcwRQIhAOQrJfJS+zevowDIMhl6eX51KHIP7sHKM6ev3nr54wYrAiBWCwqKvu6H29xOaXnzgRhonBs0o6PDC3MTuEtprVX7UTANBgkqhkiG9w0BAQsFAAOCAgEAcqWMnwu1of/MN47nV23NV/eS4DB934xNqbZqpikff8+H7ZYRTdxjrvf3HL0zH9PNMVRHnD1GYNJDH9e6oh/h9gmuOHJ5HSYQ8BaxFSolCTeZZFEnufqmM4lAxpPVAgksKlisCKDwCvvuK5DSKA0vH7uC0ITZuTmAS6Mafb/mR60A3+xt7F3H+mzGN9jKm+lXsOCqkKeG4WkUfLcl7w3PVbeoCVVN5gImRBTAPHWwjOqeSJaG6MxwimqEnQNrCsUrzZ7JF7WpaDyNH9IVWXN9/e+8uYJlhe7ZYVeICDcU9qGe6cTtQrpfoMl4yKQ8lhphlp01xfDUn8yCiFNkpCgg+oCzcCVHMi8i03tOzuViJfKoib9uIQ8XoT/pyf58uYMlPyjOuvXERAyteKKQwNEiPnftH3nWq4qy7GzWq0tQ8JDJ4j5cH/Wbrt6IucX8nzezRXPrgS2fjoj6Co0a9MNnLqIuph2wkIZdJQwd/Jw3MmO4x2o19wAGGx7k3FY/gC4vRlbhLXVItm74TABKuLHqCyeazBRX53iYFeG7vnRq2lUR8UPRDRI1H2RMYKnbd6AKkbqUJKFm0QBzm5T7H1ZJklnGdWjA/gzMSf4blkd2HFk1GNFhn53oj8vEhFUKV8egWONIeEkjwb83LRDmvWbFP5eYdFmD4MPlHznPC5dXyvY=\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -338,22 +338,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "pyrenees-atlantiques.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (23)"
+              "severity"     : "OK",
+              "finding"      : "334 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "pyrenees-atlantiques.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-03-21 23:00"
+              "finding"      : "2024-10-14 22:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "pyrenees-atlantiques.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "2024-11-06 22:59"
+              "severity"     : "OK",
+              "finding"      : "2025-10-14 21:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -374,14 +374,14 @@
               "ip"           : "pyrenees-atlantiques.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://crl.certigna.fr/servicesca.crl http://crl.dhimyotis.com/servicesca.crl"
+              "finding"      : "http://crl.dhimyotis.com/servicesca.crl http://crl.certigna.fr/servicesca.crl"
           }
 ,         {
               "id"           : "cert_ocspURL",
               "ip"           : "pyrenees-atlantiques.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://servicesca.ocsp.dhimyotis.com http://servicesca.ocsp.certigna.fr"
+              "finding"      : "http://servicesca.ocsp.certigna.fr http://servicesca.ocsp.dhimyotis.com"
           }
 ,         {
               "id"           : "OCSP_stapling",
@@ -500,14 +500,14 @@
               "ip"           : "pyrenees-atlantiques.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1728912304"
+              "finding"      : "1731590689"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "pyrenees-atlantiques.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds"
+              "finding"      : "1 seconds"
           }
 ,         {
               "id"           : "HSTS",
@@ -557,7 +557,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "x-cache: Miss"
+              "finding"      : "x-cache: Hit"
           }
 ,         {
               "id"           : "heartbleed",
@@ -680,7 +680,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=6CBA2D7DCB6A8D2E26F233B3FB8288631FCD31FFBCEE45CFB0819FD45C339B40"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=6447610B540EBC9A4784864334E2D49F7A8816629C7B90025838E13125F244C0"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
@@ -1063,6 +1063,6 @@
               "ip"           : "pyrenees-atlantiques.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "91"
+              "finding"      : "58"
           }
 ]
