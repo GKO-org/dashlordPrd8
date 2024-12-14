@@ -465,7 +465,7 @@
               "ip"           : "allo119.gouv.fr/46.18.135.251",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "83 >= 30 days"
+              "finding"      : "53 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -626,7 +626,7 @@
               "ip"           : "allo119.gouv.fr/46.18.135.251",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1731589563"
+              "finding"      : "1734181655"
           }
 ,         {
               "id"           : "HSTS",
@@ -1196,6 +1196,6 @@
               "ip"           : "allo119.gouv.fr/46.18.135.251",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "82"
+              "finding"      : "84"
           }
 ]
