@@ -339,7 +339,7 @@
               "ip"           : "prix-controle-technique.gouv.fr/185.24.187.247",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "360 >= 60 days"
+              "finding"      : "330 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -485,8 +485,8 @@
               "id"           : "HTTP_status_code",
               "ip"           : "prix-controle-technique.gouv.fr/185.24.187.247",
               "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "307 Moved Temporarily ('/')"
+              "severity"     : "WARN",
+              "finding"      : "Unexpected 500 Internal Server Error @ '/'"
           }
 ,         {
               "id"           : "HTTP_clock_skew",
@@ -500,7 +500,7 @@
               "ip"           : "prix-controle-technique.gouv.fr/185.24.187.247",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1731590060"
+              "finding"      : "1734182342"
           }
 ,         {
               "id"           : "HSTS",
@@ -1077,6 +1077,6 @@
               "ip"           : "prix-controle-technique.gouv.fr/185.24.187.247",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "86"
+              "finding"      : "96"
           }
 ]
