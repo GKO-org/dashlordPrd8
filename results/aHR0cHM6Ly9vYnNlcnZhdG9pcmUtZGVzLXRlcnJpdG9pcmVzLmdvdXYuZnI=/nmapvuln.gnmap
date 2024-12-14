@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Thu Nov 14 12:39:54 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln observatoire-des-territoires.gouv.fr
+# Nmap 7.92 scan initiated Sat Dec 14 12:36:51 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln observatoire-des-territoires.gouv.fr
 Host: 217.115.162.98 (prod2-as-datar.integra.fr)	Status: Up
 Host: 217.115.162.98 (prod2-as-datar.integra.fr)	Ports: 80/open/tcp//http//Apache httpd/, 443/open/tcp//ssl|http//Apache httpd/	Ignored State: filtered (998)
-# Nmap done at Thu Nov 14 12:40:22 2024 -- 1 IP address (1 host up) scanned in 28.01 seconds
+# Nmap done at Sat Dec 14 12:37:13 2024 -- 1 IP address (1 host up) scanned in 21.69 seconds
