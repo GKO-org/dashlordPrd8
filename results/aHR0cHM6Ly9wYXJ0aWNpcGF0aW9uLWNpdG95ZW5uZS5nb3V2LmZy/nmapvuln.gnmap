@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Thu Nov 14 13:02:44 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln participation-citoyenne.gouv.fr
+# Nmap 7.92 scan initiated Sat Dec 14 13:02:55 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln participation-citoyenne.gouv.fr
 Host: 104.18.14.157 ()	Status: Up
 Host: 104.18.14.157 ()	Ports: 80/open/tcp//http//Cloudflare http proxy/, 443/open/tcp//ssl|https//cloudflare/, 8080/open/tcp//http//Cloudflare http proxy/, 8443/open/tcp//ssl|https-alt//cloudflare/	Ignored State: filtered (996)
-# Nmap done at Thu Nov 14 13:02:56 2024 -- 1 IP address (1 host up) scanned in 11.69 seconds
+# Nmap done at Sat Dec 14 13:03:06 2024 -- 1 IP address (1 host up) scanned in 11.37 seconds
