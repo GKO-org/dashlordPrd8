@@ -360,7 +360,7 @@
               "ip"           : "peren.gouv.fr/51.159.170.2",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "67 >= 30 days"
+              "finding"      : "37 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -521,7 +521,7 @@
               "ip"           : "peren.gouv.fr/51.159.170.2",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1731589272"
+              "finding"      : "1734181017"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1105,6 +1105,6 @@
               "ip"           : "peren.gouv.fr/51.159.170.2",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "97"
+              "finding"      : "88"
           }
 ]
