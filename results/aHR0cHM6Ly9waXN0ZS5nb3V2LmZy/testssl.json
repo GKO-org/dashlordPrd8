@@ -199,7 +199,7 @@
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -339,7 +339,7 @@
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "215 >= 60 days"
+              "finding"      : "185 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -535,14 +535,14 @@
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1731589461"
+              "finding"      : "1734181351"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1154,6 +1154,6 @@
               "ip"           : "piste.gouv.fr/137.74.125.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "105"
+              "finding"      : "68"
           }
 ]
