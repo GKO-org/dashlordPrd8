@@ -338,8 +338,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "numerique.gouv.fr/46.105.198.61",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "58 >= 30 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 30 days (27)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -352,7 +352,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "numerique.gouv.fr/46.105.198.61",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2025-02-11 10:04"
           }
 ,         {
@@ -500,7 +500,7 @@
               "ip"           : "numerique.gouv.fr/46.105.198.61",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1734179791"
+              "finding"      : "1736858073"
           }
 ,         {
               "id"           : "ipv4_in_header",
@@ -1064,6 +1064,6 @@
               "ip"           : "numerique.gouv.fr/46.105.198.61",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "44"
+              "finding"      : "46"
           }
 ]
