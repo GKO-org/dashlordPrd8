@@ -178,7 +178,7 @@
               "ip"           : "www.nouvelles-chances.gouv.fr/213.91.3.170",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "'renegotiation info/#65281' 'server name/#0' 'session ticket/#35' 'EC point formats/#11' 'key share/#51' 'supported versions/#43' 'application layer protocol negotiation/#16'"
+              "finding"      : "'renegotiation info/#65281' 'server name/#0' 'EC point formats/#11' 'session ticket/#35' 'supported versions/#43' 'key share/#51' 'application layer protocol negotiation/#16'"
           }
 ,         {
               "id"           : "TLS_session_ticket",
@@ -346,7 +346,7 @@
               "ip"           : "www.nouvelles-chances.gouv.fr/213.91.3.170",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "349 >= 60 days"
+              "finding"      : "318 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -549,14 +549,14 @@
               "ip"           : "www.nouvelles-chances.gouv.fr/213.91.3.170",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1734176008"
+              "finding"      : "1736856752"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "www.nouvelles-chances.gouv.fr/213.91.3.170",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "3443 seconds"
+              "finding"      : "1061 seconds"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -598,7 +598,7 @@
               "ip"           : "www.nouvelles-chances.gouv.fr/213.91.3.170",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "x-powered-by: Ibexa Commerce v4"
+              "finding"      : "No application banner found"
           }
 ,         {
               "id"           : "cookie_count",
@@ -627,7 +627,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "x-varnish: 556107463 555191404via: 1.1 varnish (Varnish/6.2)"
+              "finding"      : "x-varnish: 80996260 82136878via: 1.1 varnish (Varnish/6.2)"
           }
 ,         {
               "id"           : "heartbleed",
@@ -1133,6 +1133,6 @@
               "ip"           : "www.nouvelles-chances.gouv.fr/213.91.3.170",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "79"
+              "finding"      : "82"
           }
 ]
