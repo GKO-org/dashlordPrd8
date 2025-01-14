@@ -290,7 +290,7 @@
               "ip"           : "observatoire-des-territoires.gouv.fr/217.115.162.98",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "05CE54BD21121C713AB7E5527FCA6051"
+              "finding"      : "0AA9DE5FB0737B618A0810A865FF4AF9"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -304,21 +304,21 @@
               "ip"           : "observatoire-des-territoires.gouv.fr/217.115.162.98",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "94828192C325BB9B9A9461996B8692AEDAE7BD04"
+              "finding"      : "59B8B9D72861537E9E12BDA2DBB6DBFBA5D20AAF"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "observatoire-des-territoires.gouv.fr/217.115.162.98",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2224ECEDA6687BFADD622AF1C97F1A5069BED8E80543A51FB9F8A436BDA78EF3"
+              "finding"      : "1AF7B005EF0BEB7BC1CCFAE455AD2BB96B274E54ACD5D6FFDD0131FC4AD6B062"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "observatoire-des-territoires.gouv.fr/217.115.162.98",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -366,22 +366,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "observatoire-des-territoires.gouv.fr/217.115.162.98",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (24)"
+              "severity"     : "OK",
+              "finding"      : "359 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "observatoire-des-territoires.gouv.fr/217.115.162.98",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-12-19 00:00"
+              "finding"      : "2025-01-08 00:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "observatoire-des-territoires.gouv.fr/217.115.162.98",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "2025-01-07 23:59"
+              "severity"     : "OK",
+              "finding"      : "2026-01-08 23:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -528,7 +528,7 @@
               "ip"           : "observatoire-des-territoires.gouv.fr/217.115.162.98",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1734179771"
+              "finding"      : "1736858201"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -715,7 +715,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=2224ECEDA6687BFADD622AF1C97F1A5069BED8E80543A51FB9F8A436BDA78EF3"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=1AF7B005EF0BEB7BC1CCFAE455AD2BB96B274E54ACD5D6FFDD0131FC4AD6B062"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
@@ -1091,6 +1091,6 @@
               "ip"           : "observatoire-des-territoires.gouv.fr/217.115.162.98",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "62"
+              "finding"      : "71"
           }
 ]
