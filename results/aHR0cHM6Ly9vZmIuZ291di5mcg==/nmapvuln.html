@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln ofb.gouv.fr</pre>
-<p class="lead">Sat Dec 14 12:40:15 2024 – Sat Dec 14 12:41:08 2024<br>1 hosts scanned.
+<p class="lead">Tue Jan 14 12:37:58 2025 – Tue Jan 14 12:38:18 2025<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -76,9 +76,9 @@
 </tr></thead>
 <tbody><tr>
 <td><span class="label label-success">up</span></td>
-<td>83.118.214.134</td>
+<td>147.135.143.41</td>
 <td>ofb.gouv.fr</td>
-<td>5</td>
+<td>2</td>
 <td>0</td>
 </tr></tbody>
 </table></div>
@@ -91,13 +91,10 @@
             });
           </script><h2 id="onlinehosts" class="target">Online Hosts</h2>
 <div class="panel panel-default">
-<div class="panel-heading clickable" data-toggle="collapse" data-target="#83-118-214-134"><h3 class="panel-title">83.118.214.134 - ofb.gouv.fr</h3></div>
-<div class="panel-body collapse in" id="83-118-214-134">
+<div class="panel-heading clickable" data-toggle="collapse" data-target="#147-135-143-41"><h3 class="panel-title">147.135.143.41 - ofb.gouv.fr</h3></div>
+<div class="panel-body collapse in" id="147-135-143-41">
 <h4>Hostnames</h4>
-<ul>
-<li>ofb.gouv.fr (user)</li>
-<li>134.214.118.83.in-addr.arpa.celeste.fr (PTR)</li>
-</ul>
+<ul><li>ofb.gouv.fr (user)</li></ul>
 <h4>Ports</h4>
 <div class="table-responsive"><table class="table table-bordered">
 <thead><tr>
@@ -124,10 +121,10 @@
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   DNSStatusRequestTCP, DNSVersionBindReqTCP, Help, RPCCheck, RTSPRequest, X11Probe: 
     HTTP/1.1 400 Bad request
-    Content-length: 90
-    Cache-Control: no-cache
-    Connection: close
-    Content-Type: text/html
+    content-length: 90
+    cache-control: no-cache
+    content-type: text/html
+    connection: close
     &lt;html&gt;&lt;body&gt;&lt;h1&gt;400 Bad request&lt;/h1&gt;
     Your browser sent an invalid request.
     &lt;/body&gt;&lt;/html&gt;
@@ -142,136 +139,18 @@
     location: https:///
     connection: close</pre>
 </td></tr>
-<tr class="active">
-<td>113</td>
-<td>tcp</td>
-<td>closed<br>reset</td>
-<td>ident</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="success">
-<td title="Port">179</td>
-<td title="Protocol">tcp</td>
-<td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">tcpwrapped</td>
-<td title="Product"></td>
-<td title="Version"></td>
-<td title="Extra Info"></td>
-</tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a></td></tr>
 <tr class="success">
 <td title="Port">443</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">https</td>
-<td title="Product"></td>
-<td title="Version"></td>
+<td title="Service">http</td>
+<td title="Product">Apache httpd</td>
+<td title="Version">2.4.62</td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">
-  GetRequest, HTTPOptions: 
-    HTTP/1.0 503 Service Unavailable
-    cache-control: no-cache
-    content-type: text/html
-    &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
-    &lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
-    &lt;head&gt;
-    &lt;title&gt;Site indisponible&lt;/title&gt;
-    &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"/&gt;
-    &lt;link rel="shortcut icon" href="/favicon.ico" /&gt;
-    &lt;meta name="robots" content="noindex" /&gt;
-    &lt;style type="text/css"&gt;&lt;!--
-    body {
-    color: #444444;
-    background-color: #EEEEEE;
-    font-family: 'Trebuchet MS', sans-serif;
-    font-size: 80%;
-    font-size: 1.2em; }
-    #page{
-    background-color: #FFFFFF;
-    width: 60%;
-    margin: 24px auto;
-    padding: 12px;
-    #header{
-    padding: 6px ;
-    text-align: cent</pre>
-</td></tr>
-<tr class="success">
-<td title="Port">8080</td>
-<td title="Protocol">tcp</td>
-<td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">http-proxy</td>
-<td title="Product"></td>
-<td title="Version"></td>
-<td title="Extra Info"></td>
-</tr>
-<tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">
-  DNSStatusRequestTCP, DNSVersionBindReqTCP, Help, RPCCheck, RTSPRequest, Socks5: 
-    HTTP/1.1 400 Bad request
-    Content-length: 90
-    Cache-Control: no-cache
-    Connection: close
-    Content-Type: text/html
-    &lt;html&gt;&lt;body&gt;&lt;h1&gt;400 Bad request&lt;/h1&gt;
-    Your browser sent an invalid request.
-    &lt;/body&gt;&lt;/html&gt;
-  FourOhFourRequest: 
-    HTTP/1.1 301 Moved Permanently
-    content-length: 0
-    location: https:///nice%20ports%2C/Tri%6Eity.txt%2ebak
-    connection: close
-  GetRequest, HTTPOptions: 
-    HTTP/1.1 301 Moved Permanently
-    content-length: 0
-    location: https:///
-    connection: close</pre>
-</td></tr>
-<tr class="success">
-<td title="Port">8443</td>
-<td title="Protocol">tcp</td>
-<td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">https-alt</td>
-<td title="Product"></td>
-<td title="Version"></td>
-<td title="Extra Info"></td>
-</tr>
-<tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">
-  GetRequest, HTTPOptions: 
-    HTTP/1.0 503 Service Unavailable
-    cache-control: no-cache
-    content-type: text/html
-    &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
-    &lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
-    &lt;head&gt;
-    &lt;title&gt;Site indisponible&lt;/title&gt;
-    &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"/&gt;
-    &lt;link rel="shortcut icon" href="/favicon.ico" /&gt;
-    &lt;meta name="robots" content="noindex" /&gt;
-    &lt;style type="text/css"&gt;&lt;!--
-    body {
-    color: #444444;
-    background-color: #EEEEEE;
-    font-family: 'Trebuchet MS', sans-serif;
-    font-size: 80%;
-    font-size: 1.2em; }
-    #page{
-    background-color: #FFFFFF;
-    width: 60%;
-    margin: 24px auto;
-    padding: 12px;
-    #header{
-    padding: 6px ;
-    text-align: cent</pre>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:apache:http_server:2.4.62">cpe:/a:apache:http_server:2.4.62</a><h5>http-server-header</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache/2.4.62 (Debian)</pre>
 </td></tr>
 </tbody>
 </table></div>
@@ -291,7 +170,7 @@
 </tr></thead>
 <tbody>
 <tr>
-<td>83.118.214.134 - ofb.gouv.fr</td>
+<td>147.135.143.41 - ofb.gouv.fr</td>
 <td>80</td>
 <td>tcp</td>
 <td>http</td>
@@ -301,43 +180,13 @@
 <td></td>
 </tr>
 <tr>
-<td>83.118.214.134 - ofb.gouv.fr</td>
-<td>179</td>
-<td>tcp</td>
-<td>tcpwrapped</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>83.118.214.134 - ofb.gouv.fr</td>
+<td>147.135.143.41 - ofb.gouv.fr</td>
 <td>443</td>
 <td>tcp</td>
-<td>https</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>83.118.214.134 - ofb.gouv.fr</td>
-<td>8080</td>
-<td>tcp</td>
-<td>http-proxy</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>83.118.214.134 - ofb.gouv.fr</td>
-<td>8443</td>
-<td>tcp</td>
-<td>https-alt</td>
-<td></td>
-<td></td>
-<td></td>
+<td>http</td>
+<td>Apache httpd</td>
+<td>2.4.62</td>
+<td>cpe:/a:apache:http_server:2.4.62</td>
 <td></td>
 </tr>
 </tbody>
