@@ -178,7 +178,7 @@
               "ip"           : "www.nouvelles-chances.gouv.fr/213.91.3.170",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "'renegotiation info/#65281' 'server name/#0' 'EC point formats/#11' 'session ticket/#35' 'supported versions/#43' 'key share/#51' 'application layer protocol negotiation/#16'"
+              "finding"      : "'server name/#0' 'session ticket/#35' 'renegotiation info/#65281' 'EC point formats/#11' 'key share/#51' 'supported versions/#43' 'application layer protocol negotiation/#16'"
           }
 ,         {
               "id"           : "TLS_session_ticket",
@@ -328,6 +328,13 @@
               "finding"      : "Ok via SAN (SNI mandatory)"
           }
 ,         {
+              "id"           : "cert_trust_wildcard",
+              "ip"           : "www.nouvelles-chances.gouv.fr/213.91.3.170",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "trust is via wildcard"
+          }
+,         {
               "id"           : "cert_chain_of_trust",
               "ip"           : "www.nouvelles-chances.gouv.fr/213.91.3.170",
               "port"         : "443",
@@ -346,7 +353,7 @@
               "ip"           : "www.nouvelles-chances.gouv.fr/213.91.3.170",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "318 >= 60 days"
+              "finding"      : "287 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -542,21 +549,14 @@
               "ip"           : "www.nouvelles-chances.gouv.fr/213.91.3.170",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "-3113 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.nouvelles-chances.gouv.fr/213.91.3.170",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1736856752"
-          }
-,         {
-              "id"           : "HTTP_headerAge",
-              "ip"           : "www.nouvelles-chances.gouv.fr/213.91.3.170",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "1061 seconds"
+              "finding"      : "1739533211"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -612,7 +612,7 @@
               "ip"           : "www.nouvelles-chances.gouv.fr/213.91.3.170",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "frame-ancestors 'self' *.onisep.fr *.onisep-preprod.fr *.onisep-services.fr *.cordeesdelareussite.fr *.gouv.fr www.meformerenregion.fr;block-all-mixed-content;script-src 'self' 'report-sample' 'unsafe-inline' 'unsafe-eval' *.onisep.fr *.onisep-preprod.fr *.onisep-services.fr *.cordeesdelareussite.fr tag.aticdn.net *.gouv.fr *.google https://*.googletagservices.com https://*.googlesyndication.com https://*.google.com https://*.googleadservices.com https://*.doubleclick.net https://m.youtube.com https://maps.googleapis.com https://maps.google.com https://securepubads.g.doubleclick.net https://www.youtube.com https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://unpkg.com;style-src 'self' 'report-sample' 'unsafe-inline' *.onisep.fr *.onisep-preprod.fr *.onisep-services.fr *.cordeesdelareussite.fr *.google.com fonts.googleapis.com cdnjs.cloudflare.com unpkg.com cdn.jsdelivr.net;object-src *.google *.googlesyndication.com;child-src 'self' blob: *.onisep.fr *.onisep-preprod.fr *.onisep-services.fr *.cordeesdelareussite.fr *.gouv.fr *.google *.google.com www.dailymotion.com v.calameo.com view.genial.ly *.doubleclick.net *.googlesyndication.com *.googleadservices.com www.youtube.com www.youtube-nocookie.com player.vimeo.com livee.com;base-uri 'self';form-action 'self' *.onisep.fr *.onisep-preprod.fr *.onisep-services.fr *.google.com *.payfip.gouv.fr *.tipi-client.budget.gouv.fr;worker-src 'self' blob: www.google.com"
+              "finding"      : "frame-ancestors 'self' *.onisep.fr *.onisep.fr:8000 *.onisep-preprod.fr *.onisep-services.fr *.cordeesdelareussite.fr *.gouv.fr www.meformerenregion.fr;block-all-mixed-content;script-src 'self' 'report-sample' 'unsafe-inline' 'unsafe-eval' *.onisep.fr *.onisep.fr:8000 *.onisep-preprod.fr *.onisep-services.fr *.cordeesdelareussite.fr tag.aticdn.net *.gouv.fr *.google https://*.googletagservices.com https://*.googlesyndication.com https://*.google.com https://*.googleadservices.com https://*.doubleclick.net https://m.youtube.com https://maps.googleapis.com https://maps.google.com https://securepubads.g.doubleclick.net https://www.youtube.com https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://unpkg.com;style-src 'self' 'report-sample' 'unsafe-inline' *.onisep.fr *.onisep-preprod.fr *.onisep-services.fr *.cordeesdelareussite.fr *.google.com fonts.googleapis.com cdnjs.cloudflare.com unpkg.com cdn.jsdelivr.net;object-src *.google *.googlesyndication.com;child-src 'self' blob: *.onisep.fr *.onisep.fr:8000 *.onisep-preprod.fr *.onisep-services.fr *.cordeesdelareussite.fr *.gouv.fr *.google *.google.com www.dailymotion.com v.calameo.com view.genial.ly *.doubleclick.net *.googlesyndication.com *.googleadservices.com www.youtube.com www.youtube-nocookie.com player.vimeo.com livee.com;base-uri 'self';form-action 'self' *.onisep.fr *.onisep.fr:8000 *.onisep-preprod.fr *.onisep-services.fr *.google.com *.payfip.gouv.fr *.tipi-client.budget.gouv.fr;worker-src 'self' blob: www.google.com"
           }
 ,         {
               "id"           : "Cache-Control",
@@ -627,7 +627,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "x-varnish: 80996260 82136878via: 1.1 varnish (Varnish/6.2)"
+              "finding"      : "--"
           }
 ,         {
               "id"           : "heartbleed",
@@ -680,7 +680,7 @@
               "severity"     : "OK",
               "cve"          : "CVE-2011-1473",
               "cwe"          : "CWE-310",
-              "finding"      : "likely not vulnerable (timed out)"
+              "finding"      : "not vulnerable, mitigated"
           }
 ,         {
               "id"           : "CRIME_TLS",
@@ -1133,6 +1133,6 @@
               "ip"           : "www.nouvelles-chances.gouv.fr/213.91.3.170",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "82"
+              "finding"      : "186"
           }
 ]
